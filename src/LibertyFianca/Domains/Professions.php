@@ -1,0 +1,10294 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: mhssilva
+ * Date: 07/06/20
+ * Time: 12:44
+ */
+
+namespace MatheusHack\LibertyFianca\Domains;
+
+
+use MatheusHack\LibertyFianca\Traits\ConstantsTrait;
+
+/**
+ * Class Professions
+ * @package MatheusHack\LibertyFianca\Domains
+ */
+class Professions
+{
+	use ConstantsTrait;
+
+	/**
+	 *
+	 */
+	const OFICIAL_GENERAL_DA_AERONAUTICA = "10105";
+	/**
+	 *
+	 */
+	const OFICIAL_GENERAL_DO_EXERCITO = "10110";
+	/**
+	 *
+	 */
+	const OFICIAL_GENERAL_DA_MARINHA = "10115";
+	/**
+	 *
+	 */
+	const OFICIAL_DA_AERONAUTICA = "10205";
+	/**
+	 *
+	 */
+	const OFICIAL_DO_EXERCITO = "10210";
+	/**
+	 *
+	 */
+	const OFICIAL_DA_MARINHA = "10215";
+	/**
+	 *
+	 */
+	const PRACA_DA_AERONAUTICA = "10305";
+	/**
+	 *
+	 */
+	const PRACA_DO_EXERCITO = "10310";
+	/**
+	 *
+	 */
+	const PRACA_DA_MARINHA = "10315";
+	/**
+	 *
+	 */
+	const CORONEL_DA_POLICIA_MILITAR = "20105";
+	/**
+	 *
+	 */
+	const TENENTE_CORONEL_DA_POLICIA_MILITAR = "20110";
+	/**
+	 *
+	 */
+	const MAJOR_DA_POLICIA_MILITAR = "20115";
+	/**
+	 *
+	 */
+	const CAPITAO_DA_POLICIA_MILITAR = "20205";
+	/**
+	 *
+	 */
+	const PRIMEIRO_TENENTE_DE_POLICIA_MILITAR = "20305";
+	/**
+	 *
+	 */
+	const SEGUNDO_TENENTE_DE_POLICIA_MILITAR = "20310";
+	/**
+	 *
+	 */
+	const SUBTENENTE_DA_POLICIA_MILITAR = "21105";
+	/**
+	 *
+	 */
+	const SARGENTO_DA_POLICIA_MILITAR = "21110";
+	/**
+	 *
+	 */
+	const CABO_DA_POLICIA_MILITAR = "21205";
+	/**
+	 *
+	 */
+	const SOLDADO_DA_POLICIA_MILITAR = "21210";
+	/**
+	 *
+	 */
+	const CORONEL_BOMBEIRO_MILITAR = "30105";
+	/**
+	 *
+	 */
+	const MAJOR_BOMBEIRO_MILITAR = "30110";
+	/**
+	 *
+	 */
+	const TENENTE_CORONEL_BOMBEIRO_MILITAR = "30115";
+	/**
+	 *
+	 */
+	const CAPITAO_BOMBEIRO_MILITAR = "30205";
+	/**
+	 *
+	 */
+	const TENENTE_DO_CORPO_DE_BOMBEIROS_MILITAR = "30305";
+	/**
+	 *
+	 */
+	const SUBTENENTE_BOMBEIRO_MILITAR = "31105";
+	/**
+	 *
+	 */
+	const SARGENTO_BOMBEIRO_MILITAR = "31110";
+	/**
+	 *
+	 */
+	const CABO_BOMBEIRO_MILITAR = "31205";
+	/**
+	 *
+	 */
+	const SOLDADO_BOMBEIRO_MILITAR = "31210";
+	/**
+	 *
+	 */
+	const SENADOR = "111105";
+	/**
+	 *
+	 */
+	const DEPUTADO_FEDERAL = "111110";
+	/**
+	 *
+	 */
+	const DEPUTADO_ESTADUAL_E_DISTRITAL = "111115";
+	/**
+	 *
+	 */
+	const VEREADOR = "111120";
+	/**
+	 *
+	 */
+	const PRESIDENTE_DA_REPUBLICA = "111205";
+	/**
+	 *
+	 */
+	const VICE_PRESIDENTE_DA_REPUBLICA = "111210";
+	/**
+	 *
+	 */
+	const MINISTRO_DE_ESTADO = "111215";
+	/**
+	 *
+	 */
+	const SECRETARIO_EXECUTIVO = "111220";
+	/**
+	 *
+	 */
+	const MEMBRO_SUPERIOR_DO_PODER_EXECUTIVO = "111225";
+	/**
+	 *
+	 */
+	const GOVERNADOR_DE_ESTADO = "111230";
+	/**
+	 *
+	 */
+	const GOVERNADOR_DO_DISTRITO_FEDERAL = "111235";
+	/**
+	 *
+	 */
+	const VICE_GOVERNADOR_DE_ESTADO = "111240";
+	/**
+	 *
+	 */
+	const VICE_GOVERNADOR_DO_DISTRITO_FEDERAL = "111245";
+	/**
+	 *
+	 */
+	const PREFEITO = "111250";
+	/**
+	 *
+	 */
+	const VICE_PREFEITO = "111255";
+	/**
+	 *
+	 */
+	const MINISTRO_DO_SUPREMO_TRIBUNAL_FEDERAL = "111305";
+	/**
+	 *
+	 */
+	const MINISTRO_DO_SUPERIOR_TRIBUNAL_DE_JUSTICA = "111310";
+	/**
+	 *
+	 */
+	const MINISTRO_DO_SUPERIOR_TRIBUNAL_MILITAR = "111315";
+	/**
+	 *
+	 */
+	const MINISTRO_DO_SUPERIOR_TRIBUNAL_DO_TRABALHO = "111320";
+	/**
+	 *
+	 */
+	const JUIZ_DE_DIREITO = "111325";
+	/**
+	 *
+	 */
+	const JUIZ_FEDERAL = "111330";
+	/**
+	 *
+	 */
+	const JUIZ_AUDITOR_FEDERAL_JUSTICA_MILITAR = "111335";
+	/**
+	 *
+	 */
+	const JUIZ_AUDITOR_ESTADUAL_JUSTICA_MILITAR = "111340";
+	/**
+	 *
+	 */
+	const JUIZ_DO_TRABALHO = "111345";
+	/**
+	 *
+	 */
+	const DIRIGENTE_DO_SERVICO_PUBLICO_FEDERAL = "111405";
+	/**
+	 *
+	 */
+	const DIRIGENTE_DO_SERVICO_PUBLICO_ESTADUAL_E_DISTRITAL = "111410";
+	/**
+	 *
+	 */
+	const DIRIGENTE_DO_SERVICO_PUBLICO_MUNICIPAL = "111415";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_DE_POLITICAS_PUBLICAS_E_GESTAO_GOVERNAMENTAL_EPPGG = "111505";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_PLANEJAMENTO_E_ORCAMENTO_APO = "111510";
+	/**
+	 *
+	 */
+	const CACIQUE = "113005";
+	/**
+	 *
+	 */
+	const LIDER_DE_COMUNIDADE_CAICARA = "113010";
+	/**
+	 *
+	 */
+	const MEMBRO_DE_LIDERANCA_QUILOMBOLA = "113015";
+	/**
+	 *
+	 */
+	const DIRIGENTE_DE_PARTIDO_POLITICO = "114105";
+	/**
+	 *
+	 */
+	const DIRIGENTES_DE_ENTIDADES_DE_TRABALHADORES = "114205";
+	/**
+	 *
+	 */
+	const DIRIGENTES_DE_ENTIDADES_PATRONAIS = "114210";
+	/**
+	 *
+	 */
+	const DIRIGENTE_E_ADMINISTRADOR_DE_ORGANIZACAO_RELIGIOSA = "114305";
+	/**
+	 *
+	 */
+	const DIRIGENTE_E_ADMINISTRADOR_DE_ORGANIZACAO_DA_SOCIEDADE_CIVIL_SEM_FINS_LUCRATIVOS = "114405";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PLANEJAMENTO_ESTRATEGICO = "121005";
+	/**
+	 *
+	 */
+	const DIRETOR_GERAL_DE_EMPRESA_E_ORGANIZACOES_EXCETO_DE_INTERESSE_PUBLICO_ = "121010";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_EM_EMPRESA_AGROPECUARIA = "122105";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_EM_EMPRESA_AQUICOLA = "122110";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_EM_EMPRESA_FLORESTAL = "122115";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_EM_EMPRESA_PESQUEIRA = "122120";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_DA_INDUSTRIA_DE_TRANSFORMACAO_EXTRACAO_MINERAL_E_UTILIDADES = "122205";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_OPERACOES_DE_OBRAS_PUBLICA_E_CIVIL = "122305";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_OPERACOES_COMERCIAIS_COMERCIO_ATACADISTA_E_VAREJISTA_ = "122405";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_DE_ALIMENTACAO = "122505";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_DE_HOTEL = "122510";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUCAO_E_OPERACOES_DE_TURISMO = "122515";
+	/**
+	 *
+	 */
+	const TURISMOLOGO = "122520";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_OPERACOES_DE_CORREIOS = "122605";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_OPERACOES_DE_SERVICOS_DE_ARMAZENAMENTO = "122610";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_OPERACOES_DE_SERVICOS_DE_TELECOMUNICACOES = "122615";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_OPERACOES_DE_SERVICOS_DE_TRANSPORTE = "122620";
+	/**
+	 *
+	 */
+	const DIRETOR_COMERCIAL_EM_OPERACOES_DE_INTERMEDIACAO_FINANCEIRA = "122705";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PRODUTOS_BANCARIOS = "122710";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CREDITO_RURAL = "122715";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CAMBIO_E_COMERCIO_EXTERIOR = "122720";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_COMPLIANCE = "122725";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CREDITO_EXCETO_CREDITO_IMOBILIARIO_ = "122730";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CREDITO_IMOBILIARIO = "122735";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_LEASING = "122740";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_MERCADO_DE_CAPITAIS = "122745";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_RECUPERACAO_DE_CREDITOS_EM_OPERACOES_DE_INTERMEDIACAO_FINANCEIRA = "122750";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_RISCOS_DE_MERCADO = "122755";
+	/**
+	 *
+	 */
+	const DIRETOR_ADMINISTRATIVO = "123105";
+	/**
+	 *
+	 */
+	const DIRETOR_ADMINISTRATIVO_E_FINANCEIRO = "123110";
+	/**
+	 *
+	 */
+	const DIRETOR_FINANCEIRO = "123115";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_RECURSOS_HUMANOS = "123205";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_RELACOES_DE_TRABALHO = "123210";
+	/**
+	 *
+	 */
+	const DIRETOR_COMERCIAL = "123305";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_MARKETING = "123310";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_SUPRIMENTOS = "123405";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_SUPRIMENTOS_NO_SERVICO_PUBLICO = "123410";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_SERVICOS_DE_INFORMATICA = "123605";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PESQUISA_E_DESENVOLVIMENTO_P_D_ = "123705";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_MANUTENCAO = "123805";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_SERVICOS_CULTURAIS = "131105";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_SERVICOS_SOCIAIS = "131110";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SERVICOS_CULTURAIS = "131115";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SERVICOS_SOCIAIS = "131120";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_SERVICOS_DE_SAUDE = "131205";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SERVICOS_DE_SAUDE = "131210";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_GESTAO_HOSPITALAR = "131215";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_INSTITUICAO_EDUCACIONAL_DA_AREA_PRIVADA = "131305";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_INSTITUICAO_EDUCACIONAL_PUBLICA = "131310";
+	/**
+	 *
+	 */
+	const GERENTE_DE_INSTITUICAO_EDUCACIONAL_DA_AREA_PRIVADA = "131315";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SERVICOS_EDUCACIONAIS_DA_AREA_PUBLICA = "131320";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_E_OPERACOES_AQUICOLAS = "141105";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_E_OPERACOES_FLORESTAIS = "141110";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_E_OPERACOES_AGROPECUARIAS = "141115";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_E_OPERACOES_PESQUEIRAS = "141120";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_E_OPERACOES = "141205";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_E_OPERACOES_DA_CONSTRUCAO_CIVIL_E_OBRAS_PUBLICAS = "141305";
+	/**
+	 *
+	 */
+	const COMERCIANTE_ATACADISTA = "141405";
+	/**
+	 *
+	 */
+	const COMERCIANTE_VAREJISTA = "141410";
+	/**
+	 *
+	 */
+	const GERENTE_DE_LOJA_E_SUPERMERCADO = "141415";
+	/**
+	 *
+	 */
+	const GERENTE_DE_OPERACOES_DE_SERVICOS_DE_ASSISTENCIA_TECNICA = "141420";
+	/**
+	 *
+	 */
+	const GERENTE_DE_HOTEL = "141505";
+	/**
+	 *
+	 */
+	const GERENTE_DE_RESTAURANTE = "141510";
+	/**
+	 *
+	 */
+	const GERENTE_DE_BAR = "141515";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PENSAO = "141520";
+	/**
+	 *
+	 */
+	const GERENTE_DE_TURISMO = "141525";
+	/**
+	 *
+	 */
+	const GERENTE_DE_OPERACOES_DE_TRANSPORTES = "141605";
+	/**
+	 *
+	 */
+	const GERENTE_DE_OPERACOES_DE_CORREIOS_E_TELECOMUNICACOES = "141610";
+	/**
+	 *
+	 */
+	const GERENTE_DE_LOGISTICA_ARMAZENAGEM_E_DISTRIBUICAO_ = "141615";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUTOS_BANCARIOS = "141705";
+	/**
+	 *
+	 */
+	const GERENTE_DE_AGENCIA = "141710";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CAMBIO_E_COMERCIO_EXTERIOR = "141715";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CREDITO_E_COBRANCA = "141720";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CREDITO_IMOBILIARIO = "141725";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CREDITO_RURAL = "141730";
+	/**
+	 *
+	 */
+	const GERENTE_DE_RECUPERACAO_DE_CREDITO = "141735";
+	/**
+	 *
+	 */
+	const GERENTE_ADMINISTRATIVO = "142105";
+	/**
+	 *
+	 */
+	const GERENTE_DE_RISCOS = "142110";
+	/**
+	 *
+	 */
+	const GERENTE_FINANCEIRO = "142115";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_GESTAO_ADMINISTRATIVO_FINANCEIRA = "142120";
+	/**
+	 *
+	 */
+	const GERENTE_DE_RECURSOS_HUMANOS = "142205";
+	/**
+	 *
+	 */
+	const GERENTE_DE_DEPARTAMENTO_PESSOAL = "142210";
+	/**
+	 *
+	 */
+	const GERENTE_COMERCIAL = "142305";
+	/**
+	 *
+	 */
+	const GERENTE_DE_COMUNICACAO = "142310";
+	/**
+	 *
+	 */
+	const GERENTE_DE_MARKETING = "142315";
+	/**
+	 *
+	 */
+	const GERENTE_DE_VENDAS = "142320";
+	/**
+	 *
+	 */
+	const RELACOES_PUBLICAS = "142325";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_NEGOCIOS = "142330";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_PESQUISA_DE_MERCADO = "142335";
+	/**
+	 *
+	 */
+	const OUVIDOR = "142340";
+	/**
+	 *
+	 */
+	const GERENTE_DE_COMPRAS = "142405";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SUPRIMENTOS = "142410";
+	/**
+	 *
+	 */
+	const GERENTE_DE_ALMOXARIFADO = "142415";
+	/**
+	 *
+	 */
+	const GERENTE_DE_REDE = "142505";
+	/**
+	 *
+	 */
+	const GERENTE_DE_DESENVOLVIMENTO_DE_SISTEMAS = "142510";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PRODUCAO_DE_TECNOLOGIA_DA_INFORMACAO = "142515";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PROJETOS_DE_TECNOLOGIA_DA_INFORMACAO = "142520";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SEGURANCA_DE_TECNOLOGIA_DA_INFORMACAO = "142525";
+	/**
+	 *
+	 */
+	const GERENTE_DE_SUPORTE_TECNICO_DE_TECNOLOGIA_DA_INFORMACAO = "142530";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_GESTAO_DA_TECNOLOGIA_DA_INFORMACAO = "142535";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PESQUISA_E_DESENVOLVIMENTO_P_D_ = "142605";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_EM_DESENVOLVIMENTO_DE_CIGARROS = "142610";
+	/**
+	 *
+	 */
+	const GERENTE_DE_PROJETOS_E_SERVICOS_DE_MANUTENCAO = "142705";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_SISTEMAS_BIOMEDICOS = "142710";
+	/**
+	 *
+	 */
+	const BIOENGENHEIRO = "201105";
+	/**
+	 *
+	 */
+	const BIOTECNOLOGISTA = "201110";
+	/**
+	 *
+	 */
+	const GENETICISTA = "201115";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_METROLOGIA = "201205";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_EM_CALIBRACOES_METROLOGICAS = "201210";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_EM_ENSAIOS_METROLOGICOS = "201215";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_EM_INSTRUMENTACAO_METROLOGICA = "201220";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_EM_MATERIAIS_DE_REFERENCIA_METROLOGICA = "201225";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_MECATRONICO = "202105";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_CONTROLE_E_AUTOMACAO = "202110";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_MECATRONICA = "202115";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_AUTOMACAO_INDUSTRIAL = "202120";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_BIOLOGIA_AMBIENTAL = "203005";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_BIOLOGIA_ANIMAL = "203010";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_BIOLOGIA_DE_MICROORGANISMOS_E_PARASITAS = "203015";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_BIOLOGIA_HUMANA = "203020";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_BIOLOGIA_VEGETAL = "203025";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_DA_COMPUTACAO_E_INFORMATICA = "203105";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_DA_TERRA_E_MEIO_AMBIENTE = "203110";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_FISICA = "203115";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_MATEMATICA = "203120";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_QUIMICA = "203125";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_ENGENHARIA_CIVIL = "203205";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_ENGENHARIA_E_TECNOLOGIA_OUTRAS_AREAS_DA_ENGENHARIA_ = "203210";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_ENGENHARIA_ELETRICA_E_ELETRONICA = "203215";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_ENGENHARIA_MECANICA = "203220";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_ENGENHARIA_METALURGICA_DE_MINAS_E_DE_MATERIAIS = "203225";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_ENGENHARIA_QUIMICA = "203230";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_CLINICA_MEDICA = "203305";
+	/**
+	 *
+	 */
+	const PESQUISADOR_DE_MEDICINA_BASICA = "203310";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_MEDICINA_VETERINARIA = "203315";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_SAUDE_COLETIVA = "203320";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_AGRONOMICAS = "203405";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_DA_PESCA_E_AQUICULTURA = "203410";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_DA_ZOOTECNIA = "203415";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_FLORESTAIS = "203420";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_SOCIAIS_E_HUMANAS = "203505";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_ECONOMIA = "203510";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_CIENCIAS_DA_EDUCACAO = "203515";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_HISTORIA = "203520";
+	/**
+	 *
+	 */
+	const PESQUISADOR_EM_PSICOLOGIA = "203525";
+	/**
+	 *
+	 */
+	const PERITO_CRIMINAL = "204105";
+	/**
+	 *
+	 */
+	const ATUARIO = "211105";
+	/**
+	 *
+	 */
+	const ESPECIALISTA_EM_PESQUISA_OPERACIONAL = "211110";
+	/**
+	 *
+	 */
+	const MATEMATICO = "211115";
+	/**
+	 *
+	 */
+	const MATEMATICO_APLICADO = "211120";
+	/**
+	 *
+	 */
+	const ESTATISTICO = "211205";
+	/**
+	 *
+	 */
+	const ESTATISTICO_ESTATISTICA_APLICADA_ = "211210";
+	/**
+	 *
+	 */
+	const ESTATISTICO_TEORICO = "211215";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_APLICATIVOS_EM_COMPUTACAO = "212205";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_EQUIPAMENTOS_EM_COMPUTACAO = "212210";
+	/**
+	 *
+	 */
+	const ENGENHEIROS_DE_SISTEMAS_OPERACIONAIS_EM_COMPUTACAO = "212215";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR_DE_BANCO_DE_DADOS = "212305";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR_DE_REDES = "212310";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR_DE_SISTEMAS_OPERACIONAIS = "212315";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR_EM_SEGURANCA_DA_INFORMACAO = "212320";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_DESENVOLVIMENTO_DE_SISTEMAS = "212405";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_REDES_E_DE_COMUNICACAO_DE_DADOS = "212410";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_SISTEMAS_DE_AUTOMACAO = "212415";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_SUPORTE_COMPUTACIONAL = "212420";
+	/**
+	 *
+	 */
+	const FISICO = "213105";
+	/**
+	 *
+	 */
+	const FISICO_ACUSTICA_ = "213110";
+	/**
+	 *
+	 */
+	const FISICO_ATOMICA_E_MOLECULAR_ = "213115";
+	/**
+	 *
+	 */
+	const FISICO_COSMOLOGIA_ = "213120";
+	/**
+	 *
+	 */
+	const FISICO_ESTATISTICA_E_MATEMATICA_ = "213125";
+	/**
+	 *
+	 */
+	const FISICO_FLUIDOS_ = "213130";
+	/**
+	 *
+	 */
+	const FISICO_INSTRUMENTACAO_ = "213135";
+	/**
+	 *
+	 */
+	const FISICO_MATERIA_CONDENSADA_ = "213140";
+	/**
+	 *
+	 */
+	const FISICO_MATERIAIS_ = "213145";
+	/**
+	 *
+	 */
+	const FISICO_MEDICINA_ = "213150";
+	/**
+	 *
+	 */
+	const FISICO_NUCLEAR_E_REATORES_ = "213155";
+	/**
+	 *
+	 */
+	const FISICO_OPTICA_ = "213160";
+	/**
+	 *
+	 */
+	const FISICO_PARTICULAS_E_CAMPOS_ = "213165";
+	/**
+	 *
+	 */
+	const FISICO_PLASMA_ = "213170";
+	/**
+	 *
+	 */
+	const FISICO_TERMICA_ = "213175";
+	/**
+	 *
+	 */
+	const QUIMICO = "213205";
+	/**
+	 *
+	 */
+	const QUIMICO_INDUSTRIAL = "213210";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_PROCESSOS_QUIMICOS = "213215";
+	/**
+	 *
+	 */
+	const ASTRONOMO = "213305";
+	/**
+	 *
+	 */
+	const GEOFISICO_ESPACIAL = "213310";
+	/**
+	 *
+	 */
+	const METEOROLOGISTA = "213315";
+	/**
+	 *
+	 */
+	const GEOLOGO = "213405";
+	/**
+	 *
+	 */
+	const GEOLOGO_DE_ENGENHARIA = "213410";
+	/**
+	 *
+	 */
+	const GEOFISICO = "213415";
+	/**
+	 *
+	 */
+	const GEOQUIMICO = "213420";
+	/**
+	 *
+	 */
+	const HIDROGEOLOGO = "213425";
+	/**
+	 *
+	 */
+	const PALEONTOLOGO = "213430";
+	/**
+	 *
+	 */
+	const PETROGRAFO = "213435";
+	/**
+	 *
+	 */
+	const OCEANOGRAFO = "213440";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_AMBIENTAL = "214005";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_MEIO_AMBIENTE = "214010";
+	/**
+	 *
+	 */
+	const ARQUITETO_DE_EDIFICACOES = "214105";
+	/**
+	 *
+	 */
+	const ARQUITETO_DE_INTERIORES = "214110";
+	/**
+	 *
+	 */
+	const ARQUITETO_DE_PATRIMONIO = "214115";
+	/**
+	 *
+	 */
+	const ARQUITETO_PAISAGISTA = "214120";
+	/**
+	 *
+	 */
+	const ARQUITETO_URBANISTA = "214125";
+	/**
+	 *
+	 */
+	const URBANISTA = "214130";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL = "214205";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_AEROPORTOS_ = "214210";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_EDIFICACOES_ = "214215";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_ESTRUTURAS_METALICAS_ = "214220";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_FERROVIAS_E_METROVIAS_ = "214225";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_GEOTECNIA_ = "214230";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_HIDROLOGIA_ = "214235";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_HIDRAULICA_ = "214240";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_PONTES_E_VIADUTOS_ = "214245";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_PORTOS_E_VIAS_NAVEGAVEIS_ = "214250";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_RODOVIAS_ = "214255";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_SANEAMENTO_ = "214260";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_TUNEIS_ = "214265";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CIVIL_TRANSPORTES_E_TRANSITO_ = "214270";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_CONSTRUCAO_CIVIL = "214280";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_ELETRICISTA = "214305";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_ELETRONICO = "214310";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_ELETRICISTA_DE_MANUTENCAO = "214315";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_ELETRICISTA_DE_PROJETOS = "214320";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_ELETRONICO_DE_MANUTENCAO = "214325";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_ELETRONICO_DE_PROJETOS = "214330";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MANUTENCAO_DE_TELECOMUNICACOES = "214335";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_TELECOMUNICACOES = "214340";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_PROJETISTA_DE_TELECOMUNICACOES = "214345";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_REDES_DE_COMUNICACAO = "214350";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_ELETRICIDADE = "214360";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_ELETRONICA = "214365";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_TELECOMUNICACOES = "214370";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_MECANICO = "214405";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_MECANICO_AUTOMOTIVO = "214410";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_MECANICO_ENERGIA_NUCLEAR_ = "214415";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_MECANICO_INDUSTRIAL = "214420";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_AERONAUTICO = "214425";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_NAVAL = "214430";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_FABRICACAO_MECANICA = "214435";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_QUIMICO = "214505";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_QUIMICO_INDUSTRIA_QUIMICA_ = "214510";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_QUIMICO_MINERACAO_METALURGIA_SIDERURGIA_CIMENTEIRA_E_CERAMICA_ = "214515";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_QUIMICO_PAPEL_E_CELULOSE_ = "214520";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_QUIMICO_PETROLEO_E_BORRACHA_ = "214525";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_QUIMICO_UTILIDADES_E_MEIO_AMBIENTE_ = "214530";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_PRODUCAO_SULCROALCOOLEIRA = "214535";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MATERIAIS = "214605";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_METALURGISTA = "214610";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_METALURGIA = "214615";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS = "214705";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_BENEFICIAMENTO_ = "214710";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_LAVRA_A_CEU_ABERTO_ = "214715";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_LAVRA_SUBTERRANEA_ = "214720";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_PESQUISA_MINERAL_ = "214725";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_PLANEJAMENTO_ = "214730";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_PROCESSO_ = "214735";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_MINAS_PROJETO_ = "214740";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_PETROLEO_E_GAS = "214745";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_ROCHAS_ORNAMENTAIS = "214750";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_AGRIMENSOR = "214805";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_CARTOGRAFO = "214810";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_PRODUCAO = "214905";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_CONTROLE_DE_QUALIDADE = "214910";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_SEGURANCA_DO_TRABALHO = "214915";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_RISCOS = "214920";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_TEMPOS_E_MOVIMENTOS = "214925";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_PRODUCAO_INDUSTRIAL = "214930";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_SEGURANCA_DO_TRABALHO = "214935";
+	/**
+	 *
+	 */
+	const AGENTE_DE_MANOBRA_E_DOCAGEM = "215105";
+	/**
+	 *
+	 */
+	const CAPITAO_DE_MANOBRA_DA_MARINHA_MERCANTE = "215110";
+	/**
+	 *
+	 */
+	const COMANDANTE_DA_MARINHA_MERCANTE = "215115";
+	/**
+	 *
+	 */
+	const COORDENADOR_DE_OPERACOES_DE_COMBATE_A_POLUICAO_NO_MEIO_AQUAVIARIO = "215120";
+	/**
+	 *
+	 */
+	const IMEDIATO_DA_MARINHA_MERCANTE = "215125";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_TERMINAL = "215130";
+	/**
+	 *
+	 */
+	const INSPETOR_NAVAL = "215135";
+	/**
+	 *
+	 */
+	const OFICIAL_DE_QUARTO_DE_NAVEGACAO_DA_MARINHA_MERCANTE = "215140";
+	/**
+	 *
+	 */
+	const PRATICO_DE_PORTOS_DA_MARINHA_MERCANTE = "215145";
+	/**
+	 *
+	 */
+	const VISTORIADOR_NAVAL = "215150";
+	/**
+	 *
+	 */
+	const OFICIAL_SUPERIOR_DE_MAQUINAS_DA_MARINHA_MERCANTE = "215205";
+	/**
+	 *
+	 */
+	const PRIMEIRO_OFICIAL_DE_MAQUINAS_DA_MARINHA_MERCANTE = "215210";
+	/**
+	 *
+	 */
+	const SEGUNDO_OFICIAL_DE_MAQUINAS_DA_MARINHA_MERCANTE = "215215";
+	/**
+	 *
+	 */
+	const SUPERINTENDENTE_TECNICO_NO_TRANSPORTE_AQUAVIARIO = "215220";
+	/**
+	 *
+	 */
+	const PILOTO_DE_AERONAVES = "215305";
+	/**
+	 *
+	 */
+	const PILOTO_DE_ENSAIOS_EM_VOO = "215310";
+	/**
+	 *
+	 */
+	const INSTRUTOR_DE_VOO = "215315";
+	/**
+	 *
+	 */
+	const BIOLOGO = "221105";
+	/**
+	 *
+	 */
+	const BIOMEDICO = "221205";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_AGRICOLA = "222105";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_AGRONOMO = "222110";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_PESCA = "222115";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_FLORESTAL = "222120";
+	/**
+	 *
+	 */
+	const ENGENHEIRO_DE_ALIMENTOS = "222205";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_ALIMENTOS = "222215";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_AUDITOR = "223204";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_CLINICO_GERAL = "223208";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ENDODONTISTA = "223212";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_EPIDEMIOLOGISTA = "223216";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ESTOMATOLOGISTA = "223220";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_IMPLANTODONTISTA = "223224";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ODONTOGERIATRA = "223228";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ODONTOLOGISTA_LEGAL = "223232";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ODONTOPEDIATRA = "223236";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ORTOPEDISTA_E_ORTODONTISTA = "223240";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_PATOLOGISTA_BUCAL = "223244";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_PERIODONTISTA = "223248";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_PROTESIOLOGO_BUCOMAXILOFACIAL = "223252";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_PROTESISTA = "223256";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_RADIOLOGISTA = "223260";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_REABILITADOR_ORAL = "223264";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_TRAUMATOLOGISTA_BUCOMAXILOFACIAL = "223268";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_DE_SAUDE_COLETIVA = "223272";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ODONTOLOGIA_DO_TRABALHO = "223276";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_DENTISTICA = "223280";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_DISFUNCAO_TEMPOROMANDIBULAR_E_DOR_OROFACIAL = "223284";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_ODONTOLOGIA_PARA_PACIENTES_COM_NECESSIDADES_ESPECIAIS = "223288";
+	/**
+	 *
+	 */
+	const CIRURGIAO_DENTISTA_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "223293";
+	/**
+	 *
+	 */
+	const MEDICO_VETERINARIO = "223305";
+	/**
+	 *
+	 */
+	const ZOOTECNISTA = "223310";
+	/**
+	 *
+	 */
+	const FARMACEUTICO = "223405";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_ANALISTA_CLINICO = "223415";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_DE_ALIMENTOS = "223420";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_PRATICAS_INTEGRATIVAS_E_COMPLEMENTARES = "223425";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_EM_SAUDE_PUBLICA = "223430";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_INDUSTRIAL = "223435";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_TOXICOLOGISTA = "223440";
+	/**
+	 *
+	 */
+	const FARMACEUTICO_HOSPITALAR_E_CLINICO = "223445";
+	/**
+	 *
+	 */
+	const ENFERMEIRO = "223505";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_AUDITOR = "223510";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_DE_BORDO = "223515";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_DE_CENTRO_CIRURGICO = "223520";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_DE_TERAPIA_INTENSIVA = "223525";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_DO_TRABALHO = "223530";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_NEFROLOGISTA = "223535";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_NEONATOLOGISTA = "223540";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_OBSTETRICO = "223545";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_PSIQUIATRICO = "223550";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_PUERICULTOR_E_PEDIATRICO = "223555";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_SANITARISTA = "223560";
+	/**
+	 *
+	 */
+	const ENFERMEIRO_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "223565";
+	/**
+	 *
+	 */
+	const PERFUSIONISTA = "223570";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_GERAL = "223605";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_RESPIRATORIA = "223625";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_NEUROFUNCIONAL = "223630";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_TRAUMATO_ORTOPEDICA_FUNCIONAL = "223635";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_OSTEOPATA = "223640";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_QUIROPRAXISTA = "223645";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_ACUPUNTURISTA = "223650";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_ESPORTIVO = "223655";
+	/**
+	 *
+	 */
+	const FISIOTERAPEUTA_DO_TRABALHO = "223660";
+	/**
+	 *
+	 */
+	const DIETISTA = "223705";
+	/**
+	 *
+	 */
+	const NUTRICIONISTA = "223710";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_GERAL = "223810";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EDUCACIONAL = "223815";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EM_AUDIOLOGIA = "223820";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EM_DISFAGIA = "223825";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EM_LINGUAGEM = "223830";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EM_MOTRICIDADE_OROFACIAL = "223835";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EM_SAUDE_COLETIVA = "223840";
+	/**
+	 *
+	 */
+	const FONOAUDIOLOGO_EM_VOZ = "223845";
+	/**
+	 *
+	 */
+	const TERAPEUTA_OCUPACIONAL = "223905";
+	/**
+	 *
+	 */
+	const ORTOPTISTA = "223910";
+	/**
+	 *
+	 */
+	const AVALIADOR_FISICO = "224105";
+	/**
+	 *
+	 */
+	const LUDOMOTRICISTA = "224110";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_ATLETA = "224115";
+	/**
+	 *
+	 */
+	const PREPARADOR_FISICO = "224120";
+	/**
+	 *
+	 */
+	const TECNICO_DE_DESPORTO_INDIVIDUAL_E_COLETIVO_EXCETO_FUTEBOL_ = "224125";
+	/**
+	 *
+	 */
+	const TECNICO_DE_LABORATORIO_E_FISCALIZACAO_DESPORTIVA = "224130";
+	/**
+	 *
+	 */
+	const TREINADOR_PROFISSIONAL_DE_FUTEBOL = "224135";
+	/**
+	 *
+	 */
+	const MEDICO_INFECTOLOGISTA = "225103";
+	/**
+	 *
+	 */
+	const MEDICO_ACUPUNTURISTA = "225105";
+	/**
+	 *
+	 */
+	const MEDICO_LEGISTA = "225106";
+	/**
+	 *
+	 */
+	const MEDICO_NEFROLOGISTA = "225109";
+	/**
+	 *
+	 */
+	const MEDICO_ALERGISTA_E_IMUNOLOGISTA = "225110";
+	/**
+	 *
+	 */
+	const MEDICO_NEUROLOGISTA = "225112";
+	/**
+	 *
+	 */
+	const MEDICO_ANGIOLOGISTA = "225115";
+	/**
+	 *
+	 */
+	const MEDICO_NUTROLOGISTA = "225118";
+	/**
+	 *
+	 */
+	const MEDICO_CARDIOLOGISTA = "225120";
+	/**
+	 *
+	 */
+	const MEDICO_ONCOLOGISTA_CLINICO = "225121";
+	/**
+	 *
+	 */
+	const MEDICO_CANCEROLOGISTA_PEDIATRICO = "225122";
+	/**
+	 *
+	 */
+	const MEDICO_PEDIATRA = "225124";
+	/**
+	 *
+	 */
+	const MEDICO_CLINICO = "225125";
+	/**
+	 *
+	 */
+	const MEDICO_PNEUMOLOGISTA = "225127";
+	/**
+	 *
+	 */
+	const MEDICO_DE_FAMILIA_E_COMUNIDADE = "225130";
+	/**
+	 *
+	 */
+	const MEDICO_PSIQUIATRA = "225133";
+	/**
+	 *
+	 */
+	const MEDICO_DERMATOLOGISTA = "225135";
+	/**
+	 *
+	 */
+	const MEDICO_REUMATOLOGISTA = "225136";
+	/**
+	 *
+	 */
+	const MEDICO_SANITARISTA = "225139";
+	/**
+	 *
+	 */
+	const MEDICO_DO_TRABALHO = "225140";
+	/**
+	 *
+	 */
+	const MEDICO_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "225142";
+	/**
+	 *
+	 */
+	const MEDICO_EM_MEDICINA_DE_TRAFEGO = "225145";
+	/**
+	 *
+	 */
+	const MEDICO_ANATOMOPATOLOGISTA = "225148";
+	/**
+	 *
+	 */
+	const MEDICO_EM_MEDICINA_INTENSIVA = "225150";
+	/**
+	 *
+	 */
+	const MEDICO_ANESTESIOLOGISTA = "225151";
+	/**
+	 *
+	 */
+	const MEDICO_ANTROPOSOFICO = "225154";
+	/**
+	 *
+	 */
+	const MEDICO_ENDOCRINOLOGISTA_E_METABOLOGISTA = "225155";
+	/**
+	 *
+	 */
+	const MEDICO_FISIATRA = "225160";
+	/**
+	 *
+	 */
+	const MEDICO_GASTROENTEROLOGISTA = "225165";
+	/**
+	 *
+	 */
+	const MEDICO_GENERALISTA = "225170";
+	/**
+	 *
+	 */
+	const MEDICO_GENETICISTA = "225175";
+	/**
+	 *
+	 */
+	const MEDICO_GERIATRA = "225180";
+	/**
+	 *
+	 */
+	const MEDICO_HEMATOLOGISTA = "225185";
+	/**
+	 *
+	 */
+	const MEDICO_HOMEOPATA = "225195";
+	/**
+	 *
+	 */
+	const MEDICO_EM_CIRURGIA_VASCULAR = "225203";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_CARDIOVASCULAR = "225210";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_DE_CABECA_E_PESCOCO = "225215";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_DO_APARELHO_DIGESTIVO = "225220";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_GERAL = "225225";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_PEDIATRICO = "225230";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_PLASTICO = "225235";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_TORACICO = "225240";
+	/**
+	 *
+	 */
+	const MEDICO_GINECOLOGISTA_E_OBSTETRA = "225250";
+	/**
+	 *
+	 */
+	const MEDICO_MASTOLOGISTA = "225255";
+	/**
+	 *
+	 */
+	const MEDICO_NEUROCIRURGIAO = "225260";
+	/**
+	 *
+	 */
+	const MEDICO_OFTALMOLOGISTA = "225265";
+	/**
+	 *
+	 */
+	const MEDICO_ORTOPEDISTA_E_TRAUMATOLOGISTA = "225270";
+	/**
+	 *
+	 */
+	const MEDICO_OTORRINOLARINGOLOGISTA = "225275";
+	/**
+	 *
+	 */
+	const MEDICO_COLOPROCTOLOGISTA = "225280";
+	/**
+	 *
+	 */
+	const MEDICO_UROLOGISTA = "225285";
+	/**
+	 *
+	 */
+	const MEDICO_CANCEROLOGISTA_CIRURGICO = "225290";
+	/**
+	 *
+	 */
+	const MEDICO_CIRURGIAO_DA_MAO = "225295";
+	/**
+	 *
+	 */
+	const MEDICO_CITOPATOLOGISTA = "225305";
+	/**
+	 *
+	 */
+	const MEDICO_EM_ENDOSCOPIA = "225310";
+	/**
+	 *
+	 */
+	const MEDICO_EM_MEDICINA_NUCLEAR = "225315";
+	/**
+	 *
+	 */
+	const MEDICO_EM_RADIOLOGIA_E_DIAGNOSTICO_POR_IMAGEM = "225320";
+	/**
+	 *
+	 */
+	const MEDICO_PATOLOGISTA = "225325";
+	/**
+	 *
+	 */
+	const MEDICO_RADIOTERAPEUTA = "225330";
+	/**
+	 *
+	 */
+	const MEDICO_PATOLOGISTA_CLINICO_MEDICINA_LABORATORIAL = "225335";
+	/**
+	 *
+	 */
+	const MEDICO_HEMOTERAPEUTA = "225340";
+	/**
+	 *
+	 */
+	const MEDICO_HIPERBARISTA = "225345";
+	/**
+	 *
+	 */
+	const MEDICO_NEUROFISIOLOGISTA_CLINICO = "225350";
+	/**
+	 *
+	 */
+	const QUIROPRAXISTA = "226105";
+	/**
+	 *
+	 */
+	const OSTEOPATA = "226110";
+	/**
+	 *
+	 */
+	const MUSICOTERAPEUTA = "226305";
+	/**
+	 *
+	 */
+	const ARTETERAPEUTA = "226310";
+	/**
+	 *
+	 */
+	const EQUOTERAPEUTA = "226315";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NIVEL_SUPERIOR_NA_EDUCACAO_INFANTIL_QUATRO_A_SEIS_ANOS_ = "231105";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NIVEL_SUPERIOR_NA_EDUCACAO_INFANTIL_ZERO_A_TRES_ANOS_ = "231110";
+	/**
+	 *
+	 */
+	const PROFESSOR_DA_EDUCACAO_DE_JOVENS_E_ADULTOS_DO_ENSINO_FUNDAMENTAL_PRIMEIRA_A_QUARTA_SERIE_ = "231205";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NIVEL_SUPERIOR_DO_ENSINO_FUNDAMENTAL_PRIMEIRA_A_QUARTA_SERIE_ = "231210";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_CIENCIAS_EXATAS_E_NATURAIS_DO_ENSINO_FUNDAMENTAL = "231305";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_EDUCACAO_ARTISTICA_DO_ENSINO_FUNDAMENTAL = "231310";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_EDUCACAO_FISICA_DO_ENSINO_FUNDAMENTAL = "231315";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_GEOGRAFIA_DO_ENSINO_FUNDAMENTAL = "231320";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_HISTORIA_DO_ENSINO_FUNDAMENTAL = "231325";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_ESTRANGEIRA_MODERNA_DO_ENSINO_FUNDAMENTAL = "231330";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_PORTUGUESA_DO_ENSINO_FUNDAMENTAL = "231335";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MATEMATICA_DO_ENSINO_FUNDAMENTAL = "231340";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ARTES_NO_ENSINO_MEDIO = "232105";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_BIOLOGIA_NO_ENSINO_MEDIO = "232110";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_DISCIPLINAS_PEDAGOGICAS_NO_ENSINO_MEDIO = "232115";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_EDUCACAO_FISICA_NO_ENSINO_MEDIO = "232120";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FILOSOFIA_NO_ENSINO_MEDIO = "232125";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FISICA_NO_ENSINO_MEDIO = "232130";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_GEOGRAFIA_NO_ENSINO_MEDIO = "232135";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_HISTORIA_NO_ENSINO_MEDIO = "232140";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_E_LITERATURA_BRASILEIRA_NO_ENSINO_MEDIO = "232145";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_ESTRANGEIRA_MODERNA_NO_ENSINO_MEDIO = "232150";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MATEMATICA_NO_ENSINO_MEDIO = "232155";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_PSICOLOGIA_NO_ENSINO_MEDIO = "232160";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_QUIMICA_NO_ENSINO_MEDIO = "232165";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_SOCIOLOGIA_NO_ENSINO_MEDIO = "232170";
+	/**
+	 *
+	 */
+	const PROFESSOR_DA_AREA_DE_MEIO_AMBIENTE = "233105";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_DESENHO_TECNICO = "233110";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TECNICAS_AGRICOLAS = "233115";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TECNICAS_COMERCIAIS_E_SECRETARIAIS = "233120";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TECNICAS_DE_ENFERMAGEM = "233125";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TECNICAS_INDUSTRIAIS = "233130";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TECNOLOGIA_E_CALCULO_TECNICO = "233135";
+	/**
+	 *
+	 */
+	const INSTRUTOR_DE_APRENDIZAGEM_E_TREINAMENTO_AGROPECUARIO = "233205";
+	/**
+	 *
+	 */
+	const INSTRUTOR_DE_APRENDIZAGEM_E_TREINAMENTO_INDUSTRIAL = "233210";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_APRENDIZAGEM_E_TREINAMENTO_COMERCIAL = "233215";
+	/**
+	 *
+	 */
+	const PROFESSOR_INSTRUTOR_DE_ENSINO_E_APRENDIZAGEM_AGROFLORESTAL = "233220";
+	/**
+	 *
+	 */
+	const PROFESSOR_INSTRUTOR_DE_ENSINO_E_APRENDIZAGEM_EM_SERVICOS = "233225";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MATEMATICA_APLICADA_NO_ENSINO_SUPERIOR_ = "234105";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MATEMATICA_PURA_NO_ENSINO_SUPERIOR_ = "234110";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ESTATISTICA_NO_ENSINO_SUPERIOR_ = "234115";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_COMPUTACAO_NO_ENSINO_SUPERIOR_ = "234120";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_PESQUISA_OPERACIONAL_NO_ENSINO_SUPERIOR_ = "234125";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FISICA_ENSINO_SUPERIOR_ = "234205";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_QUIMICA_ENSINO_SUPERIOR_ = "234210";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ASTRONOMIA_ENSINO_SUPERIOR_ = "234215";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ARQUITETURA = "234305";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ENGENHARIA = "234310";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_GEOFISICA = "234315";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_GEOLOGIA = "234320";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_CIENCIAS_BIOLOGICAS_DO_ENSINO_SUPERIOR = "234405";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_EDUCACAO_FISICA_NO_ENSINO_SUPERIOR = "234410";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ENFERMAGEM_DO_ENSINO_SUPERIOR = "234415";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FARMACIA_E_BIOQUIMICA = "234420";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FISIOTERAPIA = "234425";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FONOAUDIOLOGIA = "234430";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MEDICINA = "234435";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MEDICINA_VETERINARIA = "234440";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NUTRICAO = "234445";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ODONTOLOGIA = "234450";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TERAPIA_OCUPACIONAL = "234455";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ZOOTECNIA_DO_ENSINO_SUPERIOR = "234460";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ENSINO_SUPERIOR_NA_AREA_DE_DIDATICA = "234505";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ENSINO_SUPERIOR_NA_AREA_DE_ORIENTACAO_EDUCACIONAL = "234510";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ENSINO_SUPERIOR_NA_AREA_DE_PESQUISA_EDUCACIONAL = "234515";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ENSINO_SUPERIOR_NA_AREA_DE_PRATICA_DE_ENSINO = "234520";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_ALEMA = "234604";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_ITALIANA = "234608";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_FRANCESA = "234612";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_INGLESA = "234616";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_ESPANHOLA = "234620";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUA_PORTUGUESA = "234624";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_BRASILEIRA = "234628";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_PORTUGUESA = "234632";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_ALEMA = "234636";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_COMPARADA = "234640";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_ESPANHOLA = "234644";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_FRANCESA = "234648";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_INGLESA = "234652";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_ITALIANA = "234656";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LITERATURA_DE_LINGUAS_ESTRANGEIRAS_MODERNAS = "234660";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_OUTRAS_LINGUAS_E_LITERATURAS = "234664";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUAS_ESTRANGEIRAS_MODERNAS = "234668";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_LINGUISTICA_E_LINGUISTICA_APLICADA = "234672";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FILOLOGIA_E_CRITICA_TEXTUAL = "234676";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_SEMIOTICA = "234680";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TEORIA_DA_LITERATURA = "234684";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ANTROPOLOGIA_DO_ENSINO_SUPERIOR = "234705";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ARQUIVOLOGIA_DO_ENSINO_SUPERIOR = "234710";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_BIBLIOTECONOMIA_DO_ENSINO_SUPERIOR = "234715";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_CIENCIA_POLITICA_DO_ENSINO_SUPERIOR = "234720";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_COMUNICACAO_SOCIAL_DO_ENSINO_SUPERIOR = "234725";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_DIREITO_DO_ENSINO_SUPERIOR = "234730";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_FILOSOFIA_DO_ENSINO_SUPERIOR = "234735";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_GEOGRAFIA_DO_ENSINO_SUPERIOR = "234740";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_HISTORIA_DO_ENSINO_SUPERIOR = "234745";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_JORNALISMO = "234750";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MUSEOLOGIA_DO_ENSINO_SUPERIOR = "234755";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_PSICOLOGIA_DO_ENSINO_SUPERIOR = "234760";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_SERVICO_SOCIAL_DO_ENSINO_SUPERIOR = "234765";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_SOCIOLOGIA_DO_ENSINO_SUPERIOR = "234770";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ECONOMIA = "234805";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ADMINISTRACAO = "234810";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_CONTABILIDADE = "234815";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ARTES_DO_ESPETACULO_NO_ENSINO_SUPERIOR = "234905";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ARTES_VISUAIS_NO_ENSINO_SUPERIOR_ARTES_PLASTICAS_E_MULTIMIDIA_ = "234910";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_MUSICA_NO_ENSINO_SUPERIOR = "234915";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ALUNOS_COM_DEFICIENCIA_AUDITIVA_E_SURDOS = "239205";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ALUNOS_COM_DEFICIENCIA_FISICA = "239210";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ALUNOS_COM_DEFICIENCIA_MENTAL = "239215";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ALUNOS_COM_DEFICIENCIA_MULTIPLA = "239220";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_ALUNOS_COM_DEFICIENCIA_VISUAL = "239225";
+	/**
+	 *
+	 */
+	const COORDENADOR_PEDAGOGICO = "239405";
+	/**
+	 *
+	 */
+	const ORIENTADOR_EDUCACIONAL = "239410";
+	/**
+	 *
+	 */
+	const PEDAGOGO = "239415";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_TECNICAS_E_RECURSOS_AUDIOVISUAIS = "239420";
+	/**
+	 *
+	 */
+	const PSICOPEDAGOGO = "239425";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_ENSINO = "239430";
+	/**
+	 *
+	 */
+	const DESIGNER_EDUCACIONAL = "239435";
+	/**
+	 *
+	 */
+	const ADVOGADO = "241005";
+	/**
+	 *
+	 */
+	const ADVOGADO_DE_EMPRESA = "241010";
+	/**
+	 *
+	 */
+	const ADVOGADO_DIREITO_CIVIL_ = "241015";
+	/**
+	 *
+	 */
+	const ADVOGADO_DIREITO_PUBLICO_ = "241020";
+	/**
+	 *
+	 */
+	const ADVOGADO_DIREITO_PENAL_ = "241025";
+	/**
+	 *
+	 */
+	const ADVOGADO_AREAS_ESPECIAIS_ = "241030";
+	/**
+	 *
+	 */
+	const ADVOGADO_DIREITO_DO_TRABALHO_ = "241035";
+	/**
+	 *
+	 */
+	const CONSULTOR_JURIDICO = "241040";
+	/**
+	 *
+	 */
+	const ADVOGADO_DA_UNIAO = "241205";
+	/**
+	 *
+	 */
+	const PROCURADOR_AUTARQUICO = "241210";
+	/**
+	 *
+	 */
+	const PROCURADOR_DA_FAZENDA_NACIONAL = "241215";
+	/**
+	 *
+	 */
+	const PROCURADOR_DO_ESTADO = "241220";
+	/**
+	 *
+	 */
+	const PROCURADOR_DO_MUNICIPIO = "241225";
+	/**
+	 *
+	 */
+	const PROCURADOR_FEDERAL = "241230";
+	/**
+	 *
+	 */
+	const PROCURADOR_FUNDACIONAL = "241235";
+	/**
+	 *
+	 */
+	const OFICIAL_DE_REGISTRO_DE_CONTRATOS_MARITIMOS = "241305";
+	/**
+	 *
+	 */
+	const OFICIAL_DO_REGISTRO_CIVIL_DE_PESSOAS_JURIDICAS = "241310";
+	/**
+	 *
+	 */
+	const OFICIAL_DO_REGISTRO_CIVIL_DE_PESSOAS_NATURAIS = "241315";
+	/**
+	 *
+	 */
+	const OFICIAL_DO_REGISTRO_DE_DISTRIBUICOES = "241320";
+	/**
+	 *
+	 */
+	const OFICIAL_DO_REGISTRO_DE_IMOVEIS = "241325";
+	/**
+	 *
+	 */
+	const OFICIAL_DO_REGISTRO_DE_TITULOS_E_DOCUMENTOS = "241330";
+	/**
+	 *
+	 */
+	const TABELIAO_DE_NOTAS = "241335";
+	/**
+	 *
+	 */
+	const TABELIAO_DE_PROTESTOS = "241340";
+	/**
+	 *
+	 */
+	const PROCURADOR_DA_REPUBLICA = "242205";
+	/**
+	 *
+	 */
+	const PROCURADOR_DE_JUSTICA = "242210";
+	/**
+	 *
+	 */
+	const PROCURADOR_DE_JUSTICA_MILITAR = "242215";
+	/**
+	 *
+	 */
+	const PROCURADOR_DO_TRABALHO = "242220";
+	/**
+	 *
+	 */
+	const PROCURADOR_REGIONAL_DA_REPUBLICA = "242225";
+	/**
+	 *
+	 */
+	const PROCURADOR_REGIONAL_DO_TRABALHO = "242230";
+	/**
+	 *
+	 */
+	const PROMOTOR_DE_JUSTICA = "242235";
+	/**
+	 *
+	 */
+	const SUBPROCURADOR_DE_JUSTICA_MILITAR = "242240";
+	/**
+	 *
+	 */
+	const SUBPROCURADOR_GERAL_DA_REPUBLICA = "242245";
+	/**
+	 *
+	 */
+	const SUBPROCURADOR_GERAL_DO_TRABALHO = "242250";
+	/**
+	 *
+	 */
+	const DELEGADO_DE_POLICIA = "242305";
+	/**
+	 *
+	 */
+	const DEFENSOR_PUBLICO = "242405";
+	/**
+	 *
+	 */
+	const PROCURADOR_DA_ASSISTENCIA_JUDICIARIA = "242410";
+	/**
+	 *
+	 */
+	const OFICIAL_DE_INTELIGENCIA = "242905";
+	/**
+	 *
+	 */
+	const OFICIAL_TECNICO_DE_INTELIGENCIA = "242910";
+	/**
+	 *
+	 */
+	const ANTROPOLOGO = "251105";
+	/**
+	 *
+	 */
+	const ARQUEOLOGO = "251110";
+	/**
+	 *
+	 */
+	const CIENTISTA_POLITICO = "251115";
+	/**
+	 *
+	 */
+	const SOCIOLOGO = "251120";
+	/**
+	 *
+	 */
+	const ECONOMISTA = "251205";
+	/**
+	 *
+	 */
+	const ECONOMISTA_AGROINDUSTRIAL = "251210";
+	/**
+	 *
+	 */
+	const ECONOMISTA_FINANCEIRO = "251215";
+	/**
+	 *
+	 */
+	const ECONOMISTA_INDUSTRIAL = "251220";
+	/**
+	 *
+	 */
+	const ECONOMISTA_DO_SETOR_PUBLICO = "251225";
+	/**
+	 *
+	 */
+	const ECONOMISTA_AMBIENTAL = "251230";
+	/**
+	 *
+	 */
+	const ECONOMISTA_REGIONAL_E_URBANO = "251235";
+	/**
+	 *
+	 */
+	const GEOGRAFO = "251305";
+	/**
+	 *
+	 */
+	const FILOSOFO = "251405";
+	/**
+	 *
+	 */
+	const PSICOLOGO_EDUCACIONAL = "251505";
+	/**
+	 *
+	 */
+	const PSICOLOGO_CLINICO = "251510";
+	/**
+	 *
+	 */
+	const PSICOLOGO_DO_ESPORTE = "251515";
+	/**
+	 *
+	 */
+	const PSICOLOGO_HOSPITALAR = "251520";
+	/**
+	 *
+	 */
+	const PSICOLOGO_JURIDICO = "251525";
+	/**
+	 *
+	 */
+	const PSICOLOGO_SOCIAL = "251530";
+	/**
+	 *
+	 */
+	const PSICOLOGO_DO_TRANSITO = "251535";
+	/**
+	 *
+	 */
+	const PSICOLOGO_DO_TRABALHO = "251540";
+	/**
+	 *
+	 */
+	const NEUROPSICOLOGO = "251545";
+	/**
+	 *
+	 */
+	const PSICANALISTA = "251550";
+	/**
+	 *
+	 */
+	const PSICOLOGO_ACUPUNTURISTA = "251555";
+	/**
+	 *
+	 */
+	const ASSISTENTE_SOCIAL = "251605";
+	/**
+	 *
+	 */
+	const ECONOMISTA_DOMESTICO = "251610";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR = "252105";
+	/**
+	 *
+	 */
+	const AUDITOR_CONTADORES_E_AFINS_ = "252205";
+	/**
+	 *
+	 */
+	const CONTADOR = "252210";
+	/**
+	 *
+	 */
+	const PERITO_CONTABIL = "252215";
+	/**
+	 *
+	 */
+	const SECRETARIA_O_EXECUTIVA_O_ = "252305";
+	/**
+	 *
+	 */
+	const SECRETARIO_BILINGUE = "252310";
+	/**
+	 *
+	 */
+	const SECRETARIA_TRILINGUE = "252315";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_SECRETARIADO_ESCOLAR = "252320";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_RECURSOS_HUMANOS = "252405";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR_DE_FUNDOS_E_CARTEIRAS_DE_INVESTIMENTO = "252505";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_CAMBIO = "252510";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_COBRANCA_INSTITUICOES_FINANCEIRAS_ = "252515";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_CREDITO_INSTITUICOES_FINANCEIRAS_ = "252525";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_CREDITO_RURAL = "252530";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_LEASING = "252535";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_PRODUTOS_BANCARIOS = "252540";
+	/**
+	 *
+	 */
+	const ANALISTA_FINANCEIRO_INSTITUICOES_FINANCEIRAS_ = "252545";
+	/**
+	 *
+	 */
+	const GESTOR_EM_SEGURANCA = "252605";
+	/**
+	 *
+	 */
+	const REDATOR_DE_PUBLICIDADE = "253110";
+	/**
+	 *
+	 */
+	const PUBLICITARIO = "253115";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_MIDIA_PUBLICIDADE_ = "253120";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_ARTE_PUBLICIDADE_ = "253125";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CRIACAO = "253130";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CONTAS_PUBLICIDADE_ = "253135";
+	/**
+	 *
+	 */
+	const AGENCIADOR_DE_PROPAGANDA = "253140";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CAPTACAO_FUNDOS_E_INVESTIMENTOS_INSTITUCIONAIS_ = "253205";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CLIENTES_ESPECIAIS_PRIVATE_ = "253210";
+	/**
+	 *
+	 */
+	const GERENTE_DE_CONTAS_PESSOA_FISICA_E_JURIDICA = "253215";
+	/**
+	 *
+	 */
+	const GERENTE_DE_GRANDES_CONTAS_CORPORATE_ = "253220";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_NEGOCIOS = "253225";
+	/**
+	 *
+	 */
+	const CORRETOR_DE_VALORES_ATIVOS_FINANCEIROS_MERCADORIAS_E_DERIVATIVOS = "253305";
+	/**
+	 *
+	 */
+	const AUDITOR_FISCAL_DA_RECEITA_FEDERAL = "254105";
+	/**
+	 *
+	 */
+	const TECNICO_DA_RECEITA_FEDERAL = "254110";
+	/**
+	 *
+	 */
+	const AUDITOR_FISCAL_DA_PREVIDENCIA_SOCIAL = "254205";
+	/**
+	 *
+	 */
+	const AUDITOR_FISCAL_DO_TRABALHO = "254305";
+	/**
+	 *
+	 */
+	const AGENTE_DE_HIGIENE_E_SEGURANCA = "254310";
+	/**
+	 *
+	 */
+	const FISCAL_DE_TRIBUTOS_ESTADUAL = "254405";
+	/**
+	 *
+	 */
+	const FISCAL_DE_TRIBUTOS_MUNICIPAL = "254410";
+	/**
+	 *
+	 */
+	const TECNICO_DE_TRIBUTOS_ESTADUAL = "254415";
+	/**
+	 *
+	 */
+	const TECNICO_DE_TRIBUTOS_MUNICIPAL = "254420";
+	/**
+	 *
+	 */
+	const ARQUIVISTA_PESQUISADOR_JORNALISMO_ = "261105";
+	/**
+	 *
+	 */
+	const ASSESSOR_DE_IMPRENSA = "261110";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_REDACAO = "261115";
+	/**
+	 *
+	 */
+	const EDITOR = "261120";
+	/**
+	 *
+	 */
+	const JORNALISTA = "261125";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_TEXTO = "261130";
+	/**
+	 *
+	 */
+	const REPORTER_EXCLUSIVE_RADIO_E_TELEVISAO_ = "261135";
+	/**
+	 *
+	 */
+	const REVISOR_DE_TEXTO = "261140";
+	/**
+	 *
+	 */
+	const BIBLIOTECARIO = "261205";
+	/**
+	 *
+	 */
+	const DOCUMENTALISTA = "261210";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_INFORMACOES_PESQUISADOR_DE_INFORMACOES_DE_REDE_ = "261215";
+	/**
+	 *
+	 */
+	const ARQUIVISTA = "261305";
+	/**
+	 *
+	 */
+	const MUSEOLOGO = "261310";
+	/**
+	 *
+	 */
+	const FILOLOGO = "261405";
+	/**
+	 *
+	 */
+	const INTERPRETE = "261410";
+	/**
+	 *
+	 */
+	const LINGUISTA = "261415";
+	/**
+	 *
+	 */
+	const TRADUTOR = "261420";
+	/**
+	 *
+	 */
+	const INTERPRETE_DE_LINGUA_DE_SINAIS = "261425";
+	/**
+	 *
+	 */
+	const AUDIODESCRITOR = "261430";
+	/**
+	 *
+	 */
+	const AUTOR_ROTEIRISTA = "261505";
+	/**
+	 *
+	 */
+	const CRITICO = "261510";
+	/**
+	 *
+	 */
+	const ESCRITOR_DE_FICCAO = "261515";
+	/**
+	 *
+	 */
+	const ESCRITOR_DE_NAO_FICCAO = "261520";
+	/**
+	 *
+	 */
+	const POETA = "261525";
+	/**
+	 *
+	 */
+	const REDATOR_DE_TEXTOS_TECNICOS = "261530";
+	/**
+	 *
+	 */
+	const EDITOR_DE_JORNAL = "261605";
+	/**
+	 *
+	 */
+	const EDITOR_DE_LIVRO = "261610";
+	/**
+	 *
+	 */
+	const EDITOR_DE_MIDIA_ELETRONICA = "261615";
+	/**
+	 *
+	 */
+	const EDITOR_DE_REVISTA = "261620";
+	/**
+	 *
+	 */
+	const EDITOR_DE_REVISTA_CIENTIFICA = "261625";
+	/**
+	 *
+	 */
+	const ANCORA_DE_RADIO_E_TELEVISAO = "261705";
+	/**
+	 *
+	 */
+	const COMENTARISTA_DE_RADIO_E_TELEVISAO = "261710";
+	/**
+	 *
+	 */
+	const LOCUTOR_DE_RADIO_E_TELEVISAO = "261715";
+	/**
+	 *
+	 */
+	const LOCUTOR_PUBLICITARIO_DE_RADIO_E_TELEVISAO = "261720";
+	/**
+	 *
+	 */
+	const NARRADOR_EM_PROGRAMAS_DE_RADIO_E_TELEVISAO = "261725";
+	/**
+	 *
+	 */
+	const REPORTER_DE_RADIO_E_TELEVISAO = "261730";
+	/**
+	 *
+	 */
+	const FOTOGRAFO = "261805";
+	/**
+	 *
+	 */
+	const FOTOGRAFO_PUBLICITARIO = "261810";
+	/**
+	 *
+	 */
+	const FOTOGRAFO_RETRATISTA = "261815";
+	/**
+	 *
+	 */
+	const REPORTER_FOTOGRAFICO = "261820";
+	/**
+	 *
+	 */
+	const PRODUTOR_CULTURAL = "262105";
+	/**
+	 *
+	 */
+	const PRODUTOR_CINEMATOGRAFICO = "262110";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_RADIO = "262115";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_TEATRO = "262120";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_TELEVISAO = "262125";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_PRODUCAO_FONOGRAFICA = "262130";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_PRODUCAO_AUDIOVISUAL = "262135";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_CINEMA = "262205";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PROGRAMAS_DE_RADIO = "262210";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_PROGRAMAS_DE_TELEVISAO = "262215";
+	/**
+	 *
+	 */
+	const DIRETOR_TEATRAL = "262220";
+	/**
+	 *
+	 */
+	const CENOGRAFO_CARNAVALESCO_E_FESTAS_POPULARES = "262305";
+	/**
+	 *
+	 */
+	const CENOGRAFO_DE_CINEMA = "262310";
+	/**
+	 *
+	 */
+	const CENOGRAFO_DE_EVENTOS = "262315";
+	/**
+	 *
+	 */
+	const CENOGRAFO_DE_TEATRO = "262320";
+	/**
+	 *
+	 */
+	const CENOGRAFO_DE_TV = "262325";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_ARTE = "262330";
+	/**
+	 *
+	 */
+	const ARTISTA_ARTES_VISUAIS_ = "262405";
+	/**
+	 *
+	 */
+	const DESENHISTA_INDUSTRIAL_GRAFICO_DESIGNER_GRAFICO_ = "262410";
+	/**
+	 *
+	 */
+	const CONSERVADOR_RESTAURADOR_DE_BENS_CULTURAIS = "262415";
+	/**
+	 *
+	 */
+	const DESENHISTA_INDUSTRIAL_DE_PRODUTO_DESIGNER_DE_PRODUTO_ = "262420";
+	/**
+	 *
+	 */
+	const DESENHISTA_INDUSTRIAL_DE_PRODUTO_DE_MODA_DESIGNER_DE_MODA_ = "262425";
+	/**
+	 *
+	 */
+	const ATOR = "262505";
+	/**
+	 *
+	 */
+	const COMPOSITOR = "262605";
+	/**
+	 *
+	 */
+	const MUSICO_ARRANJADOR = "262610";
+	/**
+	 *
+	 */
+	const MUSICO_REGENTE = "262615";
+	/**
+	 *
+	 */
+	const MUSICOLOGO = "262620";
+	/**
+	 *
+	 */
+	const MUSICO_INTERPRETE_CANTOR = "262705";
+	/**
+	 *
+	 */
+	const MUSICO_INTERPRETE_INSTRUMENTISTA = "262710";
+	/**
+	 *
+	 */
+	const ASSISTENTE_DE_COREOGRAFIA = "262805";
+	/**
+	 *
+	 */
+	const BAILARINO_EXCETO_DANCAS_POPULARES_ = "262810";
+	/**
+	 *
+	 */
+	const COREOGRAFO = "262815";
+	/**
+	 *
+	 */
+	const DRAMATURGO_DE_DANCA = "262820";
+	/**
+	 *
+	 */
+	const ENSAIADOR_DE_DANCA = "262825";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_DANCA = "262830";
+	/**
+	 *
+	 */
+	const DECORADOR_DE_INTERIORES_DE_NIVEL_SUPERIOR = "262905";
+	/**
+	 *
+	 */
+	const MINISTRO_DE_CULTO_RELIGIOSO = "263105";
+	/**
+	 *
+	 */
+	const MISSIONARIO = "263110";
+	/**
+	 *
+	 */
+	const TEOLOGO = "263115";
+	/**
+	 *
+	 */
+	const CHEFE_DE_COZINHA = "271105";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_GASTRONOMIA = "271110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MECATRONICA_AUTOMACAO_DA_MANUFATURA = "300105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MECATRONICA_ROBOTICA = "300110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_ELETROMECANICA = "300305";
+	/**
+	 *
+	 */
+	const TECNICO_DE_LABORATORIO_INDUSTRIAL = "301105";
+	/**
+	 *
+	 */
+	const TECNICO_DE_LABORATORIO_DE_ANALISES_FISICO_QUIMICAS_MATERIAIS_DE_CONSTRUCAO_ = "301110";
+	/**
+	 *
+	 */
+	const TECNICO_QUIMICO_DE_PETROLEO = "301115";
+	/**
+	 *
+	 */
+	const TECNICO_DE_APOIO_A_BIOENGENHARIA = "301205";
+	/**
+	 *
+	 */
+	const TECNICO_QUIMICO = "311105";
+	/**
+	 *
+	 */
+	const TECNICO_DE_CELULOSE_E_PAPEL = "311110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_CURTIMENTO = "311115";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PETROQUIMICA = "311205";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MATERIAIS_PRODUTOS_CERAMICOS_E_VIDROS = "311305";
+	/**
+	 *
+	 */
+	const TECNICO_EM_BORRACHA = "311405";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PLASTICO = "311410";
+	/**
+	 *
+	 */
+	const TECNICO_DE_CONTROLE_DE_MEIO_AMBIENTE = "311505";
+	/**
+	 *
+	 */
+	const TECNICO_DE_METEOROLOGIA = "311510";
+	/**
+	 *
+	 */
+	const TECNICO_DE_UTILIDADE_PRODUCAO_E_DISTRIBUICAO_DE_VAPOR_GASES_OLEOS_COMBUSTIVEIS_ENERGIA_ = "311515";
+	/**
+	 *
+	 */
+	const TECNICO_EM_TRATAMENTO_DE_EFLUENTES = "311520";
+	/**
+	 *
+	 */
+	const TECNICO_TEXTIL = "311605";
+	/**
+	 *
+	 */
+	const TECNICO_TEXTIL_TRATAMENTOS_QUIMICOS_ = "311610";
+	/**
+	 *
+	 */
+	const TECNICO_TEXTIL_DE_FIACAO = "311615";
+	/**
+	 *
+	 */
+	const TECNICO_TEXTIL_DE_MALHARIA = "311620";
+	/**
+	 *
+	 */
+	const TECNICO_TEXTIL_DE_TECELAGEM = "311625";
+	/**
+	 *
+	 */
+	const COLORISTA_DE_PAPEL = "311705";
+	/**
+	 *
+	 */
+	const COLORISTA_TEXTIL = "311710";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_TINTAS = "311715";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_TINTAS_FABRICA_DE_TECIDOS_ = "311720";
+	/**
+	 *
+	 */
+	const TINGIDOR_DE_COUROS_E_PELES = "311725";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OBRAS_CIVIS = "312105";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ESTRADAS = "312205";
+	/**
+	 *
+	 */
+	const TECNICO_DE_SANEAMENTO = "312210";
+	/**
+	 *
+	 */
+	const TECNICO_EM_AGRIMENSURA = "312305";
+	/**
+	 *
+	 */
+	const TECNICO_EM_GEODESIA_E_CARTOGRAFIA = "312310";
+	/**
+	 *
+	 */
+	const TECNICO_EM_HIDROGRAFIA = "312315";
+	/**
+	 *
+	 */
+	const TOPOGRAFO = "312320";
+	/**
+	 *
+	 */
+	const ELETROTECNICO = "313105";
+	/**
+	 *
+	 */
+	const ELETROTECNICO_PRODUCAO_DE_ENERGIA_ = "313110";
+	/**
+	 *
+	 */
+	const ELETROTECNICO_NA_FABRICACAO_MONTAGEM_E_INSTALACAO_DE_MAQUINAS_E_EQUIPAMENTOS = "313115";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MANUTENCAO_ELETRICA = "313120";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MANUTENCAO_ELETRICA_DE_MAQUINA = "313125";
+	/**
+	 *
+	 */
+	const TECNICO_ELETRICISTA = "313130";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MANUTENCAO_ELETRONICA = "313205";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MANUTENCAO_ELETRONICA_CIRCUITOS_DE_MAQUINAS_COM_COMANDO_NUMERICO_ = "313210";
+	/**
+	 *
+	 */
+	const TECNICO_ELETRONICO = "313215";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MANUTENCAO_DE_EQUIPAMENTOS_DE_INFORMATICA = "313220";
+	/**
+	 *
+	 */
+	const TECNICO_DE_COMUNICACAO_DE_DADOS = "313305";
+	/**
+	 *
+	 */
+	const TECNICO_DE_REDE_TELECOMUNICACOES_ = "313310";
+	/**
+	 *
+	 */
+	const TECNICO_DE_TELECOMUNICACOES_TELEFONIA_ = "313315";
+	/**
+	 *
+	 */
+	const TECNICO_DE_TRANSMISSAO_TELECOMUNICACOES_ = "313320";
+	/**
+	 *
+	 */
+	const TECNICO_EM_CALIBRACAO = "313405";
+	/**
+	 *
+	 */
+	const TECNICO_EM_INSTRUMENTACAO = "313410";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_MANUTENCAO_DE_INSTRUMENTOS_DE_CONTROLE_MEDICAO_E_SIMILARES = "313415";
+	/**
+	 *
+	 */
+	const TECNICO_EM_FOTONICA = "313505";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MECANICA_DE_PRECISAO = "314105";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO = "314110";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_CALEFACAO_VENTILACAO_E_REFRIGERACAO_ = "314115";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_MAQUINAS_ = "314120";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_MOTORES_ = "314125";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_NA_FABRICACAO_DE_FERRAMENTAS = "314205";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_NA_MANUTENCAO_DE_FERRAMENTAS = "314210";
+	/**
+	 *
+	 */
+	const TECNICO_EM_AUTOMOBILISTICA = "314305";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_AERONAVES_ = "314310";
+	/**
+	 *
+	 */
+	const TECNICO_MECANICO_EMBARCACOES_ = "314315";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MANUTENCAO_DE_SISTEMAS_E_INSTRUMENTOS = "314405";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MANUTENCAO_DE_MAQUINAS = "314410";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_SOLDAGEM = "314605";
+	/**
+	 *
+	 */
+	const TECNICO_EM_CALDEIRARIA = "314610";
+	/**
+	 *
+	 */
+	const TECNICO_EM_ESTRUTURAS_METALICAS = "314615";
+	/**
+	 *
+	 */
+	const TECNICO_EM_SOLDAGEM = "314620";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ACABAMENTO_EM_SIDERURGIA = "314705";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ACIARIA_EM_SIDERURGIA = "314710";
+	/**
+	 *
+	 */
+	const TECNICO_DE_FUNDICAO_EM_SIDERURGIA = "314715";
+	/**
+	 *
+	 */
+	const TECNICO_DE_LAMINACAO_EM_SIDERURGIA = "314720";
+	/**
+	 *
+	 */
+	const TECNICO_DE_REDUCAO_NA_SIDERURGIA_PRIMEIRA_FUSAO_ = "314725";
+	/**
+	 *
+	 */
+	const TECNICO_DE_REFRATARIO_EM_SIDERURGIA = "314730";
+	/**
+	 *
+	 */
+	const TECNICO_EM_GEOFISICA = "316105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_GEOLOGIA = "316110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_GEOQUIMICA = "316115";
+	/**
+	 *
+	 */
+	const TECNICO_EM_GEOTECNIA = "316120";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MINERACAO = "316305";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MINERACAO_OLEO_E_PETROLEO_ = "316310";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PROCESSAMENTO_MINERAL_EXCETO_PETROLEO_ = "316315";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PESQUISA_MINERAL = "316320";
+	/**
+	 *
+	 */
+	const TECNICO_DE_PRODUCAO_EM_REFINO_DE_PETROLEO = "316325";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PLANEJAMENTO_DE_LAVRA_DE_MINAS = "316330";
+	/**
+	 *
+	 */
+	const DESINCRUSTADOR_POCOS_DE_PETROLEO_ = "316335";
+	/**
+	 *
+	 */
+	const CIMENTADOR_POCOS_DE_PETROLEO_ = "316340";
+	/**
+	 *
+	 */
+	const PROGRAMADOR_DE_INTERNET = "317105";
+	/**
+	 *
+	 */
+	const PROGRAMADOR_DE_SISTEMAS_DE_INFORMACAO = "317110";
+	/**
+	 *
+	 */
+	const PROGRAMADOR_DE_MAQUINAS_FERRAMENTA_COM_COMANDO_NUMERICO = "317115";
+	/**
+	 *
+	 */
+	const PROGRAMADOR_DE_MULTIMIDIA = "317120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_COMPUTADOR_INCLUSIVE_MICROCOMPUTADOR_ = "317205";
+	/**
+	 *
+	 */
+	const TECNICO_DE_APOIO_AO_USUARIO_DE_INFORMATICA_HELPDESK_ = "317210";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO = "318005";
+	/**
+	 *
+	 */
+	const DESENHISTA_COPISTA = "318010";
+	/**
+	 *
+	 */
+	const DESENHISTA_DETALHISTA = "318015";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_ARQUITETURA_ = "318105";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_CARTOGRAFIA_ = "318110";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_CONSTRUCAO_CIVIL_ = "318115";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_INSTALACOES_HIDROSSANITARIAS_ = "318120";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_MECANICO = "318205";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_AERONAUTICO = "318210";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_NAVAL = "318215";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_ELETRICIDADE_E_ELETRONICA_ = "318305";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_CALEFACAO_VENTILACAO_E_REFRIGERACAO_ = "318310";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_ARTES_GRAFICAS_ = "318405";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_ILUSTRACOES_ARTISTICAS_ = "318410";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_ILUSTRACOES_TECNICAS_ = "318415";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_INDUSTRIA_TEXTIL_ = "318420";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_MOBILIARIO_ = "318425";
+	/**
+	 *
+	 */
+	const DESENHISTA_TECNICO_DE_EMBALAGENS_MAQUETES_E_LEIAUTES = "318430";
+	/**
+	 *
+	 */
+	const DESENHISTA_PROJETISTA_DE_ARQUITETURA = "318505";
+	/**
+	 *
+	 */
+	const DESENHISTA_PROJETISTA_DE_CONSTRUCAO_CIVIL = "318510";
+	/**
+	 *
+	 */
+	const DESENHISTA_PROJETISTA_DE_MAQUINAS = "318605";
+	/**
+	 *
+	 */
+	const DESENHISTA_PROJETISTA_MECANICO = "318610";
+	/**
+	 *
+	 */
+	const DESENHISTA_PROJETISTA_DE_ELETRICIDADE = "318705";
+	/**
+	 *
+	 */
+	const DESENHISTA_PROJETISTA_ELETRONICO = "318710";
+	/**
+	 *
+	 */
+	const PROJETISTA_DE_MOVEIS = "318805";
+	/**
+	 *
+	 */
+	const MODELISTA_DE_ROUPAS = "318810";
+	/**
+	 *
+	 */
+	const MODELISTA_DE_CALCADOS = "318815";
+	/**
+	 *
+	 */
+	const TECNICO_EM_CALCADOS_E_ARTEFATOS_DE_COURO = "319105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_CONFECCOES_DO_VESTUARIO = "319110";
+	/**
+	 *
+	 */
+	const TECNICO_DO_MOBILIARIO = "319205";
+	/**
+	 *
+	 */
+	const TECNICO_EM_BIOTERISMO = "320105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_HISTOLOGIA = "320110";
+	/**
+	 *
+	 */
+	const TECNICO_AGRICOLA = "321105";
+	/**
+	 *
+	 */
+	const TECNICO_AGROPECUARIO = "321110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MADEIRA = "321205";
+	/**
+	 *
+	 */
+	const TECNICO_FLORESTAL = "321210";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PISCICULTURA = "321305";
+	/**
+	 *
+	 */
+	const TECNICO_EM_CARCINICULTURA = "321310";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MITILICULTURA = "321315";
+	/**
+	 *
+	 */
+	const TECNICO_EM_RANICULTURA = "321320";
+	/**
+	 *
+	 */
+	const TECNICO_EM_ACUPUNTURA = "322105";
+	/**
+	 *
+	 */
+	const PODOLOGO = "322110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_QUIROPRAXIA = "322115";
+	/**
+	 *
+	 */
+	const MASSOTERAPEUTA = "322120";
+	/**
+	 *
+	 */
+	const TERAPEUTA_HOLISTICO = "322125";
+	/**
+	 *
+	 */
+	const ESTETICISTA = "322130";
+	/**
+	 *
+	 */
+	const DOULA = "322135";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ENFERMAGEM = "322205";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ENFERMAGEM_DE_TERAPIA_INTENSIVA = "322210";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ENFERMAGEM_DO_TRABALHO = "322215";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ENFERMAGEM_PSIQUIATRICA = "322220";
+	/**
+	 *
+	 */
+	const INSTRUMENTADOR_CIRURGICO = "322225";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_ENFERMAGEM = "322230";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_ENFERMAGEM_DO_TRABALHO = "322235";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_SAUDE_NAVEGACAO_MARITIMA_ = "322240";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ENFERMAGEM_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "322245";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_ENFERMAGEM_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "322250";
+	/**
+	 *
+	 */
+	const TECNICO_EM_OPTICA_E_OPTOMETRIA = "322305";
+	/**
+	 *
+	 */
+	const TECNICO_EM_SAUDE_BUCAL = "322405";
+	/**
+	 *
+	 */
+	const PROTETICO_DENTARIO = "322410";
+	/**
+	 *
+	 */
+	const AUXILIAR_EM_SAUDE_BUCAL = "322415";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_PROTESE_DENTARIA = "322420";
+	/**
+	 *
+	 */
+	const TECNICO_EM_SAUDE_BUCAL_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "322425";
+	/**
+	 *
+	 */
+	const AUXILIAR_EM_SAUDE_BUCAL_DA_ESTRATEGIA_DE_SAUDE_DA_FAMILIA = "322430";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ORTOPEDIA = "322505";
+	/**
+	 *
+	 */
+	const TECNICO_DE_IMOBILIZACAO_ORTOPEDICA = "322605";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PECUARIA = "323105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_METODOS_ELETROGRAFICOS_EM_ENCEFALOGRAFIA = "324105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_METODOS_GRAFICOS_EM_CARDIOLOGIA = "324110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_RADIOLOGIA_E_IMAGENOLOGIA = "324115";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_RADIOLOGIA = "324120";
+	/**
+	 *
+	 */
+	const TECNOLOGO_OFTALMICO = "324125";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PATOLOGIA_CLINICA = "324205";
+	/**
+	 *
+	 */
+	const CITOTECNICO = "324215";
+	/**
+	 *
+	 */
+	const TECNICO_EM_HEMOTERAPIA = "324220";
+	/**
+	 *
+	 */
+	const ENOLOGO = "325005";
+	/**
+	 *
+	 */
+	const AROMISTA = "325010";
+	/**
+	 *
+	 */
+	const PERFUMISTA = "325015";
+	/**
+	 *
+	 */
+	const AUXILIAR_TECNICO_EM_LABORATORIO_DE_FARMACIA = "325105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_LABORATORIO_DE_FARMACIA = "325110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_FARMACIA = "325115";
+	/**
+	 *
+	 */
+	const TECNICO_DE_ALIMENTOS = "325205";
+	/**
+	 *
+	 */
+	const TECNICO_EM_NUTRICAO_E_DIETETICA = "325210";
+	/**
+	 *
+	 */
+	const TECNICO_EM_BIOTECNOLOGIA = "325305";
+	/**
+	 *
+	 */
+	const TECNICO_EM_IMUNOBIOLOGICOS = "325310";
+	/**
+	 *
+	 */
+	const EMBALSAMADOR = "328105";
+	/**
+	 *
+	 */
+	const TAXIDERMISTA = "328110";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NIVEL_MEDIO_NA_EDUCACAO_INFANTIL = "331105";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_DESENVOLVIMENTO_INFANTIL = "331110";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NIVEL_MEDIO_NO_ENSINO_FUNDAMENTAL = "331205";
+	/**
+	 *
+	 */
+	const PROFESSOR_DE_NIVEL_MEDIO_NO_ENSINO_PROFISSIONALIZANTE = "331305";
+	/**
+	 *
+	 */
+	const PROFESSOR_LEIGO_NO_ENSINO_FUNDAMENTAL = "332105";
+	/**
+	 *
+	 */
+	const PROFESSOR_PRATICO_NO_ENSINO_PROFISSIONALIZANTE = "332205";
+	/**
+	 *
+	 */
+	const INSTRUTOR_DE_AUTO_ESCOLA = "333105";
+	/**
+	 *
+	 */
+	const INSTRUTOR_DE_CURSOS_LIVRES = "333110";
+	/**
+	 *
+	 */
+	const PROFESSORES_DE_CURSOS_LIVRES = "333115";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_ALUNOS_DE_ESCOLA_PRIVADA = "334105";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_ALUNOS_DE_ESCOLA_PUBLICA = "334110";
+	/**
+	 *
+	 */
+	const MONITOR_DE_TRANSPORTE_ESCOLAR = "334115";
+	/**
+	 *
+	 */
+	const PILOTO_COMERCIAL_EXCETO_LINHAS_AEREAS_ = "341105";
+	/**
+	 *
+	 */
+	const PILOTO_COMERCIAL_DE_HELICOPTERO_EXCETO_LINHAS_AEREAS_ = "341110";
+	/**
+	 *
+	 */
+	const MECANICO_DE_VOO = "341115";
+	/**
+	 *
+	 */
+	const PILOTO_AGRICOLA = "341120";
+	/**
+	 *
+	 */
+	const CONTRAMESTRE_DE_CABOTAGEM = "341205";
+	/**
+	 *
+	 */
+	const MESTRE_DE_CABOTAGEM = "341210";
+	/**
+	 *
+	 */
+	const MESTRE_FLUVIAL = "341215";
+	/**
+	 *
+	 */
+	const PATRAO_DE_PESCA_DE_ALTO_MAR = "341220";
+	/**
+	 *
+	 */
+	const PATRAO_DE_PESCA_NA_NAVEGACAO_INTERIOR = "341225";
+	/**
+	 *
+	 */
+	const PILOTO_FLUVIAL = "341230";
+	/**
+	 *
+	 */
+	const MAQUINISTA_MOTORISTA_FLUVIAL = "341305";
+	/**
+	 *
+	 */
+	const CONDUTOR_DE_MAQUINAS = "341310";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_BORDO = "341315";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_TRANSPORTE_EM_COMERCIO_EXTERIOR = "342105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRANSPORTE_MULTIMODAL = "342110";
+	/**
+	 *
+	 */
+	const CONTROLADOR_DE_SERVICOS_DE_MAQUINAS_E_VEICULOS = "342115";
+	/**
+	 *
+	 */
+	const AFRETADOR = "342120";
+	/**
+	 *
+	 */
+	const TECNOLOGO_EM_LOGISTICA_DE_TRANSPORTE = "342125";
+	/**
+	 *
+	 */
+	const AJUDANTE_DE_DESPACHANTE_ADUANEIRO = "342205";
+	/**
+	 *
+	 */
+	const DESPACHANTE_ADUANEIRO = "342210";
+	/**
+	 *
+	 */
+	const CHEFE_DE_SERVICO_DE_TRANSPORTE_RODOVIARIO_PASSAGEIROS_E_CARGAS_ = "342305";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_SERVICOS_DE_TRANSPORTES_RODOVIARIOS_PASSAGEIROS_E_CARGAS_ = "342310";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CARGA_E_DESCARGA = "342315";
+	/**
+	 *
+	 */
+	const AGENTE_DE_ESTACAO_FERROVIA_E_METRO_ = "342405";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRO_DE_CONTROLE_FERROVIA_E_METRO_ = "342410";
+	/**
+	 *
+	 */
+	const CONTROLADOR_DE_TRAFEGO_AEREO = "342505";
+	/**
+	 *
+	 */
+	const DESPACHANTE_OPERACIONAL_DE_VOO = "342510";
+	/**
+	 *
+	 */
+	const FISCAL_DE_AVIACAO_CIVIL_FAC_ = "342515";
+	/**
+	 *
+	 */
+	const GERENTE_DA_ADMINISTRACAO_DE_AEROPORTOS = "342520";
+	/**
+	 *
+	 */
+	const GERENTE_DE_EMPRESA_AEREA_EM_AEROPORTOS = "342525";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_AVIACAO_CIVIL = "342530";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ATENDIMENTO_AEROVIARIO = "342535";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_ADMINISTRACAO_DE_AEROPORTOS = "342540";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_EMPRESA_AEREA_EM_AEROPORTOS = "342545";
+	/**
+	 *
+	 */
+	const AGENTE_DE_PROTECAO_DE_AVIACAO_CIVIL = "342550";
+	/**
+	 *
+	 */
+	const CHEFE_DE_ESTACAO_PORTUARIA = "342605";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_OPERACOES_PORTUARIAS = "342610";
+	/**
+	 *
+	 */
+	const TECNICO_DE_CONTABILIDADE = "351105";
+	/**
+	 *
+	 */
+	const CHEFE_DE_CONTABILIDADE_TECNICO_ = "351110";
+	/**
+	 *
+	 */
+	const CONSULTOR_CONTABIL_TECNICO_ = "351115";
+	/**
+	 *
+	 */
+	const TECNICO_EM_ADMINISTRACAO = "351305";
+	/**
+	 *
+	 */
+	const TECNICO_EM_ADMINISTRACAO_DE_COMERCIO_EXTERIOR = "351310";
+	/**
+	 *
+	 */
+	const AGENTE_DE_RECRUTAMENTO_E_SELECAO = "351315";
+	/**
+	 *
+	 */
+	const ESCREVENTE = "351405";
+	/**
+	 *
+	 */
+	const ESCRIVAO_JUDICIAL = "351410";
+	/**
+	 *
+	 */
+	const ESCRIVAO_EXTRA_JUDICIAL = "351415";
+	/**
+	 *
+	 */
+	const ESCRIVAO_DE_POLICIA = "351420";
+	/**
+	 *
+	 */
+	const OFICIAL_DE_JUSTICA = "351425";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_SERVICOS_JURIDICOS = "351430";
+	/**
+	 *
+	 */
+	const TECNICO_EM_SECRETARIADO = "351505";
+	/**
+	 *
+	 */
+	const TAQUIGRAFO = "351510";
+	/**
+	 *
+	 */
+	const ESTENOTIPISTA = "351515";
+	/**
+	 *
+	 */
+	const TECNICO_EM_SEGURANCA_DO_TRABALHO = "351605";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_SEGUROS_TECNICO_ = "351705";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_SINISTROS = "351710";
+	/**
+	 *
+	 */
+	const ASSISTENTE_COMERCIAL_DE_SEGUROS = "351715";
+	/**
+	 *
+	 */
+	const ASSISTENTE_TECNICO_DE_SEGUROS = "351720";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_RISCO = "351725";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_SINISTROS = "351730";
+	/**
+	 *
+	 */
+	const TECNICO_DE_RESSEGUROS = "351735";
+	/**
+	 *
+	 */
+	const TECNICO_DE_SEGUROS = "351740";
+	/**
+	 *
+	 */
+	const DETETIVE_PROFISSIONAL = "351805";
+	/**
+	 *
+	 */
+	const INVESTIGADOR_DE_POLICIA = "351810";
+	/**
+	 *
+	 */
+	const PAPILOSCOPISTA_POLICIAL = "351815";
+	/**
+	 *
+	 */
+	const AGENTE_DE_INTELIGENCIA = "351905";
+	/**
+	 *
+	 */
+	const AGENTE_TECNICO_DE_INTELIGENCIA = "351910";
+	/**
+	 *
+	 */
+	const AGENTE_DE_DEFESA_AMBIENTAL = "352205";
+	/**
+	 *
+	 */
+	const AGENTE_DE_SAUDE_PUBLICA = "352210";
+	/**
+	 *
+	 */
+	const METROLOGISTA = "352305";
+	/**
+	 *
+	 */
+	const AGENTE_FISCAL_DE_QUALIDADE = "352310";
+	/**
+	 *
+	 */
+	const AGENTE_FISCAL_METROLOGICO = "352315";
+	/**
+	 *
+	 */
+	const AGENTE_FISCAL_TEXTIL = "352320";
+	/**
+	 *
+	 */
+	const AGENTE_DE_DIREITOS_AUTORAIS = "352405";
+	/**
+	 *
+	 */
+	const AVALIADOR_DE_PRODUTOS_DO_MEIO_DE_COMUNICACAO = "352410";
+	/**
+	 *
+	 */
+	const TECNICO_EM_DIREITOS_AUTORAIS = "352420";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OPERACOES_E_SERVICOS_BANCARIOS_CAMBIO = "353205";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OPERACOES_E_SERVICOS_BANCARIOS_CREDITO_IMOBILIARIO = "353210";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OPERACOES_E_SERVICOS_BANCARIOS_CREDITO_RURAL = "353215";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OPERACOES_E_SERVICOS_BANCARIOS_LEASING = "353220";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OPERACOES_E_SERVICOS_BANCARIOS_RENDA_FIXA_E_VARIAVEL = "353225";
+	/**
+	 *
+	 */
+	const TESOUREIRO_DE_BANCO = "353230";
+	/**
+	 *
+	 */
+	const CHEFE_DE_SERVICOS_BANCARIOS = "353235";
+	/**
+	 *
+	 */
+	const AGENTE_DE_VENDAS_DE_SERVICOS = "354120";
+	/**
+	 *
+	 */
+	const ASSISTENTE_DE_VENDAS = "354125";
+	/**
+	 *
+	 */
+	const PROMOTOR_DE_VENDAS_ESPECIALIZADO = "354130";
+	/**
+	 *
+	 */
+	const TECNICO_DE_VENDAS = "354135";
+	/**
+	 *
+	 */
+	const TECNICO_EM_ATENDIMENTO_E_VENDAS = "354140";
+	/**
+	 *
+	 */
+	const VENDEDOR_PRACISTA = "354145";
+	/**
+	 *
+	 */
+	const PROPAGANDISTA_DE_PRODUTOS_FAMACEUTICOS = "354150";
+	/**
+	 *
+	 */
+	const COMPRADOR = "354205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_COMPRAS = "354210";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_EXPORTACAO_E_IMPORTACAO = "354305";
+	/**
+	 *
+	 */
+	const LEILOEIRO = "354405";
+	/**
+	 *
+	 */
+	const AVALIADOR_DE_IMOVEIS = "354410";
+	/**
+	 *
+	 */
+	const AVALIADOR_DE_BENS_MOVEIS = "354415";
+	/**
+	 *
+	 */
+	const CORRETOR_DE_SEGUROS = "354505";
+	/**
+	 *
+	 */
+	const CORRETOR_DE_IMOVEIS = "354605";
+	/**
+	 *
+	 */
+	const REPRESENTANTE_COMERCIAL_AUTONOMO = "354705";
+	/**
+	 *
+	 */
+	const TECNICO_EM_TURISMO = "354805";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TURISMO = "354810";
+	/**
+	 *
+	 */
+	const AGENTE_DE_VIAGEM = "354815";
+	/**
+	 *
+	 */
+	const ORGANIZADOR_DE_EVENTO = "354820";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_BIBLIOTECA = "371105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_BIBLIOTECONOMIA = "371110";
+	/**
+	 *
+	 */
+	const COLECIONADOR_DE_SELOS_E_MOEDAS = "371205";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MUSEOLOGIA = "371210";
+	/**
+	 *
+	 */
+	const TECNICO_EM_PROGRAMACAO_VISUAL = "371305";
+	/**
+	 *
+	 */
+	const TECNICO_GRAFICO = "371310";
+	/**
+	 *
+	 */
+	const RECREADOR_DE_ACANTONAMENTO = "371405";
+	/**
+	 *
+	 */
+	const RECREADOR = "371410";
+	/**
+	 *
+	 */
+	const DIRETOR_DE_FOTOGRAFIA = "372105";
+	/**
+	 *
+	 */
+	const ILUMINADOR_TELEVISAO_ = "372110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CAMERA_DE_TELEVISAO = "372115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_REDE_DE_TELEPROCESSAMENTO = "372205";
+	/**
+	 *
+	 */
+	const RADIOTELEGRAFISTA = "372210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_AUDIO_DE_CONTINUIDADE_RADIO_ = "373105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRAL_DE_RADIO = "373110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EXTERNA_RADIO_ = "373115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_GRAVACAO_DE_RADIO = "373120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRANSMISSOR_DE_RADIO = "373125";
+	/**
+	 *
+	 */
+	const TECNICO_EM_OPERACAO_DE_EQUIPAMENTOS_DE_PRODUCAO_PARA_TELEVISAO_E_PRODUTORAS_DE_VIDEO = "373205";
+	/**
+	 *
+	 */
+	const TECNICO_EM_OPERACAO_DE_EQUIPAMENTO_DE_EXIBICAO_DE_TELEVISAO = "373210";
+	/**
+	 *
+	 */
+	const TECNICO_EM_OPERACAO_DE_EQUIPAMENTOS_DE_TRANSMISSAO_RECEPCAO_DE_TELEVISAO = "373215";
+	/**
+	 *
+	 */
+	const SUPERVISOR_TECNICO_OPERACIONAL_DE_SISTEMAS_DE_TELEVISAO_E_PRODUTORAS_DE_VIDEO = "373220";
+	/**
+	 *
+	 */
+	const TECNICO_EM_GRAVACAO_DE_AUDIO = "374105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_INSTALACAO_DE_EQUIPAMENTOS_DE_AUDIO = "374110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MASTERIZACAO_DE_AUDIO = "374115";
+	/**
+	 *
+	 */
+	const PROJETISTA_DE_SOM = "374120";
+	/**
+	 *
+	 */
+	const TECNICO_EM_SONORIZACAO = "374125";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MIXAGEM_DE_AUDIO = "374130";
+	/**
+	 *
+	 */
+	const PROJETISTA_DE_SISTEMAS_DE_AUDIO = "374135";
+	/**
+	 *
+	 */
+	const MICROFONISTA = "374140";
+	/**
+	 *
+	 */
+	const DJ_DISC_JOCKEY_ = "374145";
+	/**
+	 *
+	 */
+	const CENOTECNICO_CINEMA_VIDEO_TELEVISAO_TEATRO_E_ESPETACULOS_ = "374205";
+	/**
+	 *
+	 */
+	const MAQUINISTA_DE_CINEMA_E_VIDEO = "374210";
+	/**
+	 *
+	 */
+	const MAQUINISTA_DE_TEATRO_E_ESPETACULOS = "374215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PROJETOR_CINEMATOGRAFICO = "374305";
+	/**
+	 *
+	 */
+	const OPERADOR_MANTENEDOR_DE_PROJETOR_CINEMATOGRAFICO = "374310";
+	/**
+	 *
+	 */
+	const EDITOR_DE_TV_E_VIDEO = "374405";
+	/**
+	 *
+	 */
+	const FINALIZADOR_DE_FILMES = "374410";
+	/**
+	 *
+	 */
+	const FINALIZADOR_DE_VIDEO = "374415";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_FILMES = "374420";
+	/**
+	 *
+	 */
+	const DESIGNER_DE_INTERIORES = "375105";
+	/**
+	 *
+	 */
+	const DESIGNER_DE_VITRINES = "375110";
+	/**
+	 *
+	 */
+	const VISUAL_MERCHANDISER = "375115";
+	/**
+	 *
+	 */
+	const DECORADOR_DE_EVENTOS = "375120";
+	/**
+	 *
+	 */
+	const DANCARINO_TRADICIONAL = "376105";
+	/**
+	 *
+	 */
+	const DANCARINO_POPULAR = "376110";
+	/**
+	 *
+	 */
+	const ACROBATA = "376205";
+	/**
+	 *
+	 */
+	const ARTISTA_AEREO = "376210";
+	/**
+	 *
+	 */
+	const ARTISTA_DE_CIRCO_OUTROS_ = "376215";
+	/**
+	 *
+	 */
+	const CONTORCIONISTA = "376220";
+	/**
+	 *
+	 */
+	const DOMADOR_DE_ANIMAIS_CIRCENSE_ = "376225";
+	/**
+	 *
+	 */
+	const EQUILIBRISTA = "376230";
+	/**
+	 *
+	 */
+	const MAGICO = "376235";
+	/**
+	 *
+	 */
+	const MALABARISTA = "376240";
+	/**
+	 *
+	 */
+	const PALHACO = "376245";
+	/**
+	 *
+	 */
+	const TITERITEIRO = "376250";
+	/**
+	 *
+	 */
+	const TRAPEZISTA = "376255";
+	/**
+	 *
+	 */
+	const APRESENTADOR_DE_EVENTOS = "376305";
+	/**
+	 *
+	 */
+	const APRESENTADOR_DE_FESTAS_POPULARES = "376310";
+	/**
+	 *
+	 */
+	const APRESENTADOR_DE_PROGRAMAS_DE_RADIO = "376315";
+	/**
+	 *
+	 */
+	const APRESENTADOR_DE_PROGRAMAS_DE_TELEVISAO = "376320";
+	/**
+	 *
+	 */
+	const APRESENTADOR_DE_CIRCO = "376325";
+	/**
+	 *
+	 */
+	const MODELO_ARTISTICO = "376405";
+	/**
+	 *
+	 */
+	const MODELO_DE_MODAS = "376410";
+	/**
+	 *
+	 */
+	const MODELO_PUBLICITARIO = "376415";
+	/**
+	 *
+	 */
+	const ATLETA_PROFISSIONAL_OUTRAS_MODALIDADES_ = "377105";
+	/**
+	 *
+	 */
+	const ATLETA_PROFISSIONAL_DE_FUTEBOL = "377110";
+	/**
+	 *
+	 */
+	const ATLETA_PROFISSIONAL_DE_GOLFE = "377115";
+	/**
+	 *
+	 */
+	const ATLETA_PROFISSIONAL_DE_LUTA = "377120";
+	/**
+	 *
+	 */
+	const ATLETA_PROFISSIONAL_DE_TENIS = "377125";
+	/**
+	 *
+	 */
+	const JOQUEI = "377130";
+	/**
+	 *
+	 */
+	const PILOTO_DE_COMPETICAO_AUTOMOBILISTICA = "377135";
+	/**
+	 *
+	 */
+	const PROFISSIONAL_DE_ATLETISMO = "377140";
+	/**
+	 *
+	 */
+	const PUGILISTA = "377145";
+	/**
+	 *
+	 */
+	const ARBITRO_DESPORTIVO = "377205";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_ATLETISMO = "377210";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_BASQUETE = "377215";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_FUTEBOL = "377220";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_FUTEBOL_DE_SALAO = "377225";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_JUDO = "377230";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_KARATE = "377235";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_POLO_AQUATICO = "377240";
+	/**
+	 *
+	 */
+	const ARBITRO_DE_VOLEI = "377245";
+	/**
+	 *
+	 */
+	const CRONOANALISTA = "391105";
+	/**
+	 *
+	 */
+	const CRONOMETRISTA = "391110";
+	/**
+	 *
+	 */
+	const CONTROLADOR_DE_ENTRADA_E_SAIDA = "391115";
+	/**
+	 *
+	 */
+	const PLANEJISTA = "391120";
+	/**
+	 *
+	 */
+	const TECNICO_DE_PLANEJAMENTO_DE_PRODUCAO = "391125";
+	/**
+	 *
+	 */
+	const TECNICO_DE_PLANEJAMENTO_E_PROGRAMACAO_DA_MANUTENCAO = "391130";
+	/**
+	 *
+	 */
+	const TECNICO_DE_MATERIA_PRIMA_E_MATERIAL = "391135";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_QUALIDADE = "391205";
+	/**
+	 *
+	 */
+	const TECNICO_DE_GARANTIA_DA_QUALIDADE = "391210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_INSPECAO_DE_QUALIDADE = "391215";
+	/**
+	 *
+	 */
+	const TECNICO_DE_PAINEL_DE_CONTROLE = "391220";
+	/**
+	 *
+	 */
+	const ESCOLHEDOR_DE_PAPEL = "391225";
+	/**
+	 *
+	 */
+	const TECNICO_OPERACIONAL_DE_SERVICOS_DE_CORREIOS = "391230";
+	/**
+	 *
+	 */
+	const TECNICO_DE_APOIO_EM_PESQUISA_E_DESENVOLVIMENTO_EXCETO_AGROPECUARIO_E_FLORESTAL_ = "395105";
+	/**
+	 *
+	 */
+	const TECNICO_DE_APOIO_EM_PESQUISA_E_DESENVOLVIMENTO_AGROPECUARIO_FLORESTAL = "395110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_ADMINISTRATIVO = "410105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_ALMOXARIFADO = "410205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CAMBIO = "410210";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CONTAS_A_PAGAR = "410215";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CONTROLE_PATRIMONIAL = "410220";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CREDITO_E_COBRANCA = "410225";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_ORCAMENTO = "410230";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_TESOURARIA = "410235";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_ESCRITORIO = "411005";
+	/**
+	 *
+	 */
+	const ASSISTENTE_ADMINISTRATIVO = "411010";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_JUDICIARIO = "411015";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_JUDICIARIO = "411020";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_CARTORIO = "411025";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_PESSOAL = "411030";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_ESTATISTICA = "411035";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_SEGUROS = "411040";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_SERVICOS_DE_IMPORTACAO_E_EXPORTACAO = "411045";
+	/**
+	 *
+	 */
+	const AGENTE_DE_MICROCREDITO = "411050";
+	/**
+	 *
+	 */
+	const DATILOGRAFO = "412105";
+	/**
+	 *
+	 */
+	const DIGITADOR = "412110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MENSAGENS_DE_TELECOMUNICACOES_CORREIOS_ = "412115";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_DIGITACAO_E_OPERACAO = "412120";
+	/**
+	 *
+	 */
+	const CONTINUO = "412205";
+	/**
+	 *
+	 */
+	const ANALISTA_DE_FOLHA_DE_PAGAMENTO = "413105";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_CONTABILIDADE = "413110";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_FATURAMENTO = "413115";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_AGENCIA = "413205";
+	/**
+	 *
+	 */
+	const CAIXA_DE_BANCO = "413210";
+	/**
+	 *
+	 */
+	const COMPENSADOR_DE_BANCO = "413215";
+	/**
+	 *
+	 */
+	const CONFERENTE_DE_SERVICOS_BANCARIOS = "413220";
+	/**
+	 *
+	 */
+	const ESCRITURARIO_DE_BANCO = "413225";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_COBRANCA_BANCARIA = "413230";
+	/**
+	 *
+	 */
+	const ALMOXARIFE = "414105";
+	/**
+	 *
+	 */
+	const ARMAZENISTA = "414110";
+	/**
+	 *
+	 */
+	const BALANCEIRO = "414115";
+	/**
+	 *
+	 */
+	const APONTADOR_DE_MAO_DE_OBRA = "414205";
+	/**
+	 *
+	 */
+	const APONTADOR_DE_PRODUCAO = "414210";
+	/**
+	 *
+	 */
+	const CONFERENTE_DE_CARGA_E_DESCARGA = "414215";
+	/**
+	 *
+	 */
+	const ARQUIVISTA_DE_DOCUMENTOS = "415105";
+	/**
+	 *
+	 */
+	const CODIFICADOR_DE_DADOS = "415115";
+	/**
+	 *
+	 */
+	const FITOTECARIO = "415120";
+	/**
+	 *
+	 */
+	const KARDEXISTA = "415125";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_COPIADORA_EXCETO_OPERADOR_DE_GRAFICA_RAPIDA_ = "415130";
+	/**
+	 *
+	 */
+	const CARTEIRO = "415205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRIAGEM_E_TRANSBORDO = "415210";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CAIXAS_E_BILHETEIROS_EXCETO_CAIXA_DE_BANCO_ = "420105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_COBRANCA = "420110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_COLETADORES_DE_APOSTAS_E_DE_JOGOS = "420115";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_ENTREVISTADORES_E_RECENSEADORES = "420120";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_RECEPCIONISTAS = "420125";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_TELEFONISTAS = "420130";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_TELEMARKETING_E_ATENDIMENTO = "420135";
+	/**
+	 *
+	 */
+	const ATENDENTE_COMERCIAL_AGENCIA_POSTAL_ = "421105";
+	/**
+	 *
+	 */
+	const BILHETEIRO_DE_TRANSPORTES_COLETIVOS = "421110";
+	/**
+	 *
+	 */
+	const BILHETEIRO_NO_SERVICO_DE_DIVERSOES = "421115";
+	/**
+	 *
+	 */
+	const EMISSOR_DE_PASSAGENS = "421120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CAIXA = "421125";
+	/**
+	 *
+	 */
+	const RECEBEDOR_DE_APOSTAS_LOTERIA_ = "421205";
+	/**
+	 *
+	 */
+	const RECEBEDOR_DE_APOSTAS_TURFE_ = "421210";
+	/**
+	 *
+	 */
+	const COBRADOR_EXTERNO = "421305";
+	/**
+	 *
+	 */
+	const COBRADOR_INTERNO = "421310";
+	/**
+	 *
+	 */
+	const LOCALIZADOR_COBRADOR_ = "421315";
+	/**
+	 *
+	 */
+	const RECEPCIONISTA_EM_GERAL = "422105";
+	/**
+	 *
+	 */
+	const RECEPCIONISTA_DE_CONSULTORIO_MEDICO_OU_DENTARIO = "422110";
+	/**
+	 *
+	 */
+	const RECEPCIONISTA_DE_SEGURO_SAUDE = "422115";
+	/**
+	 *
+	 */
+	const RECEPCIONISTA_DE_HOTEL = "422120";
+	/**
+	 *
+	 */
+	const RECEPCIONISTA_DE_BANCO = "422125";
+	/**
+	 *
+	 */
+	const TELEFONISTA = "422205";
+	/**
+	 *
+	 */
+	const TELEOPERADOR = "422210";
+	/**
+	 *
+	 */
+	const MONITOR_DE_TELEATENDIMENTO = "422215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_RADIO_CHAMADA = "422220";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TELEMARKETING_ATIVO = "422305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TELEMARKETING_ATIVO_E_RECEPTIVO = "422310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TELEMARKETING_RECEPTIVO = "422315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TELEMARKETING_TECNICO = "422320";
+	/**
+	 *
+	 */
+	const DESPACHANTE_DOCUMENTALISTA = "423105";
+	/**
+	 *
+	 */
+	const DESPACHANTE_DE_TRANSITO = "423110";
+	/**
+	 *
+	 */
+	const ENTREVISTADOR_CENSITARIO_E_DE_PESQUISAS_AMOSTRAIS = "424105";
+	/**
+	 *
+	 */
+	const ENTREVISTADOR_DE_PESQUISA_DE_OPINIAO_E_MIDIA = "424110";
+	/**
+	 *
+	 */
+	const ENTREVISTADOR_DE_PESQUISAS_DE_MERCADO = "424115";
+	/**
+	 *
+	 */
+	const ENTREVISTADOR_DE_PRECOS = "424120";
+	/**
+	 *
+	 */
+	const ESCRITURARIO_EM_ESTATISTICA = "424125";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_TRANSPORTES = "510105";
+	/**
+	 *
+	 */
+	const ADMINISTRADOR_DE_EDIFICIOS = "510110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_ANDAR = "510115";
+	/**
+	 *
+	 */
+	const CHEFE_DE_PORTARIA_DE_HOTEL = "510120";
+	/**
+	 *
+	 */
+	const CHEFE_DE_BAR = "510130";
+	/**
+	 *
+	 */
+	const MAITRE = "510135";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_LAVANDERIA = "510205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_BOMBEIROS = "510305";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_VIGILANTES = "510310";
+	/**
+	 *
+	 */
+	const COMISSARIO_DE_VOO = "511105";
+	/**
+	 *
+	 */
+	const COMISSARIO_DE_TREM = "511110";
+	/**
+	 *
+	 */
+	const TAIFEIRO_EXCETO_MILITARES_ = "511115";
+	/**
+	 *
+	 */
+	const FISCAL_DE_TRANSPORTES_COLETIVOS_EXCETO_TREM_ = "511205";
+	/**
+	 *
+	 */
+	const DESPACHANTE_DE_TRANSPORTES_COLETIVOS_EXCETO_TREM_ = "511210";
+	/**
+	 *
+	 */
+	const COBRADOR_DE_TRANSPORTES_COLETIVOS_EXCETO_TREM_ = "511215";
+	/**
+	 *
+	 */
+	const BILHETEIRO_ESTACOES_DE_METRO_FERROVIARIAS_E_ASSEMELHADAS_ = "511220";
+	/**
+	 *
+	 */
+	const GUIA_DE_TURISMO = "511405";
+	/**
+	 *
+	 */
+	const EMPREGADO_DOMESTICO_NOS_SERVICOS_GERAIS = "512105";
+	/**
+	 *
+	 */
+	const EMPREGADO_DOMESTICO_ARRUMADOR = "512110";
+	/**
+	 *
+	 */
+	const EMPREGADO_DOMESTICO_FAXINEIRO = "512115";
+	/**
+	 *
+	 */
+	const EMPREGADO_DOMESTICO_DIARISTA = "512120";
+	/**
+	 *
+	 */
+	const MORDOMO_DE_RESIDENCIA = "513105";
+	/**
+	 *
+	 */
+	const MORDOMO_DE_HOTELARIA = "513110";
+	/**
+	 *
+	 */
+	const GOVERNANTA_DE_HOTELARIA = "513115";
+	/**
+	 *
+	 */
+	const COZINHEIRO_GERAL = "513205";
+	/**
+	 *
+	 */
+	const COZINHEIRO_DO_SERVICO_DOMESTICO = "513210";
+	/**
+	 *
+	 */
+	const COZINHEIRO_INDUSTRIAL = "513215";
+	/**
+	 *
+	 */
+	const COZINHEIRO_DE_HOSPITAL = "513220";
+	/**
+	 *
+	 */
+	const COZINHEIRO_DE_EMBARCACOES = "513225";
+	/**
+	 *
+	 */
+	const CAMAREIRA_DE_TEATRO = "513305";
+	/**
+	 *
+	 */
+	const CAMAREIRA_DE_TELEVISAO = "513310";
+	/**
+	 *
+	 */
+	const CAMAREIRO_DE_HOTEL = "513315";
+	/**
+	 *
+	 */
+	const CAMAREIRO_DE_EMBARCACOES = "513320";
+	/**
+	 *
+	 */
+	const GUARDA_ROUPEIRA_DE_CINEMA = "513325";
+	/**
+	 *
+	 */
+	const GARCOM = "513405";
+	/**
+	 *
+	 */
+	const GARCOM_SERVICOS_DE_VINHOS_ = "513410";
+	/**
+	 *
+	 */
+	const CUMIM = "513415";
+	/**
+	 *
+	 */
+	const BARMAN = "513420";
+	/**
+	 *
+	 */
+	const COPEIRO = "513425";
+	/**
+	 *
+	 */
+	const COPEIRO_DE_HOSPITAL = "513430";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_LANCHONETE = "513435";
+	/**
+	 *
+	 */
+	const BARISTA = "513440";
+	/**
+	 *
+	 */
+	const AUXILIAR_NOS_SERVICOS_DE_ALIMENTACAO = "513505";
+	/**
+	 *
+	 */
+	const CHURRASQUEIRO = "513605";
+	/**
+	 *
+	 */
+	const PIZZAIOLO = "513610";
+	/**
+	 *
+	 */
+	const SUSHIMAN = "513615";
+	/**
+	 *
+	 */
+	const ASCENSORISTA = "514105";
+	/**
+	 *
+	 */
+	const GARAGISTA = "514110";
+	/**
+	 *
+	 */
+	const SACRISTAO = "514115";
+	/**
+	 *
+	 */
+	const ZELADOR_DE_EDIFICIO = "514120";
+	/**
+	 *
+	 */
+	const COLETOR_DE_LIXO_DOMICILIAR = "514205";
+	/**
+	 *
+	 */
+	const VARREDOR_DE_RUA = "514215";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_SERVICOS_DE_LIMPEZA_E_CONSERVACAO_DE_AREAS_PUBLICAS = "514225";
+	/**
+	 *
+	 */
+	const COLETOR_DE_RESIDUOS_SOLIDOS_DE_SERVICOS_DE_SAUDE = "514230";
+	/**
+	 *
+	 */
+	const LIMPADOR_DE_VIDROS = "514305";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_MANUTENCAO_PREDIAL = "514310";
+	/**
+	 *
+	 */
+	const LIMPADOR_DE_FACHADAS = "514315";
+	/**
+	 *
+	 */
+	const FAXINEIRO = "514320";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_MANUTENCAO_DE_EDIFICACOES = "514325";
+	/**
+	 *
+	 */
+	const LIMPADOR_DE_PISCINAS = "514330";
+	/**
+	 *
+	 */
+	const AGENTE_COMUNITARIO_DE_SAUDE = "515105";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_ENFERMAGEM = "515110";
+	/**
+	 *
+	 */
+	const PARTEIRA_LEIGA = "515115";
+	/**
+	 *
+	 */
+	const VISITADOR_SANITARIO = "515120";
+	/**
+	 *
+	 */
+	const AGENTE_INDIGENA_DE_SAUDE = "515125";
+	/**
+	 *
+	 */
+	const AGENTE_INDIGENA_DE_SANEAMENTO = "515130";
+	/**
+	 *
+	 */
+	const SOCORRISTA_EXCETO_MEDICOS_E_ENFERMEIROS_ = "515135";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_BANCO_DE_SANGUE = "515205";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_FARMACIA_DE_MANIPULACAO = "515210";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_LABORATORIO_DE_ANALISES_CLINICAS = "515215";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_LABORATORIO_DE_IMUNOBIOLOGICOS = "515220";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_PRODUCAO_FARMACEUTICA = "515225";
+	/**
+	 *
+	 */
+	const EDUCADOR_SOCIAL = "515305";
+	/**
+	 *
+	 */
+	const AGENTE_DE_ACAO_SOCIAL = "515310";
+	/**
+	 *
+	 */
+	const MONITOR_DE_DEPENDENTE_QUIMICO = "515315";
+	/**
+	 *
+	 */
+	const CONSELHEIRO_TUTELAR = "515320";
+	/**
+	 *
+	 */
+	const SOCIOEDUCADOR = "515325";
+	/**
+	 *
+	 */
+	const BARBEIRO = "516105";
+	/**
+	 *
+	 */
+	const CABELEIREIRO = "516110";
+	/**
+	 *
+	 */
+	const MANICURE = "516120";
+	/**
+	 *
+	 */
+	const MAQUIADOR = "516125";
+	/**
+	 *
+	 */
+	const MAQUIADOR_DE_CARACTERIZACAO = "516130";
+	/**
+	 *
+	 */
+	const PEDICURE = "516140";
+	/**
+	 *
+	 */
+	const BABA = "516205";
+	/**
+	 *
+	 */
+	const CUIDADOR_DE_IDOSOS = "516210";
+	/**
+	 *
+	 */
+	const MAE_SOCIAL = "516215";
+	/**
+	 *
+	 */
+	const CUIDADOR_EM_SAUDE = "516220";
+	/**
+	 *
+	 */
+	const LAVADEIRO_EM_GERAL = "516305";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_ROUPAS_A_MAQUINA = "516310";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_ARTEFATOS_DE_TAPECARIA = "516315";
+	/**
+	 *
+	 */
+	const LIMPADOR_A_SECO_A_MAQUINA = "516320";
+	/**
+	 *
+	 */
+	const PASSADOR_DE_ROUPAS_EM_GERAL = "516325";
+	/**
+	 *
+	 */
+	const TINGIDOR_DE_ROUPAS = "516330";
+	/**
+	 *
+	 */
+	const CONFERENTE_EXPEDIDOR_DE_ROUPAS_LAVANDERIAS_ = "516335";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_LAVANDERIA = "516340";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_LAVANDERIA = "516345";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_ROUPAS = "516405";
+	/**
+	 *
+	 */
+	const LIMPADOR_DE_ROUPAS_A_SECO_A_MAO = "516410";
+	/**
+	 *
+	 */
+	const PASSADOR_DE_ROUPAS_A_MAO = "516415";
+	/**
+	 *
+	 */
+	const AGENTE_FUNERARIO = "516505";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FORNO_SERVICOS_FUNERARIOS_ = "516605";
+	/**
+	 *
+	 */
+	const SEPULTADOR = "516610";
+	/**
+	 *
+	 */
+	const ASTROLOGO = "516705";
+	/**
+	 *
+	 */
+	const NUMEROLOGO = "516710";
+	/**
+	 *
+	 */
+	const ESOTERICO = "516805";
+	/**
+	 *
+	 */
+	const PARANORMAL = "516810";
+	/**
+	 *
+	 */
+	const BOMBEIRO_DE_AERODROMO = "517105";
+	/**
+	 *
+	 */
+	const BOMBEIRO_CIVIL = "517110";
+	/**
+	 *
+	 */
+	const SALVA_VIDAS = "517115";
+	/**
+	 *
+	 */
+	const AGENTE_DE_POLICIA_FEDERAL = "517205";
+	/**
+	 *
+	 */
+	const POLICIAL_RODOVIARIO_FEDERAL = "517210";
+	/**
+	 *
+	 */
+	const GUARDA_CIVIL_MUNICIPAL = "517215";
+	/**
+	 *
+	 */
+	const AGENTE_DE_TRANSITO = "517220";
+	/**
+	 *
+	 */
+	const AGENTE_DE_PROTECAO_DE_AEROPORTO = "517305";
+	/**
+	 *
+	 */
+	const AGENTE_DE_SEGURANCA = "517310";
+	/**
+	 *
+	 */
+	const AGENTE_DE_SEGURANCA_PENITENCIARIA = "517315";
+	/**
+	 *
+	 */
+	const VIGIA_FLORESTAL = "517320";
+	/**
+	 *
+	 */
+	const VIGIA_PORTUARIO = "517325";
+	/**
+	 *
+	 */
+	const VIGILANTE = "517330";
+	/**
+	 *
+	 */
+	const GUARDA_PORTUARIO = "517335";
+	/**
+	 *
+	 */
+	const PORTEIRO_HOTEL_ = "517405";
+	/**
+	 *
+	 */
+	const PORTEIRO_DE_EDIFICIOS = "517410";
+	/**
+	 *
+	 */
+	const PORTEIRO_DE_LOCAIS_DE_DIVERSAO = "517415";
+	/**
+	 *
+	 */
+	const VIGIA = "517420";
+	/**
+	 *
+	 */
+	const FISCAL_DE_LOJA = "517425";
+	/**
+	 *
+	 */
+	const CICLISTA_MENSAGEIRO = "519105";
+	/**
+	 *
+	 */
+	const MOTOCICLISTA_NO_TRANSPORTE_DE_PESSOAS_DOCUMENTOS_E_PEQUENOS_VOLUMES = "519110";
+	/**
+	 *
+	 */
+	const CATADOR_DE_MATERIAL_RECICLAVEL = "519205";
+	/**
+	 *
+	 */
+	const SELECIONADOR_DE_MATERIAL_RECICLAVEL = "519210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRENSA_DE_MATERIAL_RECICLAVEL = "519215";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_VETERINARIO = "519305";
+	/**
+	 *
+	 */
+	const ESTETICISTA_DE_ANIMAIS_DOMESTICOS = "519310";
+	/**
+	 *
+	 */
+	const BANHISTA_DE_ANIMAIS_DOMESTICOS = "519315";
+	/**
+	 *
+	 */
+	const TOSADOR_DE_ANIMAIS_DOMESTICOS = "519320";
+	/**
+	 *
+	 */
+	const PROFISSIONAL_DO_SEXO = "519805";
+	/**
+	 *
+	 */
+	const CARTAZEIRO = "519905";
+	/**
+	 *
+	 */
+	const CONTROLADOR_DE_PRAGAS = "519910";
+	/**
+	 *
+	 */
+	const ENGRAXATE = "519915";
+	/**
+	 *
+	 */
+	const GANDULA = "519920";
+	/**
+	 *
+	 */
+	const GUARDADOR_DE_VEICULOS = "519925";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_GARRAFAS_VIDROS_E_OUTROS_UTENSILIOS = "519930";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_VEICULOS = "519935";
+	/**
+	 *
+	 */
+	const LEITURISTA = "519940";
+	/**
+	 *
+	 */
+	const RECEPCIONISTA_DE_CASAS_DE_ESPETACULOS = "519945";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_VENDAS_DE_SERVICOS = "520105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_VENDAS_COMERCIAL = "520110";
+	/**
+	 *
+	 */
+	const VENDEDOR_EM_COMERCIO_ATACADISTA = "521105";
+	/**
+	 *
+	 */
+	const VENDEDOR_DE_COMERCIO_VAREJISTA = "521110";
+	/**
+	 *
+	 */
+	const PROMOTOR_DE_VENDAS = "521115";
+	/**
+	 *
+	 */
+	const DEMONSTRADOR_DE_MERCADORIAS = "521120";
+	/**
+	 *
+	 */
+	const REPOSITOR_DE_MERCADORIAS = "521125";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_FARMACIA_BALCONISTA = "521130";
+	/**
+	 *
+	 */
+	const FRENTISTA = "521135";
+	/**
+	 *
+	 */
+	const ATENDENTE_DE_LOJAS_E_MERCADOS = "521140";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_CORTINAS_E_PERSIANAS_PORTAS_SANFONADAS_E_BOXE = "523105";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_SOM_E_ACESSORIOS_DE_VEICULOS = "523110";
+	/**
+	 *
+	 */
+	const CHAVEIRO = "523115";
+	/**
+	 *
+	 */
+	const VENDEDOR_EM_DOMICILIO = "524105";
+	/**
+	 *
+	 */
+	const FEIRANTE = "524205";
+	/**
+	 *
+	 */
+	const JORNALEIRO_EM_BANCA_DE_JORNAL_ = "524210";
+	/**
+	 *
+	 */
+	const VENDEDOR_PERMISSIONARIO = "524215";
+	/**
+	 *
+	 */
+	const VENDEDOR_AMBULANTE = "524305";
+	/**
+	 *
+	 */
+	const PIPOQUEIRO_AMBULANTE = "524310";
+	/**
+	 *
+	 */
+	const PRODUTOR_AGROPECUARIO_EM_GERAL = "611005";
+	/**
+	 *
+	 */
+	const PRODUTOR_AGRICOLA_POLIVALENTE = "612005";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ARROZ = "612105";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_CANA_DE_ACUCAR = "612110";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_CEREAIS_DE_INVERNO = "612115";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_GRAMINEAS_FORRAGEIRAS = "612120";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_MILHO_E_SORGO = "612125";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ALGODAO = "612205";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_CURAUA = "612210";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_JUTA = "612215";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_RAMI = "612220";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_SISAL = "612225";
+	/**
+	 *
+	 */
+	const PRODUTOR_NA_OLERICULTURA_DE_LEGUMES = "612305";
+	/**
+	 *
+	 */
+	const PRODUTOR_NA_OLERICULTURA_DE_RAIZES_BULBOS_E_TUBERCULOS = "612310";
+	/**
+	 *
+	 */
+	const PRODUTOR_NA_OLERICULTURA_DE_TALOS_FOLHAS_E_FLORES = "612315";
+	/**
+	 *
+	 */
+	const PRODUTOR_NA_OLERICULTURA_DE_FRUTOS_E_SEMENTES = "612320";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_FLORES_DE_CORTE = "612405";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_FLORES_EM_VASO = "612410";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_FORRACOES = "612415";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_PLANTAS_ORNAMENTAIS = "612420";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ARVORES_FRUTIFERAS = "612505";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ESPECIES_FRUTIFERAS_RASTEIRAS = "612510";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ESPECIES_FRUTIFERAS_TREPADEIRAS = "612515";
+	/**
+	 *
+	 */
+	const CAFEICULTOR = "612605";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_CACAU = "612610";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ERVA_MATE = "612615";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_FUMO = "612620";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_GUARANA = "612625";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_AMENDOIM = "612705";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_CANOLA = "612710";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_COCO_DA_BAIA = "612715";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_DENDE = "612720";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_GIRASSOL = "612725";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_LINHO = "612730";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_MAMONA = "612735";
+	/**
+	 *
+	 */
+	const PRODUTOR_DA_CULTURA_DE_SOJA = "612740";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_ESPECIARIAS = "612805";
+	/**
+	 *
+	 */
+	const PRODUTOR_DE_PLANTAS_AROMATICAS_E_MEDICINAIS = "612810";
+	/**
+	 *
+	 */
+	const CRIADOR_EM_PECUARIA_POLIVALENTE = "613005";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_ANIMAIS_DOMESTICOS = "613010";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_ASININOS_E_MUARES = "613105";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_BOVINOS_CORTE_ = "613110";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_BOVINOS_LEITE_ = "613115";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_BUBALINOS_CORTE_ = "613120";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_BUBALINOS_LEITE_ = "613125";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_EQUINOS = "613130";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_CAPRINOS = "613205";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_OVINOS = "613210";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_SUINOS = "613215";
+	/**
+	 *
+	 */
+	const AVICULTOR = "613305";
+	/**
+	 *
+	 */
+	const CUNICULTOR = "613310";
+	/**
+	 *
+	 */
+	const APICULTOR = "613405";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_ANIMAIS_PRODUTORES_DE_VENENO = "613410";
+	/**
+	 *
+	 */
+	const MINHOCULTOR = "613415";
+	/**
+	 *
+	 */
+	const SERICULTOR = "613420";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_EXPLORACAO_AGRICOLA = "620105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_EXPLORACAO_AGROPECUARIA = "620110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_EXPLORACAO_PECUARIA = "620115";
+	/**
+	 *
+	 */
+	const TRABALHADOR_AGROPECUARIO_EM_GERAL = "621005";
+	/**
+	 *
+	 */
+	const CASEIRO_AGRICULTURA_ = "622005";
+	/**
+	 *
+	 */
+	const JARDINEIRO = "622010";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_PRODUCAO_DE_MUDAS_E_SEMENTES = "622015";
+	/**
+	 *
+	 */
+	const TRABALHADOR_VOLANTE_DA_AGRICULTURA = "622020";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_ARROZ = "622105";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_CANA_DE_ACUCAR = "622110";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_MILHO_E_SORGO = "622115";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_TRIGO_AVEIA_CEVADA_E_TRITICALE = "622120";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_ALGODAO = "622205";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_SISAL = "622210";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DO_RAMI = "622215";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OLERICULTURA_FRUTOS_E_SEMENTES_ = "622305";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OLERICULTURA_LEGUMES_ = "622310";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OLERICULTURA_RAIZES_BULBOS_E_TUBERCULOS_ = "622315";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OLERICULTURA_TALOS_FOLHAS_E_FLORES_ = "622320";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_FLORES_E_FOLHAGENS_DE_CORTE = "622405";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_FLORES_EM_VASO = "622410";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_FORRACOES = "622415";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_MUDAS = "622420";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_PLANTAS_ORNAMENTAIS = "622425";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_ARVORES_FRUTIFERAS = "622505";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_ESPECIES_FRUTIFERAS_RASTEIRAS = "622510";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NO_CULTIVO_DE_TREPADEIRAS_FRUTIFERAS = "622515";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_CACAU = "622605";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_CAFE = "622610";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_ERVA_MATE = "622615";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_FUMO = "622620";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_GUARANA = "622625";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DE_AMENDOIM = "622705";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DE_CANOLA = "622710";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DE_COCO_DA_BAIA = "622715";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DE_DENDE = "622720";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DE_MAMONA = "622725";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DE_SOJA = "622730";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DO_GIRASSOL = "622735";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_CULTURA_DO_LINHO = "622740";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_ESPECIARIAS = "622805";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CULTURA_DE_PLANTAS_AROMATICAS_E_MEDICINAIS = "622810";
+	/**
+	 *
+	 */
+	const ADESTRADOR_DE_ANIMAIS = "623005";
+	/**
+	 *
+	 */
+	const INSEMINADOR = "623010";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_PECUARIA_POLIVALENTE = "623015";
+	/**
+	 *
+	 */
+	const TRATADOR_DE_ANIMAIS = "623020";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_PECUARIA_ASININOS_E_MUARES_ = "623105";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_PECUARIA_BOVINOS_CORTE_ = "623110";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_PECUARIA_BOVINOS_LEITE_ = "623115";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_PECUARIA_BUBALINOS_ = "623120";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_PECUARIA_EQUINOS_ = "623125";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CAPRINOCULTURA = "623205";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_OVINOCULTURA = "623210";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_SUINOCULTURA = "623215";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_AVICULTURA_DE_CORTE = "623305";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_AVICULTURA_DE_POSTURA = "623310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_INCUBADORA = "623315";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_CUNICULTURA = "623320";
+	/**
+	 *
+	 */
+	const SEXADOR = "623325";
+	/**
+	 *
+	 */
+	const TRABALHADOR_EM_CRIATORIOS_DE_ANIMAIS_PRODUTORES_DE_VENENO = "623405";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_APICULTURA = "623410";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_MINHOCULTURA = "623415";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_SERICICULTURA = "623420";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_AQUICULTURA = "630105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_AREA_FLORESTAL = "630110";
+	/**
+	 *
+	 */
+	const CATADOR_DE_CARANGUEJOS_E_SIRIS = "631005";
+	/**
+	 *
+	 */
+	const CATADOR_DE_MARISCOS = "631010";
+	/**
+	 *
+	 */
+	const PESCADOR_ARTESANAL_DE_LAGOSTAS = "631015";
+	/**
+	 *
+	 */
+	const PESCADOR_ARTESANAL_DE_PEIXES_E_CAMAROES = "631020";
+	/**
+	 *
+	 */
+	const PESCADOR_ARTESANAL_DE_AGUA_DOCE = "631105";
+	/**
+	 *
+	 */
+	const PESCADOR_INDUSTRIAL = "631205";
+	/**
+	 *
+	 */
+	const PESCADOR_PROFISSIONAL = "631210";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_CAMAROES = "631305";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_JACARES = "631310";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_MEXILHOES = "631315";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_OSTRAS = "631320";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_PEIXES = "631325";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_QUELONIOS = "631330";
+	/**
+	 *
+	 */
+	const CRIADOR_DE_RAS = "631335";
+	/**
+	 *
+	 */
+	const GELADOR_INDUSTRIAL = "631405";
+	/**
+	 *
+	 */
+	const GELADOR_PROFISSIONAL = "631410";
+	/**
+	 *
+	 */
+	const PROEIRO = "631415";
+	/**
+	 *
+	 */
+	const REDEIRO_PESCA_ = "631420";
+	/**
+	 *
+	 */
+	const GUIA_FLORESTAL = "632005";
+	/**
+	 *
+	 */
+	const RAIZEIRO = "632010";
+	/**
+	 *
+	 */
+	const VIVEIRISTA_FLORESTAL = "632015";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_TORAS = "632105";
+	/**
+	 *
+	 */
+	const CUBADOR_DE_MADEIRA = "632110";
+	/**
+	 *
+	 */
+	const IDENTIFICADOR_FLORESTAL = "632115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MOTOSSERRA = "632120";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_EXTRACAO_FLORESTAL_EM_GERAL = "632125";
+	/**
+	 *
+	 */
+	const SERINGUEIRO = "632205";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_ESPECIES_PRODUTORAS_DE_GOMAS_NAO_ELASTICAS = "632210";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_RESINAS = "632215";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_ANDIROBA = "632305";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_BABACU = "632310";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_BACABA = "632315";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_BURITI = "632320";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_CARNAUBA = "632325";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_COCO_DA_PRAIA = "632330";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_COPAIBA = "632335";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_MALVA_PAINA_ = "632340";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_MURUMURU = "632345";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_OITICICA = "632350";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_OURICURI = "632355";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_PEQUI = "632360";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_PIACAVA = "632365";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_TUCUM = "632370";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_ACAI = "632405";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_CASTANHA = "632410";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_PINHAO = "632415";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_PUPUNHA = "632420";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_ARVORES_E_ARBUSTOS_PRODUTORES_DE_SUBSTANCIAS_AROMAT_MEDIC_E_TOXICAS = "632505";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_CIPOS_PRODUTORES_DE_SUBSTANCIAS_AROMATICAS_MEDICINAIS_E_TOXICAS = "632510";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_MADEIRAS_TANANTES = "632515";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXPLORACAO_DE_RAIZES_PRODUTORAS_DE_SUBSTANCIAS_AROMATICAS_MEDICINAIS_E_TOXICAS = "632520";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_EXTRACAO_DE_SUBSTANCIAS_AROMATICAS_MEDICINAIS_E_TOXICAS_EM_GERAL = "632525";
+	/**
+	 *
+	 */
+	const CARVOEIRO = "632605";
+	/**
+	 *
+	 */
+	const CARBONIZADOR = "632610";
+	/**
+	 *
+	 */
+	const AJUDANTE_DE_CARVOARIA = "632615";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_COLHEITADEIRA = "641005";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_DE_BENEFICIAMENTO_DE_PRODUTOS_AGRICOLAS = "641010";
+	/**
+	 *
+	 */
+	const TRATORISTA_AGRICOLA = "641015";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_COLHEDOR_FLORESTAL = "642005";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_FLORESTAIS_ESTATICAS = "642010";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRATOR_FLORESTAL = "642015";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OPERACAO_DE_SISTEMA_DE_IRRIGACAO_LOCALIZADA_MICROASPERSAO_E_GOTEJAMENTO_ = "643005";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OPERACAO_DE_SISTEMA_DE_IRRIGACAO_POR_ASPERSAO_PIVO_CENTRAL_ = "643010";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OPERACAO_DE_SISTEMAS_CONVENCIONAIS_DE_IRRIGACAO_POR_ASPERSAO = "643015";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OPERACAO_DE_SISTEMAS_DE_IRRIGACAO_E_ASPERSAO_ALTO_PROPELIDO_ = "643020";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_OPERACAO_DE_SISTEMAS_DE_IRRIGACAO_POR_SUPERFICIE_E_DRENAGEM = "643025";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_APOIO_OPERACIONAL_NA_MINERACAO = "710105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_EXTRACAO_DE_SAL = "710110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_PERFURACAO_E_DESMONTE = "710115";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_PRODUCAO_NA_MINERACAO = "710120";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_TRANSPORTE_NA_MINERACAO = "710125";
+	/**
+	 *
+	 */
+	const MESTRE_CONSTRUCAO_CIVIL_ = "710205";
+	/**
+	 *
+	 */
+	const MESTRE_DE_LINHAS_FERROVIAS_ = "710210";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_TERRAPLENAGEM = "710215";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_USINA_DE_CONCRETO = "710220";
+	/**
+	 *
+	 */
+	const FISCAL_DE_PATIO_DE_USINA_DE_CONCRETO = "710225";
+	/**
+	 *
+	 */
+	const AMOSTRADOR_DE_MINERIOS = "711105";
+	/**
+	 *
+	 */
+	const CANTEIRO = "711110";
+	/**
+	 *
+	 */
+	const DESTROCADOR_DE_PEDRA = "711115";
+	/**
+	 *
+	 */
+	const DETONADOR = "711120";
+	/**
+	 *
+	 */
+	const ESCORADOR_DE_MINAS = "711125";
+	/**
+	 *
+	 */
+	const MINEIRO = "711130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CAMINHAO_MINAS_E_PEDREIRAS_ = "711205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CARREGADEIRA = "711210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_CORTADORA_MINAS_E_PEDREIRAS_ = "711215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_EXTRACAO_CONTINUA_MINAS_DE_CARVAO_ = "711220";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_PERFURADORA_MINAS_E_PEDREIRAS_ = "711225";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_PERFURATRIZ = "711230";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MOTONIVELADORA_EXTRACAO_DE_MINERAIS_SOLIDOS_ = "711235";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SCHUTTHECAR = "711240";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRATOR_MINAS_E_PEDREIRAS_ = "711245";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SONDA_DE_PERCUSSAO = "711305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SONDA_ROTATIVA = "711310";
+	/**
+	 *
+	 */
+	const SONDADOR_POCOS_DE_PETROLEO_E_GAS_ = "711315";
+	/**
+	 *
+	 */
+	const SONDADOR_DE_POCOS_EXCETO_DE_PETROLEO_E_GAS_ = "711320";
+	/**
+	 *
+	 */
+	const PLATAFORMISTA_PETROLEO_ = "711325";
+	/**
+	 *
+	 */
+	const TORRISTA_PETROLEO_ = "711330";
+	/**
+	 *
+	 */
+	const GARIMPEIRO = "711405";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SALINA_SAL_MARINHO_ = "711410";
+	/**
+	 *
+	 */
+	const MOLEIRO_DE_MINERIOS = "712105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_APARELHO_DE_FLOTACAO = "712110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_APARELHO_DE_PRECIPITACAO_MINAS_DE_OURO_OU_PRATA_ = "712115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BRITADOR_DE_MANDIBULAS = "712120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESPESSADOR = "712125";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_JIG_MINAS_ = "712130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PENEIRAS_HIDRAULICAS = "712135";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_PEDRAS = "712205";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_INSCRICOES_EM_PEDRA = "712210";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_RELEVOS_EM_PEDRA = "712215";
+	/**
+	 *
+	 */
+	const POLIDOR_DE_PEDRAS = "712220";
+	/**
+	 *
+	 */
+	const TORNEIRO_LAVRA_DE_PEDRA_ = "712225";
+	/**
+	 *
+	 */
+	const TRACADOR_DE_PEDRAS = "712230";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BATE_ESTACAS = "715105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_COMPACTADORA_DE_SOLOS = "715110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESCAVADEIRA = "715115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_ABRIR_VALAS = "715120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_DE_CONSTRUCAO_CIVIL_E_MINERACAO = "715125";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MOTONIVELADORA = "715130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PA_CARREGADEIRA = "715135";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PAVIMENTADORA_ASFALTO_CONCRETO_E_MATERIAIS_SIMILARES_ = "715140";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRATOR_DE_LAMINA = "715145";
+	/**
+	 *
+	 */
+	const CALCETEIRO = "715205";
+	/**
+	 *
+	 */
+	const PEDREIRO = "715210";
+	/**
+	 *
+	 */
+	const PEDREIRO_CHAMINES_INDUSTRIAIS_ = "715215";
+	/**
+	 *
+	 */
+	const PEDREIRO_MATERIAL_REFRATARIO_ = "715220";
+	/**
+	 *
+	 */
+	const PEDREIRO_MINERACAO_ = "715225";
+	/**
+	 *
+	 */
+	const PEDREIRO_DE_EDIFICACOES = "715230";
+	/**
+	 *
+	 */
+	const ARMADOR_DE_ESTRUTURA_DE_CONCRETO = "715305";
+	/**
+	 *
+	 */
+	const MOLDADOR_DE_CORPOS_DE_PROVA_EM_USINAS_DE_CONCRETO = "715310";
+	/**
+	 *
+	 */
+	const ARMADOR_DE_ESTRUTURA_DE_CONCRETO_ARMADO = "715315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BETONEIRA = "715405";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BOMBA_DE_CONCRETO = "715410";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRAL_DE_CONCRETO = "715415";
+	/**
+	 *
+	 */
+	const CARPINTEIRO = "715505";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_ESQUADRIAS_ = "715510";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_CENARIOS_ = "715515";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_MINERACAO_ = "715520";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_DE_OBRAS = "715525";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_TELHADOS_ = "715530";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_DE_FORMAS_PARA_CONCRETO = "715535";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_DE_OBRAS_CIVIS_DE_ARTE_PONTES_TUNEIS_BARRAGENS_ = "715540";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_ANDAIMES_EDIFICACOES_ = "715545";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_INSTALACOES_CENARIOS_ = "715605";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_INSTALACOES_EDIFICIOS_ = "715610";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_INSTALACOES = "715615";
+	/**
+	 *
+	 */
+	const APLICADOR_DE_ASFALTO_IMPERMEABILIZANTE_COBERTURAS_ = "715705";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_ISOLANTES_ACUSTICOS = "715710";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_ISOLANTES_TERMICOS_REFRIGERACAO_E_CLIMATIZACAO_ = "715715";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_ISOLANTES_TERMICOS_DE_CALDEIRA_E_TUBULACOES = "715720";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_MATERIAL_ISOLANTE_A_MAO_EDIFICACOES_ = "715725";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_MATERIAL_ISOLANTE_A_MAQUINA_EDIFICACOES_ = "715730";
+	/**
+	 *
+	 */
+	const ACABADOR_DE_SUPERFICIES_DE_CONCRETO = "716105";
+	/**
+	 *
+	 */
+	const REVESTIDOR_DE_SUPERFICIES_DE_CONCRETO = "716110";
+	/**
+	 *
+	 */
+	const TELHADOR_TELHAS_DE_ARGILA_E_MATERIAIS_SIMILARES_ = "716205";
+	/**
+	 *
+	 */
+	const TELHADOR_TELHAS_DE_CIMENTO_AMIANTO_ = "716210";
+	/**
+	 *
+	 */
+	const TELHADOR_TELHAS_METALICAS_ = "716215";
+	/**
+	 *
+	 */
+	const TELHADOR_TELHAS_PLASTICAS_ = "716220";
+	/**
+	 *
+	 */
+	const VIDRACEIRO = "716305";
+	/**
+	 *
+	 */
+	const VIDRACEIRO_EDIFICACOES_ = "716310";
+	/**
+	 *
+	 */
+	const VIDRACEIRO_VITRAIS_ = "716315";
+	/**
+	 *
+	 */
+	const GESSEIRO = "716405";
+	/**
+	 *
+	 */
+	const ASSOALHADOR = "716505";
+	/**
+	 *
+	 */
+	const LADRILHEIRO = "716510";
+	/**
+	 *
+	 */
+	const PASTILHEIRO = "716515";
+	/**
+	 *
+	 */
+	const LUSTRADOR_DE_PISO = "716520";
+	/**
+	 *
+	 */
+	const MARMORISTA_CONSTRUCAO_ = "716525";
+	/**
+	 *
+	 */
+	const MOSAISTA = "716530";
+	/**
+	 *
+	 */
+	const TAQUEIRO = "716535";
+	/**
+	 *
+	 */
+	const CALAFETADOR = "716605";
+	/**
+	 *
+	 */
+	const PINTOR_DE_OBRAS = "716610";
+	/**
+	 *
+	 */
+	const REVESTIDOR_DE_INTERIORES_PAPEL_MATERIAL_PLASTICO_E_EMBORRACHADOS_ = "716615";
+	/**
+	 *
+	 */
+	const DEMOLIDOR_DE_EDIFICACOES = "717005";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MARTELETE = "717010";
+	/**
+	 *
+	 */
+	const POCEIRO_EDIFICACOES_ = "717015";
+	/**
+	 *
+	 */
+	const SERVENTE_DE_OBRAS = "717020";
+	/**
+	 *
+	 */
+	const VIBRADORISTA = "717025";
+	/**
+	 *
+	 */
+	const MESTRE_AFIADOR_DE_FERRAMENTAS_ = "720105";
+	/**
+	 *
+	 */
+	const MESTRE_DE_CALDEIRARIA = "720110";
+	/**
+	 *
+	 */
+	const MESTRE_DE_FERRAMENTARIA = "720115";
+	/**
+	 *
+	 */
+	const MESTRE_DE_FORJARIA = "720120";
+	/**
+	 *
+	 */
+	const MESTRE_DE_FUNDICAO = "720125";
+	/**
+	 *
+	 */
+	const MESTRE_DE_GALVANOPLASTIA = "720130";
+	/**
+	 *
+	 */
+	const MESTRE_DE_PINTURA_TRATAMENTO_DE_SUPERFICIES_ = "720135";
+	/**
+	 *
+	 */
+	const MESTRE_DE_SOLDAGEM = "720140";
+	/**
+	 *
+	 */
+	const MESTRE_DE_TREFILACAO_DE_METAIS = "720145";
+	/**
+	 *
+	 */
+	const MESTRE_DE_USINAGEM = "720150";
+	/**
+	 *
+	 */
+	const MESTRE_SERRALHEIRO = "720155";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CONTROLE_DE_TRATAMENTO_TERMICO = "720160";
+	/**
+	 *
+	 */
+	const MESTRE_CONSTRUCAO_NAVAL_ = "720205";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_DE_AUTOMOTORES_E_MATERIAL_DE_TRANSPORTES_ = "720210";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_DE_MAQUINAS_E_OUTROS_EQUIPAMENTOS_MECANICOS_ = "720215";
+	/**
+	 *
+	 */
+	const MESTRE_DE_CONSTRUCAO_DE_FORNOS = "720220";
+	/**
+	 *
+	 */
+	const FERRAMENTEIRO = "721105";
+	/**
+	 *
+	 */
+	const FERRAMENTEIRO_DE_MANDRIS_CALIBRADORES_E_OUTROS_DISPOSITIVOS = "721110";
+	/**
+	 *
+	 */
+	const MODELADOR_DE_METAIS_FUNDICAO_ = "721115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_ELETROEROSAO = "721205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_OPERATRIZES = "721210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_FERRAMENTA_CONVENCIONAIS = "721215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_USINAGEM_CONVENCIONAL_POR_ABRASAO = "721220";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_MAQUINAS_FERRAMENTA = "721225";
+	/**
+	 *
+	 */
+	const AFIADOR_DE_CARDAS = "721305";
+	/**
+	 *
+	 */
+	const AFIADOR_DE_CUTELARIA = "721310";
+	/**
+	 *
+	 */
+	const AFIADOR_DE_FERRAMENTAS = "721315";
+	/**
+	 *
+	 */
+	const AFIADOR_DE_SERRAS = "721320";
+	/**
+	 *
+	 */
+	const POLIDOR_DE_METAIS = "721325";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRO_DE_USINAGEM_COM_COMANDO_NUMERICO = "721405";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FRESADORA_COM_COMANDO_NUMERICO = "721410";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MANDRILADORA_COM_COMANDO_NUMERICO = "721415";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_ELETROEROSAO_A_FIO_COM_COMANDO_NUMERICO = "721420";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_RETIFICADORA_COM_COMANDO_NUMERICO = "721425";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TORNO_COM_COMANDO_NUMERICO = "721430";
+	/**
+	 *
+	 */
+	const FORJADOR = "722105";
+	/**
+	 *
+	 */
+	const FORJADOR_A_MARTELO = "722110";
+	/**
+	 *
+	 */
+	const FORJADOR_PRENSISTA = "722115";
+	/**
+	 *
+	 */
+	const FUNDIDOR_DE_METAIS = "722205";
+	/**
+	 *
+	 */
+	const LINGOTADOR = "722210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ACABAMENTO_DE_PECAS_FUNDIDAS = "722215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_CENTRIFUGADORA_DE_FUNDICAO = "722220";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FUNDIR_SOB_PRESSAO = "722225";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_VAZAMENTO_LINGOTAMENTO_ = "722230";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_PANELAS_LINGOTAMENTO_ = "722235";
+	/**
+	 *
+	 */
+	const MACHEIRO_A_MAO = "722305";
+	/**
+	 *
+	 */
+	const MACHEIRO_A_MAQUINA = "722310";
+	/**
+	 *
+	 */
+	const MOLDADOR_A_MAO = "722315";
+	/**
+	 *
+	 */
+	const MOLDADOR_A_MAQUINA = "722320";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EQUIPAMENTOS_DE_PREPARACAO_DE_AREIA = "722325";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_MOLDAR_AUTOMATIZADA = "722330";
+	/**
+	 *
+	 */
+	const CABLEADOR = "722405";
+	/**
+	 *
+	 */
+	const ESTIRADOR_DE_TUBOS_DE_METAL_SEM_COSTURA = "722410";
+	/**
+	 *
+	 */
+	const TREFILADOR_DE_METAIS_A_MAQUINA = "722415";
+	/**
+	 *
+	 */
+	const CEMENTADOR_DE_METAIS = "723105";
+	/**
+	 *
+	 */
+	const NORMALIZADOR_DE_METAIS_E_DE_COMPOSITOS = "723110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EQUIPAMENTO_PARA_RESFRIAMENTO = "723115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FORNO_DE_TRATAMENTO_TERMICO_DE_METAIS = "723120";
+	/**
+	 *
+	 */
+	const TEMPERADOR_DE_METAIS_E_DE_COMPOSITOS = "723125";
+	/**
+	 *
+	 */
+	const DECAPADOR = "723205";
+	/**
+	 *
+	 */
+	const FOSFATIZADOR = "723210";
+	/**
+	 *
+	 */
+	const GALVANIZADOR = "723215";
+	/**
+	 *
+	 */
+	const METALIZADOR_A_PISTOLA = "723220";
+	/**
+	 *
+	 */
+	const METALIZADOR_BANHO_QUENTE_ = "723225";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_RECOBRIDORA_DE_ARAME = "723230";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ZINCAGEM_PROCESSO_ELETROLITICO_ = "723235";
+	/**
+	 *
+	 */
+	const OXIDADOR = "723240";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EQUIPAMENTO_DE_SECAGEM_DE_PINTURA = "723305";
+	/**
+	 *
+	 */
+	const PINTOR_A_PINCEL_E_ROLO_EXCETO_OBRAS_E_ESTRUTURAS_METALICAS_ = "723310";
+	/**
+	 *
+	 */
+	const PINTOR_DE_ESTRUTURAS_METALICAS = "723315";
+	/**
+	 *
+	 */
+	const PINTOR_DE_VEICULOS_FABRICACAO_ = "723320";
+	/**
+	 *
+	 */
+	const PINTOR_POR_IMERSAO = "723325";
+	/**
+	 *
+	 */
+	const PINTOR_A_PISTOLA_EXCETO_OBRAS_E_ESTRUTURAS_METALICAS_ = "723330";
+	/**
+	 *
+	 */
+	const ASSENTADOR_DE_CANALIZACAO_EDIFICACOES_ = "724105";
+	/**
+	 *
+	 */
+	const ENCANADOR = "724110";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_TUBULACOES = "724115";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_TUBULACOES_AERONAVES_ = "724120";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_TUBULACOES_EMBARCACOES_ = "724125";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_TUBULACOES_DE_GAS_COMBUSTIVEL_PRODUCAO_E_DISTRIBUICAO_ = "724130";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_TUBULACOES_DE_VAPOR_PRODUCAO_E_DISTRIBUICAO_ = "724135";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_ESTRUTURAS_METALICAS = "724205";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_ESTRUTURAS_METALICAS_DE_EMBARCACOES = "724210";
+	/**
+	 *
+	 */
+	const REBITADOR_A_MARTELO_PNEUMATICO = "724215";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_ESTRUTURAS_METALICAS = "724220";
+	/**
+	 *
+	 */
+	const RISCADOR_DE_ESTRUTURAS_METALICAS = "724225";
+	/**
+	 *
+	 */
+	const REBITADOR_A_MAO = "724230";
+	/**
+	 *
+	 */
+	const BRASADOR = "724305";
+	/**
+	 *
+	 */
+	const OXICORTADOR_A_MAO_E_A_MAQUINA = "724310";
+	/**
+	 *
+	 */
+	const SOLDADOR = "724315";
+	/**
+	 *
+	 */
+	const SOLDADOR_A_OXIGAS = "724320";
+	/**
+	 *
+	 */
+	const SOLDADOR_ELETRICO = "724325";
+	/**
+	 *
+	 */
+	const CALDEIREIRO_CHAPAS_DE_COBRE_ = "724405";
+	/**
+	 *
+	 */
+	const CALDEIREIRO_CHAPAS_DE_FERRO_E_ACO_ = "724410";
+	/**
+	 *
+	 */
+	const CHAPEADOR = "724415";
+	/**
+	 *
+	 */
+	const CHAPEADOR_DE_CARROCERIAS_METALICAS_FABRICACAO_ = "724420";
+	/**
+	 *
+	 */
+	const CHAPEADOR_NAVAL = "724425";
+	/**
+	 *
+	 */
+	const CHAPEADOR_DE_AERONAVES = "724430";
+	/**
+	 *
+	 */
+	const FUNILEIRO_INDUSTRIAL = "724435";
+	/**
+	 *
+	 */
+	const SERRALHEIRO = "724440";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_CILINDRAR_CHAPAS = "724505";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_DOBRAR_CHAPAS = "724510";
+	/**
+	 *
+	 */
+	const PRENSISTA_OPERADOR_DE_PRENSA_ = "724515";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LACOS_DE_CABOS_DE_ACO = "724605";
+	/**
+	 *
+	 */
+	const TRANCADOR_DE_CABOS_DE_ACO = "724610";
+	/**
+	 *
+	 */
+	const AJUSTADOR_FERRAMENTEIRO = "725005";
+	/**
+	 *
+	 */
+	const AJUSTADOR_MECANICO = "725010";
+	/**
+	 *
+	 */
+	const AJUSTADOR_MECANICO_USINAGEM_EM_BANCADA_E_EM_MAQUINAS_FERRAMENTAS_ = "725015";
+	/**
+	 *
+	 */
+	const AJUSTADOR_MECANICO_EM_BANCADA = "725020";
+	/**
+	 *
+	 */
+	const AJUSTADOR_NAVAL_REPARO_E_CONSTRUCAO_ = "725025";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_MOTORES_E_ACESSORIOS_MONTAGEM_EM_SERIE_ = "725105";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS = "725205";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_GRAFICAS = "725210";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_OPERATRIZES_PARA_MADEIRA = "725215";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_TEXTEIS = "725220";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_FERRAMENTAS_USINAGEM_DE_METAIS_ = "725225";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTO_DE_LEVANTAMENTO = "725305";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_AGRICOLAS = "725310";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_DE_MINAS_E_PEDREIRAS = "725315";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MAQUINAS_DE_TERRAPLENAGEM = "725320";
+	/**
+	 *
+	 */
+	const MECANICO_MONTADOR_DE_MOTORES_DE_AERONAVES = "725405";
+	/**
+	 *
+	 */
+	const MECANICO_MONTADOR_DE_MOTORES_DE_EMBARCACOES = "725410";
+	/**
+	 *
+	 */
+	const MECANICO_MONTADOR_DE_MOTORES_DE_EXPLOSAO_E_DIESEL = "725415";
+	/**
+	 *
+	 */
+	const MECANICO_MONTADOR_DE_TURBOALIMENTADORES = "725420";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_VEICULOS_LINHA_DE_MONTAGEM_ = "725505";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TIME_DE_MONTAGEM = "725510";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_ESTRUTURAS_DE_AERONAVES = "725605";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_SISTEMAS_DE_COMBUSTIVEL_DE_AERONAVES = "725610";
+	/**
+	 *
+	 */
+	const MECANICO_DE_REFRIGERACAO = "725705";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MONTAGEM_E_INSTALACAO_ELETROELETRONICA = "730105";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRONICOS_APARELHOS_MEDICOS_ = "731105";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRONICOS_COMPUTADORES_E_EQUIPAMENTOS_AUXILIARES_ = "731110";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS_INSTRUMENTOS_DE_MEDICAO_ = "731115";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS_APARELHOS_ELETRODOMESTICOS_ = "731120";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS_CENTRAIS_ELETRICAS_ = "731125";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS_MOTORES_E_DINAMOS_ = "731130";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS = "731135";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRONICOS_INSTALACOES_DE_SINALIZACAO_ = "731140";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRONICOS_MAQUINAS_INDUSTRIAIS_ = "731145";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRONICOS = "731150";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS_ELEVADORES_E_EQUIPAMENTOS_SIMILARES_ = "731155";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRICOS_TRANSFORMADORES_ = "731160";
+	/**
+	 *
+	 */
+	const BOBINADOR_ELETRICISTA_A_MAO = "731165";
+	/**
+	 *
+	 */
+	const BOBINADOR_ELETRICISTA_A_MAQUINA = "731170";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LINHA_DE_MONTAGEM_APARELHOS_ELETRICOS_ = "731175";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LINHA_DE_MONTAGEM_APARELHOS_ELETRONICOS_ = "731180";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_EQUIPAMENTOS_ELETRONICOS_ESTACAO_DE_RADIO_TV_E_EQUIPAMENTOS_DE_RADAR_ = "731205";
+	/**
+	 *
+	 */
+	const INSTALADOR_REPARADOR_DE_EQUIPAMENTOS_DE_COMUTACAO_EM_TELEFONIA = "731305";
+	/**
+	 *
+	 */
+	const INSTALADOR_REPARADOR_DE_EQUIPAMENTOS_DE_ENERGIA_EM_TELEFONIA = "731310";
+	/**
+	 *
+	 */
+	const INSTALADOR_REPARADOR_DE_EQUIPAMENTOS_DE_TRANSMISSAO_EM_TELEFONIA = "731315";
+	/**
+	 *
+	 */
+	const INSTALADOR_REPARADOR_DE_LINHAS_E_APARELHOS_DE_TELECOMUNICACOES = "731320";
+	/**
+	 *
+	 */
+	const INSTALADOR_REPARADOR_DE_REDES_E_CABOS_TELEFONICOS = "731325";
+	/**
+	 *
+	 */
+	const REPARADOR_DE_APARELHOS_DE_TELECOMUNICACOES_EM_LABORATORIO = "731330";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_MANUTENCAO_DE_LINHAS_ELETRICAS_TELEFONICAS_E_DE_COMUNICACAO_DE_DADOS = "732105";
+	/**
+	 *
+	 */
+	const EMENDADOR_DE_CABOS_ELETRICOS_E_TELEFONICOS_AEREOS_E_SUBTERRANEOS_ = "732110";
+	/**
+	 *
+	 */
+	const EXAMINADOR_DE_CABOS_LINHAS_ELETRICAS_E_TELEFONICAS = "732115";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_LINHAS_ELETRICAS_DE_ALTA_E_BAIXA_TENSAO_REDE_AEREA_E_SUBTERRANEA_ = "732120";
+	/**
+	 *
+	 */
+	const INSTALADOR_ELETRICISTA_TRACAO_DE_VEICULOS_ = "732125";
+	/**
+	 *
+	 */
+	const INSTALADOR_REPARADOR_DE_REDES_TELEFONICAS_E_DE_COMUNICACAO_DE_DADOS = "732130";
+	/**
+	 *
+	 */
+	const LIGADOR_DE_LINHAS_TELEFONICAS = "732135";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_MECANICA_DE_PRECISAO = "740105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_FABRICACAO_DE_INSTRUMENTOS_MUSICAIS = "740110";
+	/**
+	 *
+	 */
+	const AJUSTADOR_DE_INSTRUMENTOS_DE_PRECISAO = "741105";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_INSTRUMENTOS_DE_OPTICA = "741110";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_INSTRUMENTOS_DE_PRECISAO = "741115";
+	/**
+	 *
+	 */
+	const RELOJOEIRO_FABRICACAO_ = "741120";
+	/**
+	 *
+	 */
+	const RELOJOEIRO_REPARACAO_ = "741125";
+	/**
+	 *
+	 */
+	const AFINADOR_DE_INSTRUMENTOS_MUSICAIS = "742105";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_ACORDEAO = "742110";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_INSTRUMENTOS_DE_CORDA = "742115";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_INSTRUMENTOS_DE_PERCUSSAO_PELE_COURO_OU_PLASTICO_ = "742120";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_INSTRUMENTOS_DE_SOPRO_MADEIRA_ = "742125";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_INSTRUMENTOS_DE_SOPRO_METAL_ = "742130";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_ORGAO = "742135";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_PIANO = "742140";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_JOALHERIA = "750105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_INDUSTRIA_DE_MINERAIS_NAO_METALICOS_EXCETO_OS_DERIVADOS_DE_PETROLEO_E_CARVAO_ = "750205";
+	/**
+	 *
+	 */
+	const ENGASTADOR_JOIAS_ = "751005";
+	/**
+	 *
+	 */
+	const JOALHEIRO = "751010";
+	/**
+	 *
+	 */
+	const JOALHEIRO_REPARACOES_ = "751015";
+	/**
+	 *
+	 */
+	const LAPIDADOR_JOIAS_ = "751020";
+	/**
+	 *
+	 */
+	const BATE_FOLHA_A_MAQUINA = "751105";
+	/**
+	 *
+	 */
+	const FUNDIDOR_JOALHERIA_E_OURIVESARIA_ = "751110";
+	/**
+	 *
+	 */
+	const GRAVADOR_JOALHERIA_E_OURIVESARIA_ = "751115";
+	/**
+	 *
+	 */
+	const LAMINADOR_DE_METAIS_PRECIOSOS_A_MAO = "751120";
+	/**
+	 *
+	 */
+	const OURIVES = "751125";
+	/**
+	 *
+	 */
+	const TREFILADOR_JOALHERIA_E_OURIVESARIA_ = "751130";
+	/**
+	 *
+	 */
+	const ARTESAO_MODELADOR_VIDROS_ = "752105";
+	/**
+	 *
+	 */
+	const MOLDADOR_VIDROS_ = "752110";
+	/**
+	 *
+	 */
+	const SOPRADOR_DE_VIDRO = "752115";
+	/**
+	 *
+	 */
+	const TRANSFORMADOR_DE_TUBOS_DE_VIDRO = "752120";
+	/**
+	 *
+	 */
+	const APLICADOR_SERIGRAFICO_EM_VIDROS = "752205";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_VIDRO = "752210";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_VIDRO_A_AGUA_FORTE = "752215";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_VIDRO_A_ESMERIL = "752220";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_VIDRO_A_JATO_DE_AREIA = "752225";
+	/**
+	 *
+	 */
+	const LAPIDADOR_DE_VIDROS_E_CRISTAIS = "752230";
+	/**
+	 *
+	 */
+	const SURFASSAGISTA = "752235";
+	/**
+	 *
+	 */
+	const CERAMISTA = "752305";
+	/**
+	 *
+	 */
+	const CERAMISTA_TORNO_DE_PEDAL_E_MOTOR_ = "752310";
+	/**
+	 *
+	 */
+	const CERAMISTA_TORNO_SEMI_AUTOMATICO_ = "752315";
+	/**
+	 *
+	 */
+	const CERAMISTA_MODELADOR = "752320";
+	/**
+	 *
+	 */
+	const CERAMISTA_MOLDADOR = "752325";
+	/**
+	 *
+	 */
+	const CERAMISTA_PRENSADOR = "752330";
+	/**
+	 *
+	 */
+	const DECORADOR_DE_CERAMICA = "752405";
+	/**
+	 *
+	 */
+	const DECORADOR_DE_VIDRO = "752410";
+	/**
+	 *
+	 */
+	const DECORADOR_DE_VIDRO_A_PINCEL = "752415";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESMALTADEIRA = "752420";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESPELHAMENTO = "752425";
+	/**
+	 *
+	 */
+	const PINTOR_DE_CERAMICA_A_PINCEL = "752430";
+	/**
+	 *
+	 */
+	const CONTRAMESTRE_DE_ACABAMENTO_INDUSTRIA_TEXTIL_ = "760105";
+	/**
+	 *
+	 */
+	const CONTRAMESTRE_DE_FIACAO_INDUSTRIA_TEXTIL_ = "760110";
+	/**
+	 *
+	 */
+	const CONTRAMESTRE_DE_MALHARIA_INDUSTRIA_TEXTIL_ = "760115";
+	/**
+	 *
+	 */
+	const CONTRAMESTRE_DE_TECELAGEM_INDUSTRIA_TEXTIL_ = "760120";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_TEXTIL_E_DE_CONFECCOES_ = "760125";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_CURTIMENTO = "760205";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_CORTE_NA_CONFECCAO_DO_VESTUARIO = "760305";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_COSTURA_NA_CONFECCAO_DO_VESTUARIO = "760310";
+	/**
+	 *
+	 */
+	const SUPERVISOR_INDUSTRIA_DE_CALCADOS_E_ARTEFATOS_DE_COURO_ = "760405";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_CONFECCAO_DE_ARTEFATOS_DE_TECIDOS_COUROS_E_AFINS = "760505";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DAS_ARTES_GRAFICAS_INDUSTRIA_EDITORIAL_E_GRAFICA_ = "760605";
+	/**
+	 *
+	 */
+	const OPERADOR_POLIVALENTE_DA_INDUSTRIA_TEXTIL = "761005";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_FIBRAS_TEXTEIS = "761105";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_LA = "761110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ABERTURA_FIACAO_ = "761205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BINADEIRA = "761210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BOBINADEIRA = "761215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CARDAS = "761220";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CONICALEIRA = "761225";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FILATORIO = "761230";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAMINADEIRA_E_REUNIDEIRA = "761235";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MACAROQUEIRA = "761240";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_OPEN_END = "761245";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PASSADOR_FIACAO_ = "761250";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PENTEADEIRA = "761255";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_RETORCEDEIRA = "761260";
+	/**
+	 *
+	 */
+	const TECELAO_REDES_ = "761303";
+	/**
+	 *
+	 */
+	const TECELAO_RENDAS_E_BORDADOS_ = "761306";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_AUTOMATICO_ = "761309";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_JACQUARD_ = "761312";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_MECANICO_DE_MAQUINETA_ = "761315";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_MECANICO_DE_XADREZ_ = "761318";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_MECANICO_LISO_ = "761321";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_MECANICO_EXCETO_JACQUARD_ = "761324";
+	/**
+	 *
+	 */
+	const TECELAO_DE_MALHAS_A_MAQUINA = "761327";
+	/**
+	 *
+	 */
+	const TECELAO_DE_MALHAS_MAQUINA_CIRCULAR_ = "761330";
+	/**
+	 *
+	 */
+	const TECELAO_DE_MALHAS_MAQUINA_RETILINEA_ = "761333";
+	/**
+	 *
+	 */
+	const TECELAO_DE_MEIAS_A_MAQUINA = "761336";
+	/**
+	 *
+	 */
+	const TECELAO_DE_MEIAS_MAQUINA_CIRCULAR_ = "761339";
+	/**
+	 *
+	 */
+	const TECELAO_DE_MEIAS_MAQUINA_RETILINEA_ = "761342";
+	/**
+	 *
+	 */
+	const TECELAO_DE_TAPETES_A_MAQUINA = "761345";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ENGOMADEIRA_DE_URDUME = "761348";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESPULADEIRA = "761351";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_CORDOALHA = "761354";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_URDIDEIRA = "761357";
+	/**
+	 *
+	 */
+	const PASSAMANEIRO_A_MAQUINA = "761360";
+	/**
+	 *
+	 */
+	const REMETEDOR_DE_FIOS = "761363";
+	/**
+	 *
+	 */
+	const PICOTADOR_DE_CARTOES_JACQUARD = "761366";
+	/**
+	 *
+	 */
+	const ALVEJADOR_TECIDOS_ = "761405";
+	/**
+	 *
+	 */
+	const ESTAMPADOR_DE_TECIDO = "761410";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CALANDRAS_TECIDOS_ = "761415";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CHAMUSCADEIRA_DE_TECIDOS = "761420";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_IMPERMEABILIZADOR_DE_TECIDOS = "761425";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_LAVAR_FIOS_E_TECIDOS = "761430";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_RAMEUSE = "761435";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_ESTAMPARIA_PRODUCAO_TEXTIL_ = "761805";
+	/**
+	 *
+	 */
+	const REVISOR_DE_FIOS_PRODUCAO_TEXTIL_ = "761810";
+	/**
+	 *
+	 */
+	const REVISOR_DE_TECIDOS_ACABADOS = "761815";
+	/**
+	 *
+	 */
+	const REVISOR_DE_TECIDOS_CRUS = "761820";
+	/**
+	 *
+	 */
+	const TRABALHADOR_POLIVALENTE_DO_CURTIMENTO_DE_COUROS_E_PELES = "762005";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_PELES = "762105";
+	/**
+	 *
+	 */
+	const DESCARNADOR_DE_COUROS_E_PELES_A_MAQUINA = "762110";
+	/**
+	 *
+	 */
+	const ESTIRADOR_DE_COUROS_E_PELES_PREPARACAO_ = "762115";
+	/**
+	 *
+	 */
+	const FULONEIRO = "762120";
+	/**
+	 *
+	 */
+	const RACHADOR_DE_COUROS_E_PELES = "762125";
+	/**
+	 *
+	 */
+	const CURTIDOR_COUROS_E_PELES_ = "762205";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_COUROS = "762210";
+	/**
+	 *
+	 */
+	const ENXUGADOR_DE_COUROS = "762215";
+	/**
+	 *
+	 */
+	const REBAIXADOR_DE_COUROS = "762220";
+	/**
+	 *
+	 */
+	const ESTIRADOR_DE_COUROS_E_PELES_ACABAMENTO_ = "762305";
+	/**
+	 *
+	 */
+	const FULONEIRO_NO_ACABAMENTO_DE_COUROS_E_PELES = "762310";
+	/**
+	 *
+	 */
+	const LIXADOR_DE_COUROS_E_PELES = "762315";
+	/**
+	 *
+	 */
+	const MATIZADOR_DE_COUROS_E_PELES = "762320";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_DO_ACABAMENTO_DE_COUROS_E_PELES = "762325";
+	/**
+	 *
+	 */
+	const PRENSADOR_DE_COUROS_E_PELES = "762330";
+	/**
+	 *
+	 */
+	const PALECIONADOR_DE_COUROS_E_PELES = "762335";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_COUROS_CURTIDOS = "762340";
+	/**
+	 *
+	 */
+	const VAQUEADOR_DE_COUROS_E_PELES = "762345";
+	/**
+	 *
+	 */
+	const ALFAIATE = "763005";
+	/**
+	 *
+	 */
+	const COSTUREIRA_DE_PECAS_SOB_ENCOMENDA = "763010";
+	/**
+	 *
+	 */
+	const COSTUREIRA_DE_REPARACAO_DE_ROUPAS = "763015";
+	/**
+	 *
+	 */
+	const COSTUREIRO_DE_ROUPA_DE_COURO_E_PELE = "763020";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_CORTE_PREPARACAO_DA_CONFECCAO_DE_ROUPAS_ = "763105";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_ROUPAS = "763110";
+	/**
+	 *
+	 */
+	const ENFESTADOR_DE_ROUPAS = "763115";
+	/**
+	 *
+	 */
+	const RISCADOR_DE_ROUPAS = "763120";
+	/**
+	 *
+	 */
+	const AJUDANTE_DE_CONFECCAO = "763125";
+	/**
+	 *
+	 */
+	const COSTUREIRO_DE_ROUPAS_DE_COURO_E_PELE_A_MAQUINA_NA_CONFECCAO_EM_SERIE = "763205";
+	/**
+	 *
+	 */
+	const COSTUREIRO_NA_CONFECCAO_EM_SERIE = "763210";
+	/**
+	 *
+	 */
+	const COSTUREIRO_A_MAQUINA_NA_CONFECCAO_EM_SERIE = "763215";
+	/**
+	 *
+	 */
+	const ARREMATADEIRA = "763305";
+	/**
+	 *
+	 */
+	const BORDADOR_A_MAQUINA = "763310";
+	/**
+	 *
+	 */
+	const MARCADOR_DE_PECAS_CONFECCIONADAS_PARA_BORDAR = "763315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_COSTURA_DE_ACABAMENTO = "763320";
+	/**
+	 *
+	 */
+	const PASSADEIRA_DE_PECAS_CONFECCIONADAS = "763325";
+	/**
+	 *
+	 */
+	const TRABALHADOR_POLIVALENTE_DA_CONFECCAO_DE_CALCADOS = "764005";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_CALCADOS_A_MAQUINA_EXCETO_SOLAS_E_PALMILHAS_ = "764105";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_SOLAS_E_PALMILHAS_A_MAQUINA = "764110";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_CALCADOS = "764115";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_SOLAS_E_PALMILHAS = "764120";
+	/**
+	 *
+	 */
+	const COSTURADOR_DE_CALCADOS_A_MAQUINA = "764205";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_CALCADOS = "764210";
+	/**
+	 *
+	 */
+	const ACABADOR_DE_CALCADOS = "764305";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_ARTEFATOS_DE_COURO_EXCETO_SAPATOS_ = "765005";
+	/**
+	 *
+	 */
+	const CHAPELEIRO_DE_SENHORAS = "765010";
+	/**
+	 *
+	 */
+	const BONELEIRO = "765015";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_ARTEFATOS_DE_COURO_EXCETO_ROUPAS_E_CALCADOS_ = "765105";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_TAPECARIA = "765110";
+	/**
+	 *
+	 */
+	const COLCHOEIRO_CONFECCAO_DE_COLCHOES_ = "765205";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_BRINQUEDOS_DE_PANO = "765215";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_VELAS_NAUTICAS_BARRACAS_E_TOLDOS = "765225";
+	/**
+	 *
+	 */
+	const ESTOFADOR_DE_AVIOES = "765230";
+	/**
+	 *
+	 */
+	const ESTOFADOR_DE_MOVEIS = "765235";
+	/**
+	 *
+	 */
+	const COSTURADOR_DE_ARTEFATOS_DE_COURO_A_MAQUINA_EXCETO_ROUPAS_E_CALCADOS_ = "765310";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_ARTEFATOS_DE_COURO_EXCETO_ROUPAS_E_CALCADOS_ = "765315";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DO_ACABAMENTO_DE_ARTEFATOS_DE_TECIDOS_E_COUROS = "765405";
+	/**
+	 *
+	 */
+	const COPIADOR_DE_CHAPA = "766105";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_MATRIZ_PARA_FLEXOGRAFIA_CLICHERISTA_ = "766115";
+	/**
+	 *
+	 */
+	const EDITOR_DE_TEXTO_E_IMAGEM = "766120";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_FOTOLITO_ANALOGICO_E_DIGITAL_ = "766125";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_MATRIZ_PARA_ROTOGRAVURA_ELETROMECANICO_E_QUIMICO_ = "766130";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_MATRIZ_CALCOGRAFICA = "766135";
+	/**
+	 *
+	 */
+	const GRAVADOR_DE_MATRIZ_SERIGRAFICA = "766140";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SISTEMAS_DE_PROVA_ANALOGICO_E_DIGITAL_ = "766145";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PROCESSO_DE_TRATAMENTO_DE_IMAGEM = "766150";
+	/**
+	 *
+	 */
+	const PROGRAMADOR_VISUAL_GRAFICO = "766155";
+	/**
+	 *
+	 */
+	const IMPRESSOR_SERIGRAFIA_ = "766205";
+	/**
+	 *
+	 */
+	const IMPRESSOR_CALCOGRAFICO = "766210";
+	/**
+	 *
+	 */
+	const IMPRESSOR_DE_OFSETE_PLANO_E_ROTATIVO_ = "766215";
+	/**
+	 *
+	 */
+	const IMPRESSOR_DE_ROTATIVA = "766220";
+	/**
+	 *
+	 */
+	const IMPRESSOR_DE_ROTOGRAVURA = "766225";
+	/**
+	 *
+	 */
+	const IMPRESSOR_DIGITAL = "766230";
+	/**
+	 *
+	 */
+	const IMPRESSOR_FLEXOGRAFICO = "766235";
+	/**
+	 *
+	 */
+	const IMPRESSOR_LETTERSET = "766240";
+	/**
+	 *
+	 */
+	const IMPRESSOR_TAMPOGRAFICO = "766245";
+	/**
+	 *
+	 */
+	const IMPRESSOR_TIPOGRAFICO = "766250";
+	/**
+	 *
+	 */
+	const ACABADOR_DE_EMBALAGENS_FLEXIVEIS_E_CARTOTECNICAS_ = "766305";
+	/**
+	 *
+	 */
+	const IMPRESSOR_DE_CORTE_E_VINCO = "766310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ACABAMENTO_INDUSTRIA_GRAFICA_ = "766315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_GUILHOTINA_CORTE_DE_PAPEL_ = "766320";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_MATRIZES_DE_CORTE_E_VINCO = "766325";
+	/**
+	 *
+	 */
+	const LABORATORISTA_FOTOGRAFICO = "766405";
+	/**
+	 *
+	 */
+	const REVELADOR_DE_FILMES_FOTOGRAFICOS_EM_PRETO_E_BRANCO = "766410";
+	/**
+	 *
+	 */
+	const REVELADOR_DE_FILMES_FOTOGRAFICOS_EM_CORES = "766415";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_RADIOLOGIA_REVELACAO_FOTOGRAFICA_ = "766420";
+	/**
+	 *
+	 */
+	const TECELAO_TEAR_MANUAL_ = "768105";
+	/**
+	 *
+	 */
+	const TECELAO_DE_TAPETES_A_MAO = "768110";
+	/**
+	 *
+	 */
+	const TRICOTEIRO_A_MAO = "768115";
+	/**
+	 *
+	 */
+	const REDEIRO = "768120";
+	/**
+	 *
+	 */
+	const CHAPELEIRO_CHAPEUS_DE_PALHA_ = "768125";
+	/**
+	 *
+	 */
+	const CROCHETEIRO_A_MAO = "768130";
+	/**
+	 *
+	 */
+	const BORDADOR_A_MAO = "768205";
+	/**
+	 *
+	 */
+	const CERZIDOR = "768210";
+	/**
+	 *
+	 */
+	const ARTIFICE_DO_COURO = "768305";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_CALCADOS_A_MAO_EXCETO_SOLAS_ = "768310";
+	/**
+	 *
+	 */
+	const COSTURADOR_DE_ARTEFATOS_DE_COURO_A_MAO_EXCETO_ROUPAS_E_CALCADOS_ = "768315";
+	/**
+	 *
+	 */
+	const SAPATEIRO_CALCADOS_SOB_MEDIDA_ = "768320";
+	/**
+	 *
+	 */
+	const SELEIRO = "768325";
+	/**
+	 *
+	 */
+	const TIPOGRAFO = "768605";
+	/**
+	 *
+	 */
+	const LINOTIPISTA = "768610";
+	/**
+	 *
+	 */
+	const MONOTIPISTA = "768615";
+	/**
+	 *
+	 */
+	const PAGINADOR = "768620";
+	/**
+	 *
+	 */
+	const PINTOR_DE_LETREIROS = "768625";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_CARIMBOS_DE_BORRACHA = "768630";
+	/**
+	 *
+	 */
+	const GRAVADOR_A_MAO_ENCADERNACAO_ = "768705";
+	/**
+	 *
+	 */
+	const RESTAURADOR_DE_LIVROS = "768710";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_DE_MADEIRA_E_MOBILIARIO_ = "770105";
+	/**
+	 *
+	 */
+	const MESTRE_CARPINTEIRO = "770110";
+	/**
+	 *
+	 */
+	const MARCENEIRO = "771105";
+	/**
+	 *
+	 */
+	const MODELADOR_DE_MADEIRA = "771110";
+	/**
+	 *
+	 */
+	const MAQUETISTA_NA_MARCENARIA = "771115";
+	/**
+	 *
+	 */
+	const TANOEIRO = "771120";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_MADEIRA = "772105";
+	/**
+	 *
+	 */
+	const IMPREGNADOR_DE_MADEIRA = "772110";
+	/**
+	 *
+	 */
+	const SECADOR_DE_MADEIRA = "772115";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_LAMINADOS_DE_MADEIRA = "773105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SERRAS_NO_DESDOBRAMENTO_DE_MADEIRA = "773110";
+	/**
+	 *
+	 */
+	const SERRADOR_DE_BORDAS_NO_DESDOBRAMENTO_DE_MADEIRA = "773115";
+	/**
+	 *
+	 */
+	const SERRADOR_DE_MADEIRA = "773120";
+	/**
+	 *
+	 */
+	const SERRADOR_DE_MADEIRA_SERRA_CIRCULAR_MULTIPLA_ = "773125";
+	/**
+	 *
+	 */
+	const SERRADOR_DE_MADEIRA_SERRA_DE_FITA_MULTIPLA_ = "773130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_INTERCALADORA_E_PLACAS_COMPENSADOS_ = "773205";
+	/**
+	 *
+	 */
+	const PRENSISTA_DE_AGLOMERADOS = "773210";
+	/**
+	 *
+	 */
+	const PRENSISTA_DE_COMPENSADOS = "773215";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_AGLOMERANTES = "773220";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_DESEMPENADEIRA_NA_USINAGEM_CONVENCIONAL_DE_MADEIRA = "773305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ENTALHADEIRA_USINAGEM_DE_MADEIRA_ = "773310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FRESADORA_USINAGEM_DE_MADEIRA_ = "773315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LIXADEIRA_USINAGEM_DE_MADEIRA_ = "773320";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_USINAGEM_MADEIRA_EM_GERAL = "773325";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MOLDURADORA_USINAGEM_DE_MADEIRA_ = "773330";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PLAINA_DESENGROSSADEIRA = "773335";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SERRAS_USINAGEM_DE_MADEIRA_ = "773340";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TORNO_AUTOMATICO_USINAGEM_DE_MADEIRA_ = "773345";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TUPIA_USINAGEM_DE_MADEIRA_ = "773350";
+	/**
+	 *
+	 */
+	const TORNEIRO_NA_USINAGEM_CONVENCIONAL_DE_MADEIRA = "773355";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_BORDATRIZ = "773405";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_CORTINA_DAGUA_PRODUCAO_DE_MOVEIS_ = "773410";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_USINAGEM_DE_MADEIRA_PRODUCAO_EM_SERIE_ = "773415";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRENSA_DE_ALTA_FREQUENCIA_NA_USINAGEM_DE_MADEIRA = "773420";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRO_DE_USINAGEM_DE_MADEIRA_CNC_ = "773505";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_DE_USINAR_MADEIRA_CNC_ = "773510";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_MOVEIS_E_ARTEFATOS_DE_MADEIRA = "774105";
+	/**
+	 *
+	 */
+	const ENTALHADOR_DE_MADEIRA = "775105";
+	/**
+	 *
+	 */
+	const FOLHEADOR_DE_MOVEIS_DE_MADEIRA = "775110";
+	/**
+	 *
+	 */
+	const LUSTRADOR_DE_PECAS_DE_MADEIRA = "775115";
+	/**
+	 *
+	 */
+	const MARCHETEIRO = "775120";
+	/**
+	 *
+	 */
+	const CESTEIRO = "776405";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_ESCOVAS_PINCEIS_E_PRODUTOS_SIMILARES_A_MAO_ = "776410";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_ESCOVAS_PINCEIS_E_PRODUTOS_SIMILARES_A_MAQUINA_ = "776415";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_MOVEIS_DE_VIME_JUNCO_E_BAMBU = "776420";
+	/**
+	 *
+	 */
+	const ESTEIREIRO = "776425";
+	/**
+	 *
+	 */
+	const VASSOUREIRO = "776430";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_NAVAL_CONSTRUCAO_DE_PEQUENAS_EMBARCACOES_ = "777105";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_NAVAL_EMBARCACOES_ = "777110";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_NAVAL_ESTALEIROS_ = "777115";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_DE_CARRETAS = "777205";
+	/**
+	 *
+	 */
+	const CARPINTEIRO_DE_CARROCERIAS = "777210";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_EMBALAGEM_E_ETIQUETAGEM = "780105";
+	/**
+	 *
+	 */
+	const CONDUTOR_DE_PROCESSOS_ROBOTIZADOS_DE_PINTURA = "781105";
+	/**
+	 *
+	 */
+	const CONDUTOR_DE_PROCESSOS_ROBOTIZADOS_DE_SOLDAGEM = "781110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_VEICULOS_SUBAQUATICOS_CONTROLADOS_REMOTAMENTE = "781305";
+	/**
+	 *
+	 */
+	const MERGULHADOR_PROFISSIONAL_RASO_E_PROFUNDO_ = "781705";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_DRAGA = "782105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_GUINDASTE_FIXO_ = "782110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_GUINDASTE_MOVEL = "782115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_RODOFERROVIARIA = "782120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MONTA_CARGAS_CONSTRUCAO_CIVIL_ = "782125";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PONTE_ROLANTE = "782130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PORTICO_ROLANTE = "782135";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TALHA_ELETRICA = "782140";
+	/**
+	 *
+	 */
+	const SINALEIRO_PONTE_ROLANTE_ = "782145";
+	/**
+	 *
+	 */
+	const GUINCHEIRO_CONSTRUCAO_CIVIL_ = "782205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_DOCAGEM = "782210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EMPILHADEIRA = "782220";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_CARRO_DE_PASSEIO = "782305";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_FURGAO_OU_VEICULO_SIMILAR = "782310";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_TAXI = "782315";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_ONIBUS_RODOVIARIO = "782405";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_ONIBUS_URBANO = "782410";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_TROLEBUS = "782415";
+	/**
+	 *
+	 */
+	const CAMINHONEIRO_AUTONOMO_ROTAS_REGIONAIS_E_INTERNACIONAIS_ = "782505";
+	/**
+	 *
+	 */
+	const MOTORISTA_DE_CAMINHAO_ROTAS_REGIONAIS_E_INTERNACIONAIS_ = "782510";
+	/**
+	 *
+	 */
+	const MOTORISTA_OPERACIONAL_DE_GUINCHO = "782515";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TREM_DE_METRO = "782605";
+	/**
+	 *
+	 */
+	const MAQUINISTA_DE_TREM = "782610";
+	/**
+	 *
+	 */
+	const MAQUINISTA_DE_TREM_METROPOLITANO = "782615";
+	/**
+	 *
+	 */
+	const MOTORNEIRO = "782620";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_MAQUINISTA_DE_TREM = "782625";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TELEFERICO_PASSAGEIROS_ = "782630";
+	/**
+	 *
+	 */
+	const MARINHEIRO_DE_CONVES_MARITIMO_E_FLUVIARIO_ = "782705";
+	/**
+	 *
+	 */
+	const MARINHEIRO_DE_MAQUINAS = "782710";
+	/**
+	 *
+	 */
+	const MOCO_DE_CONVES_MARITIMO_E_FLUVIARIO_ = "782715";
+	/**
+	 *
+	 */
+	const MOCO_DE_MAQUINAS_MARITIMO_E_FLUVIARIO_ = "782720";
+	/**
+	 *
+	 */
+	const MARINHEIRO_DE_ESPORTE_E_RECREIO = "782725";
+	/**
+	 *
+	 */
+	const CONDUTOR_DE_VEICULOS_DE_TRACAO_ANIMAL_RUAS_E_ESTRADAS_ = "782805";
+	/**
+	 *
+	 */
+	const TROPEIRO = "782810";
+	/**
+	 *
+	 */
+	const BOIADEIRO = "782815";
+	/**
+	 *
+	 */
+	const CONDUTOR_DE_VEICULOS_A_PEDAIS = "782820";
+	/**
+	 *
+	 */
+	const AGENTE_DE_PATIO = "783105";
+	/**
+	 *
+	 */
+	const MANOBRADOR = "783110";
+	/**
+	 *
+	 */
+	const CARREGADOR_AERONAVES_ = "783205";
+	/**
+	 *
+	 */
+	const CARREGADOR_ARMAZEM_ = "783210";
+	/**
+	 *
+	 */
+	const CARREGADOR_VEICULOS_DE_TRANSPORTES_TERRESTRES_ = "783215";
+	/**
+	 *
+	 */
+	const ESTIVADOR = "783220";
+	/**
+	 *
+	 */
+	const AJUDANTE_DE_MOTORISTA = "783225";
+	/**
+	 *
+	 */
+	const BLOQUEIRO_TRABALHADOR_PORTUARIO_ = "783230";
+	/**
+	 *
+	 */
+	const EMBALADOR_A_MAO = "784105";
+	/**
+	 *
+	 */
+	const EMBALADOR_A_MAQUINA = "784110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_ETIQUETAR = "784115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_ENVASAR_LIQUIDOS = "784120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRENSA_DE_ENFARDAMENTO = "784125";
+	/**
+	 *
+	 */
+	const ALIMENTADOR_DE_LINHA_DE_PRODUCAO = "784205";
+	/**
+	 *
+	 */
+	const ARTESAO_BORDADOR = "791105";
+	/**
+	 *
+	 */
+	const ARTESAO_CERAMISTA = "791110";
+	/**
+	 *
+	 */
+	const ARTESAO_COM_MATERIAL_RECICLAVEL = "791115";
+	/**
+	 *
+	 */
+	const ARTESAO_CONFECCIONADOR_DE_BIOJOIAS_E_ECOJOIAS = "791120";
+	/**
+	 *
+	 */
+	const ARTESAO_DO_COURO = "791125";
+	/**
+	 *
+	 */
+	const ARTESAO_ESCULTOR = "791130";
+	/**
+	 *
+	 */
+	const ARTESAO_MOVELEIRO_EXCETO_RECICLADO_ = "791135";
+	/**
+	 *
+	 */
+	const ARTESAO_TECELAO = "791140";
+	/**
+	 *
+	 */
+	const ARTESAO_TRANCADOR = "791145";
+	/**
+	 *
+	 */
+	const ARTESAO_CROCHETEIRO = "791150";
+	/**
+	 *
+	 */
+	const ARTESAO_TRICOTEIRO = "791155";
+	/**
+	 *
+	 */
+	const ARTESAO_RENDEIRO = "791160";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_PETROQUIMICA_E_CARBOQUIMICA_ = "810105";
+	/**
+	 *
+	 */
+	const MESTRE_DE_PRODUCAO_QUIMICA = "810110";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_DE_BORRACHA_E_PLASTICO_ = "810205";
+	/**
+	 *
+	 */
+	const MESTRE_DE_PRODUCAO_FARMACEUTICA = "810305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PROCESSOS_QUIMICOS_E_PETROQUIMICOS = "811005";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SALA_DE_CONTROLE_DE_INSTALACOES_QUIMICAS_PETROQUIMICAS_E_AFINS = "811010";
+	/**
+	 *
+	 */
+	const MOLEIRO_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_MISTURADEIRA_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BRITADEIRA_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CONCENTRACAO = "811120";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_FABRICACAO_DE_RESINAS_E_VERNIZES = "811125";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_FABRICACAO_DE_TINTAS = "811130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CALCINACAO_TRATAMENTO_QUIMICO_E_AFINS_ = "811205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRATAMENTO_QUIMICO_DE_MATERIAIS_RADIOATIVOS = "811215";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRIFUGADORA_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EXPLORACAO_DE_PETROLEO = "811310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FILTRO_DE_SECAGEM_MINERACAO_ = "811315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FILTRO_DE_TAMBOR_ROTATIVO_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811320";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FILTRO_ESTEIRA_MINERACAO_ = "811325";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FILTRO_PRENSA_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811330";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FILTROS_DE_PARAFINA_TRATAMENTOS_QUIMICOS_E_AFINS_ = "811335";
+	/**
+	 *
+	 */
+	const DESTILADOR_DE_MADEIRA = "811405";
+	/**
+	 *
+	 */
+	const DESTILADOR_DE_PRODUTOS_QUIMICOS_EXCETO_PETROLEO_ = "811410";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ALAMBIQUE_DE_FUNCIONAMENTO_CONTINUO_PRODUTOS_QUIMICOS_EXCETO_PETROLEO_ = "811415";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_APARELHO_DE_REACAO_E_CONVERSAO_PRODUTOS_QUIMICOS_EXCETO_PETROLEO_ = "811420";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EQUIPAMENTO_DE_DESTILACAO_DE_ALCOOL = "811425";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EVAPORADOR_NA_DESTILACAO = "811430";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PAINEL_DE_CONTROLE_REFINACAO_DE_PETROLEO_ = "811505";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRANSFERENCIA_E_ESTOCAGEM_NA_REFINACAO_DO_PETROLEO = "811510";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BRITADOR_DE_COQUE = "811605";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CARRO_DE_APAGAMENTO_E_COQUE = "811610";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_DESTILACAO_E_SUBPRODUTOS_DE_COQUE = "811615";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ENFORNAMENTO_E_DESENFORNAMENTO_DE_COQUE = "811620";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EXAUSTOR_COQUERIA_ = "811625";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PAINEL_DE_CONTROLE = "811630";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRESERVACAO_E_CONTROLE_TERMICO = "811635";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_REATOR_DE_COQUE_DE_PETROLEO = "811640";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_REFRIGERACAO_COQUERIA_ = "811645";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SISTEMA_DE_REVERSAO_COQUERIA_ = "811650";
+	/**
+	 *
+	 */
+	const BAMBURISTA = "811705";
+	/**
+	 *
+	 */
+	const CALANDRISTA_DE_BORRACHA = "811710";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_PNEUMATICOS = "811715";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_VELAS_POR_IMERSAO = "811725";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_VELAS_POR_MOLDAGEM = "811735";
+	/**
+	 *
+	 */
+	const LAMINADOR_DE_PLASTICO = "811745";
+	/**
+	 *
+	 */
+	const MOLDADOR_DE_BORRACHA_POR_COMPRESSAO = "811750";
+	/**
+	 *
+	 */
+	const MOLDADOR_DE_PLASTICO_POR_COMPRESSAO = "811760";
+	/**
+	 *
+	 */
+	const MOLDADOR_DE_PLASTICO_POR_INJECAO = "811770";
+	/**
+	 *
+	 */
+	const TREFILADOR_DE_BORRACHA = "811775";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_PRODUTOS_FARMACEUTICOS = "811805";
+	/**
+	 *
+	 */
+	const DRAGEADOR_MEDICAMENTOS_ = "811810";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FABRICACAO_DE_COSMETICOS = "811815";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FABRICACAO_DE_PRODUTOS_DE_HIGIENE_E_LIMPEZA_SABAO_SABONETE_DETERGENTE_ABSORVENTE_FRALDAS_COTONETES_E_OUTROS_ = "811820";
+	/**
+	 *
+	 */
+	const PIROTECNICO = "812105";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_FABRICACAO_DE_MUNICAO_E_EXPLOSIVOS = "812110";
+	/**
+	 *
+	 */
+	const CILINDRISTA_PETROQUIMICA_E_AFINS_ = "813105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CALANDRA_QUIMICA_PETROQUIMICA_E_AFINS_ = "813110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EXTRUSORA_QUIMICA_PETROQUIMICA_E_AFINS_ = "813115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PROCESSO_QUIMICA_PETROQUIMICA_E_AFINS_ = "813120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRODUCAO_QUIMICA_PETROQUIMICA_E_AFINS_ = "813125";
+	/**
+	 *
+	 */
+	const TECNICO_DE_OPERACAO_QUIMICA_PETROQUIMICA_E_AFINS_ = "813130";
+	/**
+	 *
+	 */
+	const ASSISTENTE_DE_LABORATORIO_INDUSTRIAL = "818105";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_LABORATORIO_DE_ANALISES_FISICO_QUIMICAS = "818110";
+	/**
+	 *
+	 */
+	const MESTRE_DE_SIDERURGIA = "820105";
+	/**
+	 *
+	 */
+	const MESTRE_DE_ACIARIA = "820110";
+	/**
+	 *
+	 */
+	const MESTRE_DE_ALTO_FORNO = "820115";
+	/**
+	 *
+	 */
+	const MESTRE_DE_FORNO_ELETRICO = "820120";
+	/**
+	 *
+	 */
+	const MESTRE_DE_LAMINACAO = "820125";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_FABRICACAO_DE_PRODUTOS_CERAMICOS_PORCELANATOS_E_AFINS = "820205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_FABRICACAO_DE_PRODUTOS_DE_VIDRO = "820210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRO_DE_CONTROLE = "821105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_SINTERIZAR = "821110";
+	/**
+	 *
+	 */
+	const FORNEIRO_E_OPERADOR_ALTO_FORNO_ = "821205";
+	/**
+	 *
+	 */
+	const FORNEIRO_E_OPERADOR_CONVERSOR_A_OXIGENIO_ = "821210";
+	/**
+	 *
+	 */
+	const FORNEIRO_E_OPERADOR_FORNO_ELETRICO_ = "821215";
+	/**
+	 *
+	 */
+	const FORNEIRO_E_OPERADOR_REFINO_DE_METAIS_NAO_FERROSOS_ = "821220";
+	/**
+	 *
+	 */
+	const FORNEIRO_E_OPERADOR_DE_FORNO_DE_REDUCAO_DIRETA = "821225";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ACIARIA_BASCULAMENTO_DE_CONVERTEDOR_ = "821230";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ACIARIA_DESSULFURACAO_DE_GUSA_ = "821235";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ACIARIA_RECEBIMENTO_DE_GUSA_ = "821240";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_AREA_DE_CORRIDA = "821245";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_DESGASEIFICACAO = "821250";
+	/**
+	 *
+	 */
+	const SOPRADOR_DE_CONVERTEDOR = "821255";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAMINADOR = "821305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAMINADOR_DE_BARRAS_A_FRIO = "821310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAMINADOR_DE_BARRAS_A_QUENTE = "821315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAMINADOR_DE_METAIS_NAO_FERROSOS = "821320";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAMINADOR_DE_TUBOS = "821325";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MONTAGEM_DE_CILINDROS_E_MANCAIS = "821330";
+	/**
+	 *
+	 */
+	const RECUPERADOR_DE_GUIAS_E_CILINDROS = "821335";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_ACABAMENTO_DE_CHAPAS_E_METAIS_TEMPERA_ = "821405";
+	/**
+	 *
+	 */
+	const ESCARFADOR = "821410";
+	/**
+	 *
+	 */
+	const MARCADOR_DE_PRODUTOS_SIDERURGICO_E_METALURGICO_ = "821415";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BOBINADEIRA_DE_TIRAS_A_QUENTE_NO_ACABAMENTO_DE_CHAPAS_E_METAIS = "821420";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CABINE_DE_LAMINACAO_FIO_MAQUINA_ = "821425";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESCORIA_E_SUCATA = "821430";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_JATO_ABRASIVO = "821435";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TESOURA_MECANICA_E_MAQUINA_DE_CORTE_NO_ACABAMENTO_DE_CHAPAS_E_METAIS = "821440";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_SUCATA_E_APARAS = "821445";
+	/**
+	 *
+	 */
+	const REBARBADOR_DE_METAL = "821450";
+	/**
+	 *
+	 */
+	const FORNEIRO_DE_CUBILO = "822105";
+	/**
+	 *
+	 */
+	const FORNEIRO_DE_FORNO_POCO = "822110";
+	/**
+	 *
+	 */
+	const FORNEIRO_DE_FUNDICAO_FORNO_DE_REDUCAO_ = "822115";
+	/**
+	 *
+	 */
+	const FORNEIRO_DE_REAQUECIMENTO_E_TRATAMENTO_TERMICO_NA_METALURGIA = "822120";
+	/**
+	 *
+	 */
+	const FORNEIRO_DE_REVERBERO = "822125";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_MASSA_FABRICACAO_DE_ABRASIVOS_ = "823105";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_MASSA_FABRICACAO_DE_VIDRO_ = "823110";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_MASSA_DE_ARGILA = "823115";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_BARBOTINA = "823120";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_ESMALTES_CERAMICA_ = "823125";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_ADITIVOS = "823130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ATOMIZADOR = "823135";
+	/**
+	 *
+	 */
+	const EXTRUSOR_DE_FIOS_OU_FIBRAS_DE_VIDRO = "823210";
+	/**
+	 *
+	 */
+	const FORNEIRO_NA_FUNDICAO_DE_VIDRO = "823215";
+	/**
+	 *
+	 */
+	const FORNEIRO_NO_RECOZIMENTO_DE_VIDRO = "823220";
+	/**
+	 *
+	 */
+	const MOLDADOR_DE_ABRASIVOS_NA_FABRICACAO_DE_CERAMICA_VIDRO_E_PORCELANA = "823230";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BANHO_METALICO_DE_VIDRO_POR_FLUTUACAO = "823235";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_SOPRAR_VIDRO = "823240";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_EXTRUSORA_DE_VARETAS_E_TUBOS_DE_VIDRO = "823245";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRENSA_DE_MOLDAR_VIDRO = "823250";
+	/**
+	 *
+	 */
+	const TEMPERADOR_DE_VIDRO = "823255";
+	/**
+	 *
+	 */
+	const TRABALHADOR_NA_FABRICACAO_DE_PRODUTOS_ABRASIVOS = "823265";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_E_EMPILHADOR_DE_TIJOLOS_REFRATARIOS = "823305";
+	/**
+	 *
+	 */
+	const FORNEIRO_MATERIAIS_DE_CONSTRUCAO_ = "823315";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_ELABORACAO_DE_PRE_FABRICADOS_CIMENTO_AMIANTO_ = "823320";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_ELABORACAO_DE_PRE_FABRICADOS_CONCRETO_ARMADO_ = "823325";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DA_FABRICACAO_DE_PEDRAS_ARTIFICIAIS = "823330";
+	/**
+	 *
+	 */
+	const OLEIRO_FABRICACAO_DE_TELHAS_ = "828105";
+	/**
+	 *
+	 */
+	const OLEIRO_FABRICACAO_DE_TIJOLOS_ = "828110";
+	/**
+	 *
+	 */
+	const MESTRE_INDUSTRIA_DE_CELULOSE_PAPEL_E_PAPELAO_ = "830105";
+	/**
+	 *
+	 */
+	const CILINDREIRO_NA_PREPARACAO_DE_PASTA_PARA_FABRICACAO_DE_PAPEL = "831105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BRANQUEADOR_DE_PASTA_PARA_FABRICACAO_DE_PAPEL = "831110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_DIGESTOR_DE_PASTA_PARA_FABRICACAO_DE_PAPEL = "831115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_LAVAGEM_E_DEPURACAO_DE_PASTA_PARA_FABRICACAO_DE_PAPEL = "831120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_SECAR_CELULOSE = "831125";
+	/**
+	 *
+	 */
+	const CALANDRISTA_DE_PAPEL = "832105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CORTADEIRA_DE_PAPEL = "832110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FABRICAR_PAPEL_FASE_UMIDA_ = "832115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FABRICAR_PAPEL_FASE_SECA_ = "832120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FABRICAR_PAPEL_E_PAPELAO = "832125";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_REBOBINADEIRA_NA_FABRICACAO_DE_PAPEL_E_PAPELAO = "832135";
+	/**
+	 *
+	 */
+	const CARTONAGEIRO_A_MAQUINA = "833105";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_BOLSAS_SACOS_E_SACOLAS_E_PAPEL_A_MAQUINA = "833110";
+	/**
+	 *
+	 */
+	const CONFECCIONADOR_DE_SACOS_DE_CELOFANE_A_MAQUINA = "833115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_CORTAR_E_DOBRAR_PAPELAO = "833120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PRENSA_DE_EMBUTIR_PAPELAO = "833125";
+	/**
+	 *
+	 */
+	const CARTONAGEIRO_A_MAO_CAIXAS_DE_PAPELAO_ = "833205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_PRODUCAO_DA_INDUSTRIA_ALIMENTICIA = "840105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_INDUSTRIA_DE_BEBIDAS = "840110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_INDUSTRIA_DE_FUMO = "840115";
+	/**
+	 *
+	 */
+	const CHEFE_DE_CONFEITARIA = "840120";
+	/**
+	 *
+	 */
+	const MOLEIRO_DE_CEREAIS_EXCETO_ARROZ_ = "841105";
+	/**
+	 *
+	 */
+	const MOLEIRO_DE_ESPECIARIAS = "841110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PROCESSO_DE_MOAGEM = "841115";
+	/**
+	 *
+	 */
+	const MOEDOR_DE_SAL = "841205";
+	/**
+	 *
+	 */
+	const REFINADOR_DE_SAL = "841210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CRISTALIZACAO_NA_REFINACAO_DE_ACUCAR = "841305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EQUIPAMENTOS_DE_REFINACAO_DE_ACUCAR_PROCESSO_CONTINUO_ = "841310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MOENDA_NA_FABRICACAO_DE_ACUCAR = "841315";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_TRATAMENTO_DE_CALDA_NA_REFINACAO_DE_ACUCAR = "841320";
+	/**
+	 *
+	 */
+	const COZINHADOR_CONSERVACAO_DE_ALIMENTOS_ = "841408";
+	/**
+	 *
+	 */
+	const COZINHADOR_DE_CARNES = "841416";
+	/**
+	 *
+	 */
+	const COZINHADOR_DE_FRUTAS_E_LEGUMES = "841420";
+	/**
+	 *
+	 */
+	const COZINHADOR_DE_PESCADO = "841428";
+	/**
+	 *
+	 */
+	const DESIDRATADOR_DE_ALIMENTOS = "841432";
+	/**
+	 *
+	 */
+	const ESTERILIZADOR_DE_ALIMENTOS = "841440";
+	/**
+	 *
+	 */
+	const HIDROGENADOR_DE_OLEOS_E_GORDURAS = "841444";
+	/**
+	 *
+	 */
+	const LAGAREIRO = "841448";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CAMARAS_FRIAS = "841456";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_PREPARACAO_DE_GRAOS_VEGETAIS_OLEOS_E_GORDURAS_ = "841460";
+	/**
+	 *
+	 */
+	const PRENSADOR_DE_FRUTAS_EXCETO_OLEAGINOSAS_ = "841464";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_RACOES = "841468";
+	/**
+	 *
+	 */
+	const REFINADOR_DE_OLEO_E_GORDURA = "841472";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_FABRICACAO_DE_MARGARINA = "841476";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_PREPARACAO_DE_PESCADOS_LIMPEZA_ = "841484";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_TRATAMENTO_DO_LEITE_E_FABRICACAO_DE_LATICINIOS_E_AFINS = "841505";
+	/**
+	 *
+	 */
+	const MISTURADOR_DE_CAFE = "841605";
+	/**
+	 *
+	 */
+	const TORRADOR_DE_CAFE = "841610";
+	/**
+	 *
+	 */
+	const MOEDOR_DE_CAFE = "841615";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_EXTRACAO_DE_CAFE_SOLUVEL = "841620";
+	/**
+	 *
+	 */
+	const TORRADOR_DE_CACAU = "841625";
+	/**
+	 *
+	 */
+	const MISTURADOR_DE_CHA_OU_MATE = "841630";
+	/**
+	 *
+	 */
+	const ALAMBIQUEIRO = "841705";
+	/**
+	 *
+	 */
+	const FILTRADOR_DE_CERVEJA = "841710";
+	/**
+	 *
+	 */
+	const FERMENTADOR = "841715";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_FABRICACAO_DE_VINHOS = "841720";
+	/**
+	 *
+	 */
+	const MALTEIRO_GERMINACAO_ = "841725";
+	/**
+	 *
+	 */
+	const COZINHADOR_DE_MALTE = "841730";
+	/**
+	 *
+	 */
+	const DESSECADOR_DE_MALTE = "841735";
+	/**
+	 *
+	 */
+	const VINAGREIRO = "841740";
+	/**
+	 *
+	 */
+	const XAROPEIRO = "841745";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FORNO_FABRICACAO_DE_PAES_BISCOITOS_E_SIMILARES_ = "841805";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_DE_FABRICACAO_DE_DOCES_SALGADOS_E_MASSAS_ALIMENTICIAS = "841810";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_DE_FABRICACAO_DE_CHOCOLATES_E_ACHOCOLATADOS = "841815";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_MELADO_E_ESSENCIA_DE_FUMO = "842105";
+	/**
+	 *
+	 */
+	const PROCESSADOR_DE_FUMO = "842110";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_FUMO = "842115";
+	/**
+	 *
+	 */
+	const AUXILIAR_DE_PROCESSAMENTO_DE_FUMO = "842120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_FABRICACAO_DE_CIGARROS_ = "842125";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_PREPARACAO_DE_MATERIA_PRIMA_PARA_PRODUCAO_DE_CIGARROS = "842135";
+	/**
+	 *
+	 */
+	const PREPARADOR_DE_FUMO_NA_FABRICACAO_DE_CHARUTOS = "842205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINA_DE_FABRICAR_CHARUTOS_E_CIGARRILHAS = "842210";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_CHARUTOS = "842215";
+	/**
+	 *
+	 */
+	const CORTADOR_DE_CHARUTOS = "842220";
+	/**
+	 *
+	 */
+	const CELOFANISTA_NA_FABRICACAO_DE_CHARUTOS = "842225";
+	/**
+	 *
+	 */
+	const CHARUTEIRO_A_MAO = "842230";
+	/**
+	 *
+	 */
+	const DEGUSTADOR_DE_CHARUTOS = "842235";
+	/**
+	 *
+	 */
+	const DEFUMADOR_DE_CARNES_E_PESCADOS = "848105";
+	/**
+	 *
+	 */
+	const SALGADOR_DE_ALIMENTOS = "848110";
+	/**
+	 *
+	 */
+	const SALSICHEIRO_FABRICACAO_DE_LINGUICA_SALSICHA_E_PRODUTOS_SIMILARES_ = "848115";
+	/**
+	 *
+	 */
+	const PASTEURIZADOR = "848205";
+	/**
+	 *
+	 */
+	const QUEIJEIRO_NA_FABRICACAO_DE_LATICINIO = "848210";
+	/**
+	 *
+	 */
+	const MANTEIGUEIRO_NA_FABRICACAO_DE_LATICINIO = "848215";
+	/**
+	 *
+	 */
+	const PADEIRO = "848305";
+	/**
+	 *
+	 */
+	const CONFEITEIRO = "848310";
+	/**
+	 *
+	 */
+	const MASSEIRO_MASSAS_ALIMENTICIAS_ = "848315";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DE_FABRICACAO_DE_SORVETE = "848325";
+	/**
+	 *
+	 */
+	const DEGUSTADOR_DE_CAFE = "848405";
+	/**
+	 *
+	 */
+	const DEGUSTADOR_DE_CHA = "848410";
+	/**
+	 *
+	 */
+	const DEGUSTADOR_DE_DERIVADOS_DE_CACAU = "848415";
+	/**
+	 *
+	 */
+	const DEGUSTADOR_DE_VINHOS_OU_LICORES = "848420";
+	/**
+	 *
+	 */
+	const CLASSIFICADOR_DE_GRAOS = "848425";
+	/**
+	 *
+	 */
+	const ABATEDOR = "848505";
+	/**
+	 *
+	 */
+	const ACOUGUEIRO = "848510";
+	/**
+	 *
+	 */
+	const DESOSSADOR = "848515";
+	/**
+	 *
+	 */
+	const MAGAREFE = "848520";
+	/**
+	 *
+	 */
+	const RETALHADOR_DE_CARNE = "848525";
+	/**
+	 *
+	 */
+	const TRABALHADOR_DO_BENEFICIAMENTO_DE_FUMO = "848605";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_ELETROMECANICA_UTILIDADES_ = "860105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_OPERACAO_DE_FLUIDOS_DISTRIBUICAO_CAPTACAO_TRATAMENTO_DE_AGUA_GASES_VAPOR_ = "860110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_OPERACAO_ELETRICA_GERACAO_TRANSMISSAO_E_DISTRIBUICAO_DE_ENERGIA_ELETRICA_ = "860115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRAL_HIDRELETRICA = "861105";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_QUADRO_DE_DISTRIBUICAO_DE_ENERGIA_ELETRICA = "861110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CENTRAL_TERMOELETRICA = "861115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_REATOR_NUCLEAR = "861120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_SUBESTACAO = "861205";
+	/**
+	 *
+	 */
+	const FOGUISTA_LOCOMOTIVAS_A_VAPOR_ = "862105";
+	/**
+	 *
+	 */
+	const MAQUINISTA_DE_EMBARCACOES = "862110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_BATERIA_DE_GAS_DE_HULHA = "862115";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CALDEIRA = "862120";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_COMPRESSOR_DE_AR = "862130";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESTACAO_DE_BOMBEAMENTO = "862140";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_FIXAS_EM_GERAL = "862150";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_UTILIDADE_PRODUCAO_E_DISTRIBUICAO_DE_VAPOR_GAS_OLEO_COMBUSTIVEL_ENERGIA_OXIGENIO_ = "862155";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESTACAO_DE_CAPTACAO_TRATAMENTO_E_DISTRIBUICAO_DE_AGUA = "862205";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_ESTACAO_DE_TRATAMENTO_DE_AGUA_E_EFLUENTES = "862305";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_FORNO_DE_INCINERACAO_NO_TRATAMENTO_DE_AGUA_EFLUENTES_E_RESIDUOS_INDUSTRIAIS = "862310";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_INSTALACAO_DE_EXTRACAO_PROCESSAMENTO_ENVASAMENTO_E_DISTRIBUICAO_DE_GASES = "862405";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_INSTALACAO_DE_REFRIGERACAO = "862505";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_REFRIGERACAO_COM_AMONIA = "862510";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_INSTALACAO_DE_AR_CONDICIONADO = "862515";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_MANUTENCAO_MECANICA_DE_SISTEMAS_OPERACIONAIS = "910105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_DE_APARELHOS_TERMICOS_DE_CLIMATIZACAO_E_DE_REFRIGERACAO = "910110";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_DE_BOMBAS_MOTORES_COMPRESSORES_E_EQUIPAMENTOS_DE_TRANSMISSAO = "910115";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_DE_MAQUINAS_GRAFICAS = "910120";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_DE_MAQUINAS_INDUSTRIAIS_TEXTEIS = "910125";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_DE_MAQUINAS_OPERATRIZES_E_DE_USINAGEM = "910130";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_MANUTENCAO_E_REPARACAO_DE_VEICULOS_LEVES = "910205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DA_MANUTENCAO_E_REPARACAO_DE_VEICULOS_PESADOS = "910210";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_REPAROS_LINHAS_FERREAS = "910905";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_DE_VIAS_FERREAS = "910910";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_BOMBA_INJETORA_EXCETO_DE_VEICULOS_AUTOMOTORES_ = "911105";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_BOMBAS = "911110";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_COMPRESSORES_DE_AR = "911115";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MOTORES_DIESEL_EXCETO_DE_VEICULOS_AUTOMOTORES_ = "911120";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_REDUTORES = "911125";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_TURBINAS_EXCETO_DE_AERONAVES_ = "911130";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_TURBOCOMPRESSORES = "911135";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_E_INSTALACAO_DE_APARELHOS_DE_CLIMATIZACAO_E_REFRIGERACAO = "911205";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_EM_GERAL = "911305";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_GRAFICAS = "911310";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_OPERATRIZES_LAVRA_DE_MADEIRA_ = "911315";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_TEXTEIS = "911320";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_FERRAMENTAS_USINAGEM_DE_METAIS_ = "911325";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_APARELHOS_DE_LEVANTAMENTO = "913105";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_EQUIPAMENTO_DE_MINERACAO = "913110";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_AGRICOLAS = "913115";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_DE_CONSTRUCAO_E_TERRAPLENAGEM = "913120";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_AERONAVES_EM_GERAL = "914105";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_SISTEMA_HIDRAULICO_DE_AERONAVES_SERVICOS_DE_PISTA_E_HANGAR_ = "914110";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MOTORES_E_EQUIPAMENTOS_NAVAIS = "914205";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_VEICULOS_FERROVIARIOS = "914305";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_AUTOMOVEIS_MOTOCICLETAS_E_VEICULOS_SIMILARES = "914405";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_EMPILHADEIRAS_E_OUTROS_VEICULOS_DE_CARGAS_LEVES = "914410";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MOTOCICLETAS = "914415";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_TRATORES = "914420";
+	/**
+	 *
+	 */
+	const MECANICO_DE_VEICULOS_AUTOMOTORES_A_DIESEL_EXCETO_TRATORES_ = "914425";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MANUTENCAO_DE_INSTRUMENTOS_DE_MEDICAO_E_PRECISAO = "915105";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MANUTENCAO_DE_HIDROMETROS = "915110";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MANUTENCAO_DE_BALANCAS = "915115";
+	/**
+	 *
+	 */
+	const RESTAURADOR_DE_INSTRUMENTOS_MUSICAIS_EXCETO_CORDAS_ARCADAS_ = "915205";
+	/**
+	 *
+	 */
+	const REPARADOR_DE_INSTRUMENTOS_MUSICAIS = "915210";
+	/**
+	 *
+	 */
+	const LUTHIER_RESTAURACAO_DE_CORDAS_ARCADAS_ = "915215";
+	/**
+	 *
+	 */
+	const TECNICO_EM_MANUTENCAO_DE_EQUIPAMENTOS_E_INSTRUMENTOS_MEDICO_HOSPITALARES = "915305";
+	/**
+	 *
+	 */
+	const REPARADOR_DE_EQUIPAMENTOS_FOTOGRAFICOS = "915405";
+	/**
+	 *
+	 */
+	const LUBRIFICADOR_INDUSTRIAL = "919105";
+	/**
+	 *
+	 */
+	const LUBRIFICADOR_DE_VEICULOS_AUTOMOTORES_EXCETO_EMBARCACOES_ = "919110";
+	/**
+	 *
+	 */
+	const LUBRIFICADOR_DE_EMBARCACOES = "919115";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_MAQUINAS_CORTADORAS_DE_GRAMA_ROCADEIRAS_MOTOSSERRAS_E_SIMILARES = "919205";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_APARELHOS_ESPORTIVOS_E_DE_GINASTICA = "919305";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_BICICLETAS_E_VEICULOS_SIMILARES = "919310";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_BICICLETAS = "919315";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_ELETRICA_DE_ALTA_TENSAO_INDUSTRIAL = "950105";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_ELETROMECANICA_INDUSTRIAL_COMERCIAL_E_PREDIAL = "950110";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_MANUTENCAO_ELETRICA_DE_VEICULOS = "950205";
+	/**
+	 *
+	 */
+	const SUPERVISOR_DE_MANUTENCAO_ELETROMECANICA = "950305";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_MANUTENCAO_ELETROELETRONICA = "951105";
+	/**
+	 *
+	 */
+	const INSTALADOR_DE_SISTEMAS_ELETROELETRONICOS_DE_SEGURANCA = "951305";
+	/**
+	 *
+	 */
+	const MANTENEDOR_DE_SISTEMAS_ELETROELETRONICOS_DE_SEGURANCA = "951310";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_INSTALACOES_AERONAVES_ = "953105";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_INSTALACOES_EMBARCACOES_ = "953110";
+	/**
+	 *
+	 */
+	const ELETRICISTA_DE_INSTALACOES_VEICULOS_AUTOMOTORES_E_MAQUINAS_OPERATRIZES_EXCETO_AERONAVES_E_EMBARCACOES_ = "953115";
+	/**
+	 *
+	 */
+	const ELETROMECANICO_DE_MANUTENCAO_DE_ELEVADORES = "954105";
+	/**
+	 *
+	 */
+	const ELETROMECANICO_DE_MANUTENCAO_DE_ESCADAS_ROLANTES = "954110";
+	/**
+	 *
+	 */
+	const ELETROMECANICO_DE_MANUTENCAO_DE_PORTAS_AUTOMATICAS = "954115";
+	/**
+	 *
+	 */
+	const MECANICO_DE_MANUTENCAO_DE_INSTALACOES_MECANICAS_DE_EDIFICIOS = "954120";
+	/**
+	 *
+	 */
+	const OPERADOR_ELETROMECANICO = "954125";
+	/**
+	 *
+	 */
+	const REPARADOR_DE_APARELHOS_ELETRODOMESTICOS_EXCETO_IMAGEM_E_SOM_ = "954205";
+	/**
+	 *
+	 */
+	const REPARADOR_DE_RADIO_TV_E_SOM = "954210";
+	/**
+	 *
+	 */
+	const REPARADOR_DE_EQUIPAMENTOS_DE_ESCRITORIO = "954305";
+	/**
+	 *
+	 */
+	const CONSERVADOR_DE_VIA_PERMANENTE_TRILHOS_ = "991105";
+	/**
+	 *
+	 */
+	const INSPETOR_DE_VIA_PERMANENTE_TRILHOS_ = "991110";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_MAQUINAS_ESPECIAIS_EM_CONSERVACAO_DE_VIA_PERMANENTE_TRILHOS_ = "991115";
+	/**
+	 *
+	 */
+	const SOLDADOR_ALUMINOTERMICO_EM_CONSERVACAO_DE_TRILHOS = "991120";
+	/**
+	 *
+	 */
+	const MANTENEDOR_DE_EQUIPAMENTOS_DE_PARQUES_DE_DIVERSOES_E_SIMILARES = "991205";
+	/**
+	 *
+	 */
+	const FUNILEIRO_DE_VEICULOS_REPARACAO_ = "991305";
+	/**
+	 *
+	 */
+	const MONTADOR_DE_VEICULOS_REPARACAO_ = "991310";
+	/**
+	 *
+	 */
+	const PINTOR_DE_VEICULOS_REPARACAO_ = "991315";
+	/**
+	 *
+	 */
+	const ALINHADOR_DE_PNEUS = "992105";
+	/**
+	 *
+	 */
+	const BALANCEADOR = "992110";
+	/**
+	 *
+	 */
+	const BORRACHEIRO = "992115";
+	/**
+	 *
+	 */
+	const LAVADOR_DE_PECAS = "992120";
+	/**
+	 *
+	 */
+	const ENCARREGADO_GERAL_DE_OPERACOES_DE_CONSERVACAO_DE_VIAS_PERMANENTES_EXCETO_TRILHOS_ = "992205";
+	/**
+	 *
+	 */
+	const ENCARREGADO_DE_EQUIPE_DE_CONSERVACAO_DE_VIAS_PERMANENTES_EXCETO_TRILHOS_ = "992210";
+	/**
+	 *
+	 */
+	const OPERADOR_DE_CEIFADEIRA_NA_CONSERVACAO_DE_VIAS_PERMANENTES = "992215";
+	/**
+	 *
+	 */
+	const PEDREIRO_DE_CONSERVACAO_DE_VIAS_PERMANENTES_EXCETO_TRILHOS_ = "992220";
+	/**
+	 *
+	 */
+	const AUXILIAR_GERAL_DE_CONSERVACAO_DE_VIAS_PERMANENTES_EXCETO_TRILHOS_ = "992225";
+	/**
+	 *
+	 */
+	const APOSENTADO = "A1";
+	/**
+	 *
+	 */
+	const ESTUDANTE = "A2";
+	/**
+	 *
+	 */
+	const DO_LAR = "A3";
+}

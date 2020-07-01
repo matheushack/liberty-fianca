@@ -1,0 +1,31 @@
+{
+  "name": "matheushack/liberty-fianca",
+  "description": "Comunicação webservice Liberty",
+  "license": "MIT",
+  "authors": [{
+    "name": "Matheus Hack",
+    "email": "matheushackdiniz@hotmail.com"
+  }],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "vlucas/phpdotenv": "^3.5",
+    "guzzlehttp/guzzle": "~6.0",
+    "vlucas/valitron": "^1.4",
+    "jbzoo/image": "3.0.4",
+    "dallgoot/yaml": "dev-master",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "larapack/dd": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MatheusHack\\LibertyFianca\\": "src/LibertyFianca/"
+    },
+    "files": [
+      "src/LibertyFianca/Config/app.php",
+      "src/LibertyFianca/Helpers/helper.php"
+    ]
+  }
+}
