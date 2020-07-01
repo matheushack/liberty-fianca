@@ -6,7 +6,6 @@
     "name": "Matheus Hack",
     "email": "matheushackdiniz@hotmail.com"
   }],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=5.6",
     "vlucas/phpdotenv": "^3.5",
@@ -27,5 +26,7 @@
       "src/LibertyFianca/Config/app.php",
       "src/LibertyFianca/Helpers/helper.php"
     ]
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
